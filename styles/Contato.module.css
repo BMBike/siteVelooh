@@ -1,0 +1,279 @@
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+}
+.formMap {
+  display: flex;
+  margin-top: 60px;
+  background-color: #f0f0f0;
+  width: 90vw;
+
+  margin-bottom: 60px;
+}
+
+.feedbackText {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  justify-content: space-evenly;
+  align-items: center;
+  border-right: 2px solid #000;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.feedbackText h2 {
+  font-size: 2rem;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.mapDiv {
+  width: 45vw;
+}
+
+.formDiv {
+  display: flex;
+  width: 55vw;
+  font-size: 1.2em;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.titleCard {
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.f1,
+.f2 {
+  margin-top: 30px;
+}
+
+.f2 {
+  margin-left: 25px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  flex-direction: column;
+}
+
+.formDiv form label {
+  display: inline-block;
+  margin-top: 10px;
+}
+.formDiv input {
+  margin-top: 2px;
+  height: 30px;
+  width: 250px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 2px;
+}
+
+.labels {
+  display: flex;
+}
+
+.feedbackDiv {
+  border-radius: 26px;
+  display: flex;
+  background-color: #f0f0f0;
+  width: 70vw;
+  margin-bottom: 60px;
+}
+
+.formDivFeedback {
+  width: 35vw;
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formDivFeedback form {
+  row-gap: 4px;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.feedbackDiv form label {
+  display: inline-block;
+}
+.feedbackDiv input {
+  height: 30px;
+  width: 250px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 2px;
+}
+
+.send {
+  height: 55px !important;
+  width: 100px !important;
+  border-radius: 8px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin-top: 50px !important;
+}
+
+.send:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+.send2 {
+  height: 35px !important;
+  width: 80px !important;
+  border-radius: 8px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin-top: 10px !important;
+}
+
+.send2:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+.endereco {
+  margin-top: 0;
+  background-color: #f0f0f0;
+  width: 90vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+  flex-direction: column;
+}
+
+.mensagem {
+  height: 15vh !important;
+  border-radius: 10px !important;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .formMap {
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  .formDiv {
+    margin-bottom: 10px;
+  }
+
+  .mapDiv,
+  .map {
+    display: none;
+  }
+
+  .labels {
+    flex-direction: column;
+  }
+  .f2 {
+    margin-left: 0px;
+  }
+
+  .formDiv input {
+    height: 30px;
+    width: 200px;
+  }
+
+  /*
+  .mapDiv,
+  .map {
+    height: 100vh;
+    width: 100vw;
+  }*/
+
+  .endereco {
+    margin-top: 60px;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .feedbackDiv {
+    width: 100vw;
+   
+    margin-top: 60px;
+    border-radius: 0;
+  }
+
+  .feedbackDiv input {
+    width: 120px;
+  }
+
+  .formDivFeedback {
+  
+    margin-left: 55px;
+    margin-top: 30px;
+  }
+  .send {
+    height: 30px !important;
+    width: 80px !important;
+  }
+}

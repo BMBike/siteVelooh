@@ -1,0 +1,142 @@
+.velooh {
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.carousel {
+  height: 84vh;
+}
+
+.veloohSobre {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.caps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/caps.webp");
+  background-position: center;
+  height: 60vh;
+  flex-direction: column;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+  font-size: 2.5rem;
+}
+
+.veloohText {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+  text-align: center;
+}
+
+.veloohText h1 {
+  font-size: 3rem;
+}
+.veloohText h3 {
+  font-size: 1.5rem;
+}
+.veloohText p {
+  width: 20vw;
+}
+.veloohImg {
+  background-image: url("/images/velooh2.webp");
+  width: 40vw;
+  height: 80vh;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.contato {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #fff;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+}
+
+.contato:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.endereco {
+  background-color: #f0f0f0;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.itemCarousel {
+  height: 100px;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .veloohImg {
+    display: none;
+  }
+
+  .veloohText {
+    row-gap: 100px;
+  }
+
+  .caps {
+    font-size: 1.5rem;
+  }
+
+  .veloohText p {
+    width: 80vw;
+  }
+  .carousel img {
+    position: relative;
+    left: -70px;
+  }
+}

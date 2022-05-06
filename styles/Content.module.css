@@ -1,0 +1,244 @@
+.index {
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.content {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+}
+
+.parallax {
+  background-image: url("/images/2.jpg");
+  height: 600px;
+  width: 80vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.parallax2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-image: url("/images/parallax2.jpg");
+  height: 600px;
+  width: 80vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1.5rem;
+  color: #fff;
+}*/
+
+.content > h1 {
+  font-size: 3rem;
+}
+
+/*
+.hist {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 40vh;
+  font-size: 1.2rem;
+}*/
+
+.productsContent {
+  background-color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.wrapper {
+  margin-top: 40px;
+  height: 100vh;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 60px;
+}
+
+.itemCarousel1 {
+  background-image: url("/images/1.jpg");
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 100vw;
+}
+.itemCarousel2 {
+  background-image: url("/images/2.jpg");
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 100vw;
+}
+
+.carouselDiv {
+  margin-top: 40px;
+  height: 850px;
+  width: 100vw;
+  background-color: #2d2d2d;
+}
+
+.horario {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #2d2d2d;
+  height: 40vh;
+  width: 100vw;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.horario svg {
+  margin-bottom: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+.visitar {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #fff;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+}
+
+.visitar:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.produtos {
+  margin-top: 60px;
+}
+
+.productImg1 {
+  background-image: url("/images/velooh.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.productImg2 {
+  background-image: url("/images/pecas.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.productImg3 {
+  background-image: url("/images/bike.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.endereco {
+  background-color: #f0f0f0;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+  flex-direction: column;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .productsContent {
+    font-size: small;
+  }
+
+  .carouselDiv {
+    height: 500px;
+  }
+
+  .carouselDiv a {
+    margin-bottom: -100px;
+  }
+
+  .itemCarousel1,
+  .itemCarousel2 {
+    position: relative;
+    bottom: 200px;
+    background-size: 100%;
+  }
+
+  .productImg1,
+  .productImg2,
+  .productImg3 {
+    background-repeat: no-repeat;
+    margin-bottom: -100px;
+  }
+
+  .produtos {
+    margin-top: 60px;
+  }
+  .wrapper {
+    height: 70vh;
+    width: 100vw;
+    margin-top: -45px;
+  }
+
+  .hist {
+    margin-top: 60px;
+  }
+}

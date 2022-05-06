@@ -1,0 +1,150 @@
+.caps {
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  color: #fff;
+  height: 64vh;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+}
+
+.produto {
+  display: flex;
+  column-gap: 30px;
+}
+
+.lateral {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.cor1 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cor2 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cor3 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cor4 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: fuchsia;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cor5 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cor1:hover,
+.cor2:hover,
+.cor3:hover,
+.cor4:hover,
+.cor5:hover {
+  border: 2px solid #fff;
+}
+
+.cores {
+  display: flex;
+}
+
+.Moldfoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 255px;
+  width: 255px;
+  margin-left: 45px;
+  border-radius: 35px;
+  margin-top: 20px;
+}
+
+.imgProd {
+  height: 275px;
+  width: 275px;
+}
+
+.texto p {
+  font-size: 1.8rem;
+  margin-top: 40px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .caps {
+    height: 100vh;
+  }
+  .produto {
+    flex-direction: column;
+  }
+
+  .texto {
+    margin-left: 15px;
+  }
+}

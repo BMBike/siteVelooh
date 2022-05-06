@@ -1,0 +1,125 @@
+.sobre {
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-image: url("/images/parallax2.jpg");
+  height: 600px;
+  width: 80vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.hist {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 40vh;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-image: url("/images/1.jpg");
+  height: 80vh;
+  width: 80vw;
+  font-size: 2rem;
+  color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 4px black;
+}
+
+.servico {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 65vh;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.servico h1 {
+  margin-bottom: 30px;
+}
+.servico p {
+  margin-top: 20px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .hist {
+    margin-top: 80px;
+  }
+
+  .servico {
+    height: 100vh;
+    width: 90vw;
+  }
+
+  .imagem {
+    font-size: 1.6rem;
+  }
+}
