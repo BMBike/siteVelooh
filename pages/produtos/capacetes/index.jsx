@@ -15,7 +15,7 @@ export default function indexCap() {
         <link rel="icon" href="/images/icon.png" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="CAPACETEES">
+      <ProdutosPg title="CAPACETES">
         <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Capazul.jfif" />
         <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Cappreto.jfif" />
         <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Caprosa.jfif" />
