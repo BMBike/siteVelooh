@@ -232,10 +232,6 @@ export default function Contato() {
       <div className={styles.feedbackDiv}>
         <div className={styles.feedbackText}>
           <h2>FEEDBACK</h2>
-          <p>
-            Deixe sua opnião, mensagem, ou qualquer outra coisa que queira nos
-            dizer!
-          </p>
         </div>
         <div className={styles.formDivFeedback}>
           <form>

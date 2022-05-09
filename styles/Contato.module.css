@@ -95,7 +95,7 @@
 }
 
 .feedbackDiv {
-  border-radius: 26px;
+
   display: flex;
   background-color: #f0f0f0;
   width: 70vw;
@@ -165,9 +165,8 @@
 }
 
 .endereco {
-  margin-top: 0;
   background-color: #f0f0f0;
-  width: 90vw;
+  width: 100%;
   height: 30vh;
   display: flex;
   align-items: center;
