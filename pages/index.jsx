@@ -11,7 +11,6 @@ export default function Home() {
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="VWVrCKM274xpHD2m232Uzr4xC0pMCV_fXfD81wveTxw" />
         <link rel="icon" href="/images/icon.png" type="image/x-icon" />
       </Head>
       <Header />
