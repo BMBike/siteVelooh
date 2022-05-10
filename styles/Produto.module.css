@@ -1,3 +1,6 @@
+/*#0081ac   #003d51
+  }*/
+
 .prodMold {
     display: flex;
     flex-direction: column;
@@ -9,11 +12,12 @@
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
-    border: 5px solid #0081ac;
+    border: 4px solid #0081ac;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px, rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
   }
 
   .prodMold:hover{
-    border: 5px solid #003d51
+    border: 4px solid #003d51
   }
 
 
@@ -23,49 +27,54 @@
   }
  
   .azulClaro {
+    
     height: 20px;
     width: 20px;
     margin-left: 8px;
     background-color: cornflowerblue;
-    border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid #000;
   }
   .preto {
+    
     height: 20px;
     width: 20px;
     margin-left: 8px;
     background-color: black;
-    border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid #000;
   }
   .vermelho {
+    
     height: 20px;
     width: 20px;
     margin-left: 8px;
     background-color: red;
-    border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid #000;
   }
   .rosa {
+    
     height: 20px;
     width: 20px;
     margin-left: 8px;
     background-color: fuchsia;
-    border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid #000;
   }
   .verde {
+    
     height: 20px;
     width: 20px;
     margin-left: 8px;
     background-color: green;
-    border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid #000;
   }
   
  

@@ -16,7 +16,7 @@ export default function Header() {
         <ul>
           <Link href="/sobre">
             <li>
-              <a>Sobre</a>
+              <a>A empresa</a>
             </li>
           </Link>
           <Link href="/contato">
@@ -25,12 +25,14 @@ export default function Header() {
             </li>
           </Link>
           <div className={styles.dropdown}>
-            <Link href="/velooh">
-              <li>
-                <a>Velooh</a>
-              </li>
-            </Link>
+            <li>
+              <a>Velooh</a>
+            </li>
             <div className={styles.dropdownContent}>
+              <h3 style={{ color: "rgb(0, 129, 172)", fontWeight: "normal" }}>
+                PRODUTOS
+              </h3>
+              <hr />
               <Link href="/produtos/pecasBike">
                 <p>Peças de bike</p>
               </Link>
@@ -41,6 +43,16 @@ export default function Header() {
                 <p>Capacetes</p>
               </Link>
               <p>Em breve!</p>
+
+              <p>EM BREVE!</p>
+              <p>EM BREVE!</p>
+              <p>EM BREVE!</p>
+              <p>EM BREVE!</p>
+              <p>EM BREVE!</p>
+              <hr />
+              <Link href="/velooh">
+                <p>Sobre</p>
+              </Link>
             </div>
           </div>
         </ul>
