@@ -18,12 +18,13 @@
 }
 
 .feedbackText {
+  background-color: black;
   display: flex;
   flex-direction: column;
   width: 35vw;
   justify-content: space-evenly;
   align-items: center;
-  border-right: 2px solid #000;
+  border-right: 2px solid #fff;
   padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
@@ -31,7 +32,9 @@
 }
 
 .feedbackText h2 {
-  font-size: 2rem;
+  font-size: 3.5rem;
+  color: #fff;
+  letter-spacing: 2px;               
 }
 
 .map {
@@ -260,6 +263,11 @@
    
     margin-top: 60px;
     border-radius: 0;
+  }
+  .feedbackText h2 {
+    font-size: 1.8rem;
+    letter-spacing: normal;
+                
   }
 
   .feedbackDiv input {

@@ -231,7 +231,7 @@ export default function Contato() {
 
       <div className={styles.feedbackDiv}>
         <div className={styles.feedbackText}>
-          <h2>FEEDBACK</h2>
+          <h2>FEEDB<span style={{color:"#0081ac" }}>AC</span>K</h2>
         </div>
         <div className={styles.formDivFeedback}>
           <form>
