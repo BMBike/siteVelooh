@@ -33,7 +33,7 @@ export default function ContentCaps1() {
       <div className={styles.produtos}>
         <div className={styles.produto}>
           <div className={styles.Moldfoto}>
-            <img src={foto} className={styles.imgProd} />
+            <img src={foto} alt="Produto" className={styles.imgProd} />
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>

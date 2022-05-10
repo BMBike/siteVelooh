@@ -4,7 +4,7 @@ export default function Produto(props) {
   return (
     <div>
         <Link href={props.href}><div className={styles.prodMold}>
-            <img src={props.img} className={styles.imgProd} />
+            <img src={props.img} alt="Produto" className={styles.imgProd} />
             <div className={styles.cores}>
               <div className={styles[props.cor1]}></div>
               <div className={styles[props.cor2]}></div>
