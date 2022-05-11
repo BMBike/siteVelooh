@@ -11,14 +11,17 @@ export default function Contato() {
   const [fone, setFone] = useState("");
   const [email, setEmail] = useState("");
   const [cep, setCep] = useState("");
-  const [cidade, setCidade] = useState("");
+  {
+    /*const [cidade, setCidade] = useState("");
   const [uf, setUf] = useState("");
   const [bairro, setBairro] = useState("");
-  const [endereco, setEndereco] = useState("");
+const [endereco, setEndereco] = useState("");*/
+  }
   const [numero, setNumero] = useState("");
   const [nomeFeedback, setnomeFeedback] = useState("");
   const [emailFeedback, setemailFeedback] = useState("");
   const [mensagem, setMensagem] = useState("");
+  const [cepComplete, setCepComplete] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [submitted2, setSubmitted2] = useState(false);
 
@@ -33,10 +36,10 @@ export default function Contato() {
         fone: fone,
         email: email,
         cep: cep,
-        cidade: cidade,
-        uf: uf,
-        bairro: bairro,
-        endereco: endereco,
+        cidade: cepComplete.localidade,
+        uf: cepComplete.uf,
+        bairro: cepComplete.bairro,
+        endereco: cepComplete.logradouro,
         numero: numero,
       }),
       headers: {
@@ -44,17 +47,32 @@ export default function Contato() {
       },
       method: "POST",
     });
-    
 
     const { error } = await res.json();
     if (error) {
-      toast.error("Algo deu errado!")
+      toast.error("Algo deu errado!");
       console.log(error);
       return;
     }
     toast.success("Enviado, Entraremos em contato!");
     setSubmitted(true);
     console.log(razao, fantasia, cnpj);
+  };
+
+  const dispatchCep = async (e) => {
+    const { value } = e.target;
+
+    const replacedCep = value?.replace(/[^0-9]/g, "");
+
+    if (replacedCep?.length !== 8) {
+      return;
+    }
+
+    const response = await fetch(
+      `https://viacep.com.br/ws/${replacedCep}/json/`
+    );
+    const result = await response.json();
+    setCepComplete(result);
   };
 
   const feedback = async (e) => {
@@ -70,10 +88,10 @@ export default function Contato() {
       },
       method: "POST",
     });
-   
+
     const { error } = await res.json();
     if (error) {
-      toast.error("Algo deu errado!")
+      toast.error("Algo deu errado!");
       console.log(error);
       return;
     }
@@ -168,6 +186,7 @@ export default function Contato() {
                 <label htmlFor="cep">CEP: </label>
                 <br />
                 <input
+                  onBlur={dispatchCep}
                   type="text"
                   onChange={(e) => setCep(e.target.value)}
                   id="cep"
@@ -178,16 +197,16 @@ export default function Contato() {
                 <label htmlFor="cidade">Cidade: </label> <br />
                 <input
                   type="text"
-                  onChange={(e) => setCidade(e.target.value)}
                   id="cidade"
                   name="cidade"
+                  value={cepComplete.localidade}
                   required
                 />
                 <br />
                 <label htmlFor="uf">Estado: </label> <br />
                 <input
                   type="text"
-                  onChange={(e) => setUf(e.target.value)}
+                  value={cepComplete.uf}
                   id="uf"
                   name="uf"
                   required
@@ -197,8 +216,8 @@ export default function Contato() {
                 <br />
                 <input
                   type="text"
-                  onChange={(e) => setBairro(e.target.value)}
                   id="bairro"
+                  value={cepComplete.bairro}
                   name="bairro"
                   required
                 />
@@ -207,7 +226,7 @@ export default function Contato() {
                 <br />
                 <input
                   type="text"
-                  onChange={(e) => setEndereco(e.target.value)}
+                  value={cepComplete.logradouro}
                   id="endereco"
                   name="endereco"
                   required
@@ -236,7 +255,9 @@ export default function Contato() {
 
       <div className={styles.feedbackDiv}>
         <div className={styles.feedbackText}>
-          <h2>FEEDB<span style={{color:"#0081ac" }}>AC</span>K</h2>
+          <h2>
+            FEEDB<span style={{ color: "#0081ac" }}>AC</span>K
+          </h2>
         </div>
         <div className={styles.formDivFeedback}>
           <form>
