@@ -11,7 +11,7 @@ export default function velooh() {
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/images/icon.png" type="image/x-icon" />
+        <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
       <ContentVelooh />
