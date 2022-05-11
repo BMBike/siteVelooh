@@ -5,25 +5,9 @@ export default function ContentCaps1() {
   const [cor, setCor] = useState("Azul");
   const [foto, setFoto] = useState("/images/produtos/capacetes/capacete1/Capazul.jfif");
 
-  function mudarVermelho() {
-    setCor("Vermelho");
-    setFoto("/images/produtos/capacetes/capacete1/Capvermelho.jfif");
-  }
-  function mudarVerde() {
-    setCor("Verde");
-    setFoto("/images/produtos/capacetes/capacete1/Capverde.jfif");
-  }
-  function mudarPreto() {
-    setCor("Preto");
-    setFoto("/images/produtos/capacetes/capacete1/Cappreto.jfif");
-  }
-  function mudarAzul() {
-    setCor("Azul");
-    setFoto("/images/produtos/capacetes/capacete1/Capazul.jfif");
-  }
-  function mudarRosa() {
-    setCor("Rosa");
-    setFoto("/images/produtos/capacetes/capacete1/Caprosa.jfif");
+  function mudarCor(cor, foto) {
+    setCor(cor)
+    setFoto(foto)
   }
   return (
     <div className={styles.caps}>
@@ -43,14 +27,14 @@ export default function ContentCaps1() {
               </p>
             </div>
             <div className={styles.cores}>
-              <div className={styles.cor1} onClick={() => mudarAzul()}></div>
-              <div className={styles.cor2} onClick={() => mudarPreto()}></div>
+              <div className={styles.cor1} onClick={() => mudarCor("Azul","/images/produtos/capacetes/capacete1/Capazul.jfif")}></div>
+              <div className={styles.cor2} onClick={() => mudarCor("Preto","/images/produtos/capacetes/capacete1/Cappreto.jfif")}></div>
               <div
                 className={styles.cor3}
-                onClick={() => mudarVermelho()}
+                onClick={() => mudarCor("Vermelho","/images/produtos/capacetes/capacete1/Capvermelho.jfif")}
               ></div>
-              <div className={styles.cor4} onClick={() => mudarRosa()}></div>
-              <div className={styles.cor5} onClick={() => mudarVerde()}></div>
+              <div className={styles.cor4} onClick={() => mudarCor("Rosa","/images/produtos/capacetes/capacete1/Caprosa.jfif")}></div>
+              <div className={styles.cor5} onClick={() => mudarCor("Verde","/images/produtos/capacetes/capacete1/Capverde.jfif")}></div>
             </div>
           </div>
         </div>
