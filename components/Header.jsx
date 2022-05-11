@@ -29,7 +29,7 @@ export default function Header() {
               <a>Velooh</a>
             </li>
             <div className={styles.dropdownContent}>
-              <h3 style={{ color: "rgb(0, 129, 172)", fontWeight: "normal" }}>
+              <h3 style={{ color: "rgb(0, 129, 172)", fontWeight: "normal", fontSize:"1.4rem"}}>
                 PRODUTOS
               </h3>
               <hr />
