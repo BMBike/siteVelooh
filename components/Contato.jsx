@@ -12,10 +12,10 @@ export default function Contato() {
   const [email, setEmail] = useState("");
   const [cep, setCep] = useState("");
   {
-    /*const [cidade, setCidade] = useState("");
+  /*const [cidade, setCidade] = useState("");
   const [uf, setUf] = useState("");
   const [bairro, setBairro] = useState("");
-const [endereco, setEndereco] = useState("");*/
+  const [endereco, setEndereco] = useState("");*/
   }
   const [numero, setNumero] = useState("");
   const [nomeFeedback, setnomeFeedback] = useState("");
@@ -27,6 +27,10 @@ const [endereco, setEndereco] = useState("");*/
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const cidade = e.target.cidade.value;
+    const uf = e.target.uf.value;
+    const bairro = e.target.bairro.value;
+    const endereco = e.target.endereco.value;
     const res = await fetch("/api/contact", {
       body: JSON.stringify({
         razao: razao,
@@ -36,10 +40,10 @@ const [endereco, setEndereco] = useState("");*/
         fone: fone,
         email: email,
         cep: cep,
-        cidade: cepComplete.localidade,
-        uf: cepComplete.uf,
-        bairro: cepComplete.bairro,
-        endereco: cepComplete.logradouro,
+        cidade: cidade,
+        uf: uf,
+        bairro: bairro,
+        endereco: endereco,
         numero: numero,
       }),
       headers: {
@@ -113,7 +117,7 @@ const [endereco, setEndereco] = useState("");*/
           <center>
             <h2 className={styles.titleCard}>CADASTRE-SE COMO CLIENTE</h2>
           </center>
-          <form className={styles.formulario}>
+          <form className={styles.formulario} onSubmit={handleSubmit}>
             <div className={styles.labels}>
               <div className={styles.f1}>
                 <label htmlFor="razao">Razão Social: </label>
@@ -244,11 +248,7 @@ const [endereco, setEndereco] = useState("");*/
                 <br />
               </div>
             </div>
-            <input
-              className={styles.send}
-              type="submit"
-              onClick={(e) => handleSubmit(e)}
-            />
+            <input className={styles.send} type="submit" />
           </form>
         </div>
       </div>
@@ -260,7 +260,7 @@ const [endereco, setEndereco] = useState("");*/
           </h2>
         </div>
         <div className={styles.formDivFeedback}>
-          <form>
+          <form onSubmit={feedback}>
             <label htmlFor="nomeFeedback">Nome: </label>
 
             <input
@@ -292,11 +292,7 @@ const [endereco, setEndereco] = useState("");*/
               required
             />
             <center>
-              <input
-                className={styles.send2}
-                type="submit"
-                onClick={(e) => feedback(e)}
-              />
+              <input className={styles.send2} type="submit" />
             </center>
           </form>
         </div>
