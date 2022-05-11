@@ -16,11 +16,11 @@ export default function indexCap() {
       </Head>
       <Header />
       <ProdutosPg title="CAPACETES">
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Capazul.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Cappreto.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Caprosa.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Capverde.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/Capvermelho.jfif" />
+        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capazul.jfif" />
+        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Cappreto.jfif" />
+        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Caprosa.jfif" />
+        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capverde.jfif" />
+        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capvermelho.jfif" />
       </ProdutosPg>
 
       <Footer />

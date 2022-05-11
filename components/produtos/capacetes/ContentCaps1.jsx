@@ -3,27 +3,27 @@ import { useState } from "react";
 
 export default function ContentCaps1() {
   const [cor, setCor] = useState("Azul");
-  const [foto, setFoto] = useState("/images/Capazul.jfif");
+  const [foto, setFoto] = useState("/images/produtos/capacetes/capacete1/Capazul.jfif");
 
   function mudarVermelho() {
     setCor("Vermelho");
-    setFoto("/images/Capvermelho.jfif");
+    setFoto("/images/produtos/capacetes/capacete1/Capvermelho.jfif");
   }
   function mudarVerde() {
     setCor("Verde");
-    setFoto("/images/Capverde.jfif");
+    setFoto("/images/produtos/capacetes/capacete1/Capverde.jfif");
   }
   function mudarPreto() {
     setCor("Preto");
-    setFoto("/images/Cappreto.jfif");
+    setFoto("/images/produtos/capacetes/capacete1/Cappreto.jfif");
   }
   function mudarAzul() {
     setCor("Azul");
-    setFoto("/images/Capazul.jfif");
+    setFoto("/images/produtos/capacetes/capacete1/Capazul.jfif");
   }
   function mudarRosa() {
     setCor("Rosa");
-    setFoto("/images/Caprosa.jfif");
+    setFoto("/images/produtos/capacetes/capacete1/Caprosa.jfif");
   }
   return (
     <div className={styles.caps}>

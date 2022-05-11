@@ -44,13 +44,16 @@ export default function Contato() {
       },
       method: "POST",
     });
-    toast.success("Enviado, Entraremos em contato!");
-    setSubmitted(true);
+    
+
     const { error } = await res.json();
     if (error) {
+      toast.error("Algo deu errado!")
       console.log(error);
       return;
     }
+    toast.success("Enviado, Entraremos em contato!");
+    setSubmitted(true);
     console.log(razao, fantasia, cnpj);
   };
 
@@ -67,13 +70,15 @@ export default function Contato() {
       },
       method: "POST",
     });
-    toast.success("Enviado!");
-    setSubmitted2(true);
+   
     const { error } = await res.json();
     if (error) {
+      toast.error("Algo deu errado!")
       console.log(error);
       return;
     }
+    toast.success("Enviado!");
+    setSubmitted2(true);
     console.log(nomeFeedback, emailFeedback, mensagem);
   };
 
