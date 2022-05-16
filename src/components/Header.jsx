@@ -46,6 +46,9 @@ export default function Header() {
                 <p>Aros</p>
               </Link>
 
+              <Link href="/produtos/capacetes/">
+                <p>Capacetes</p>
+              </Link>
               <Link href="/produtos/gancheiras/">
                 <p>Gancheiras</p>
               </Link>
