@@ -29,24 +29,34 @@ export default function Header() {
               <a>Velooh</a>
             </li>
             <div className={styles.dropdownContent}>
-              <h3 style={{ color: "rgb(0, 129, 172)", fontWeight: "normal", fontSize:"1.4rem"}}>
+              <h3
+                style={{
+                  color: "rgb(0, 129, 172)",
+                  fontWeight: "normal",
+                  fontSize: "1.4rem",
+                }}
+              >
                 PRODUTOS
               </h3>
               <hr />
+              <Link href="/produtos/acessorios/">
+                <p>Acessórios</p>
+              </Link>
+              <Link href="/produtos/aros/">
+                <p>Aros</p>
+              </Link>
+
+              <Link href="/produtos/gancheiras/">
+                <p>Gancheiras</p>
+              </Link>
               <Link href="/produtos/pecasBike">
                 <p>Peças de bike</p>
               </Link>
-              <Link href="/produtos/kitBike">
-                <p>Kit bike</p>
-              </Link>
-              <Link href="/produtos/capacetes/">
-                <p>Capacetes</p>
-              </Link>
-              <p>Em breve!</p>
 
-              <p>EM BREVE!</p>
-              <p>EM BREVE!</p>
-              <p>EM BREVE!</p>
+              <Link href="/produtos/vestuario/">
+                <p>Vestuário</p>
+              </Link>
+
               <p>EM BREVE!</p>
               <p>EM BREVE!</p>
               <hr />
