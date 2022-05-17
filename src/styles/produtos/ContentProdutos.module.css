@@ -91,11 +91,42 @@
   margin-left: 45px;
   border-radius: 35px;
   margin-top: 20px;
+  overflow: hidden;
+}
+.Moldfoto2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height:80px;
+  width: 80px;
+  border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.Moldfoto2:hover{
+  border: 2px solid #0081ac;;
+}
+
+.subfotos{
+  margin-left: 10px;
+  display: flex;
+  column-gap: 20px;
 }
 
 .imgProd {
+  vertical-align: middle;
+  border-style: none;
   height: 275px;
   width: 275px;
+}
+
+.imgProd2{
+  height: 95%;
+  width: 95%;
+
 }
 
 .texto p {

@@ -302,7 +302,7 @@ export default function Contato() {
         <h1>Entre em contato</h1>
         <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
         <p>atendimento@bmbike.com.br</p>
-        <p>Tel:(11) 3456-7890</p>
+        <p>Tel:(11) 4591-4101</p>
       </div>
       <ToastContainer
         position="top-right"
