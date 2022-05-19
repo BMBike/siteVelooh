@@ -18,7 +18,7 @@ export default function indexCap() {
       <ProdutosPg title="CAPACETES">
         <Produto href="/produtos/capacetes/baby" titulo="BABY"cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capazul.jfif" />
         <Produto href="/produtos/capacetes/capmtb" titulo="MTB LINE (cores sólidas)"cor1="azulClaro" cor2="rosa" cor3="vermelho" img="/images/produtos/capacetes/capmtb/azul.png" />
-        <Produto href="/produtos/capacetes/capmtb" titulo="MTB LINE (textura)"cor1="azulClaro" cor2="rosa" cor3="vermelho" img="/images/produtos/capacetes/capmtb/azul.png" />
+        <Produto href="/produtos/capacetes/mtbtext" titulo="MTB LINE (textura)" cor1="azulpt" cor2="brancorosa" cor3="cinzapt" cor4="brancopt" cor5="ptcinza" cor6="ptrosa" cor7="ptverde" cor8="ptvermelho" img="/images/produtos/capacetes/mtbtext/azulpt.png" />
       </ProdutosPg>
       <Footer />
       <Zap2 />

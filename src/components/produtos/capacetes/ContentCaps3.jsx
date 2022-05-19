@@ -6,10 +6,10 @@ import { useState } from "react";
 export default function ContentCaps3() {
   const [cor, setCor] = useState("Azul");
   const [foto, setFoto] = useState(
-    "/images/produtos/capacetes/capmtb/azul.png"
+    "/images/produtos/capacetes/mtbtext/azulpt.png"
   );
-  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/capmtb/azul2.png");
-  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/capmtb/azul3.png");
+  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/mtbtext/azulpt2.png");
+  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/mtbtext/azulpt3.png");
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
     setCor(cor);
@@ -36,54 +36,93 @@ export default function ContentCaps3() {
               </p>
             </div>
             <div className={styles.cores}>
-              <div
-                className={styles.azul}
+            <div
+                className={styles.azulpt}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
-                    "/images/produtos/capacetes/capmtb/azul.png",
-                    "/images/produtos/capacetes/capmtb/azul2.png",
-                    "/images/produtos/capacetes/capmtb/azul3.png"
+                    "Preto e Azul",
+                    "/images/produtos/capacetes/mtbtext/azulpt.png",
+                    "/images/produtos/capacetes/mtbtext/azulpt2.png",
+                    "/images/produtos/capacetes/mtbtext/azulpt3.png",
                   )
                 }
               ></div>
               <div
-                className={styles.rosa}
+                className={styles.brancopt}
                 onClick={() =>
                   mudarCor(
-                    " Rosa",
-                    "/images/produtos/capacetes/capmtb/rosa.png",
-                    "/images/produtos/capacetes/capmtb/rosa2.png",
-                    "/images/produtos/capacetes/capmtb/rosa3.png",
+                    "Branco e Preto",
+                    "/images/produtos/capacetes/mtbtext/brancopt.png",
+                    "/images/produtos/capacetes/mtbtext/brancopt2.png",
+                    "/images/produtos/capacetes/mtbtext/brancopt3.png",
+               
                   )
                 }
               ></div>
               <div
-                className={styles.vermelho}
+                className={styles.brancorosa}
                 onClick={() =>
                   mudarCor(
-                    "Vermelho",
-                    "/images/produtos/capacetes/capmtb/vermelho.png",
-                    "/images/produtos/capacetes/capmtb/vermelho2.png",
-                    "/images/produtos/capacetes/capmtb/vermelho3.png",
+                    "Branco e Rosa",
+                    "/images/produtos/capacetes/mtbtext/brancorosa.png",
+                    "/images/produtos/capacetes/mtbtext/brancorosa2.png",
+                    "/images/produtos/capacetes/mtbtext/brancorosa3.png",
                   )
                 }
               ></div>
               <div
-                className={styles.cor4}
+                className={styles.cinzapt}
                 onClick={() =>
                   mudarCor(
-                    "Rosa",
-                    "/images/produtos/capacetes/capacete1/Caprosa.jfif"
+                    "Cinza e Preto",
+                    "/images/produtos/capacetes/mtbtext/cinzapt.png",
+                    "/images/produtos/capacetes/mtbtext/cinzapt2.png",
+                    "/images/produtos/capacetes/mtbtext/cinzapt3.png",
+                  )
+                }
+              ></div>
+        
+              <div
+                className={styles.ptcinza}
+                onClick={() =>
+                  mudarCor(
+                    "Preto e Cinza",
+                    "/images/produtos/capacetes/mtbtext/ptcinza.png",
+                    "/images/produtos/capacetes/mtbtext/ptcinza2.png",
+                    "/images/produtos/capacetes/mtbtext/ptcinza3.png",
                   )
                 }
               ></div>
               <div
-                className={styles.cor5}
+                className={styles.ptrosa}
                 onClick={() =>
                   mudarCor(
-                    "Verde",
-                    "/images/produtos/capacetes/capacete1/Capverde.jfif"
+                    "Preto e Rosa",
+                    "/images/produtos/capacetes/mtbtext/ptrosa.png",
+                    "/images/produtos/capacetes/mtbtext/ptrosa2.png",
+                    "/images/produtos/capacetes/mtbtext/ptrosa3.png",
+                  )
+                }
+              ></div>
+              <div
+                className={styles.ptverde}
+                onClick={() =>
+                  mudarCor(
+                    "Preto e Verde",
+                    "/images/produtos/capacetes/mtbtext/ptverde.png",
+                    "/images/produtos/capacetes/mtbtext/ptverde2.png",
+                    "/images/produtos/capacetes/mtbtext/ptverde3.png",
+                  )
+                }
+              ></div>
+              <div
+                className={styles.ptvermelho}
+                onClick={() =>
+                  mudarCor(
+                    "Preto e Vermelho",
+                    "/images/produtos/capacetes/mtbtext/ptvermelho.png",
+                    "/images/produtos/capacetes/mtbtext/ptvermelho2.png",
+                    "/images/produtos/capacetes/mtbtext/ptvermelho3.png",
                   )
                 }
               ></div>

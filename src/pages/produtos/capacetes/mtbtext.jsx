@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import ContentCaps3 from "../../../components/produtos/capacetes/ContentCaps2";
+import ContentCaps3 from "../../../components/produtos/capacetes/ContentCaps3.jsx";
 import Zap2 from "../../../components/Zap2";
 
 export default function mtbtext() {
