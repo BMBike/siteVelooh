@@ -165,8 +165,8 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  height: 255px;
-  width: 255px;
+  height: 275px;
+  width: 275px;
   margin-left: 45px;
   border-radius: 35px;
   margin-top: 20px;
@@ -198,8 +198,8 @@
 .imgProd {
   vertical-align: middle;
   border-style: none;
-  height: 275px;
-  width: 275px;
+  height: 255px;
+  width: 255px;
 }
 
 .imgProd2{
