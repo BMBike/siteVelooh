@@ -47,18 +47,7 @@ export default function ContentCaps3() {
                   )
                 }
               ></div>
-              <div
-                className={styles.brancopt}
-                onClick={() =>
-                  mudarCor(
-                    "Branco e Preto",
-                    "/images/produtos/capacetes/mtbtext/brancopt.png",
-                    "/images/produtos/capacetes/mtbtext/brancopt2.png",
-                    "/images/produtos/capacetes/mtbtext/brancopt3.png",
-               
-                  )
-                }
-              ></div>
+             
               <div
                 className={styles.brancorosa}
                 onClick={() =>
@@ -78,6 +67,18 @@ export default function ContentCaps3() {
                     "/images/produtos/capacetes/mtbtext/cinzapt.png",
                     "/images/produtos/capacetes/mtbtext/cinzapt2.png",
                     "/images/produtos/capacetes/mtbtext/cinzapt3.png",
+                  )
+                }
+              ></div>
+               <div
+                className={styles.brancopt}
+                onClick={() =>
+                  mudarCor(
+                    "Branco e Preto",
+                    "/images/produtos/capacetes/mtbtext/brancopt.png",
+                    "/images/produtos/capacetes/mtbtext/brancopt2.png",
+                    "/images/produtos/capacetes/mtbtext/brancopt3.png",
+               
                   )
                 }
               ></div>
