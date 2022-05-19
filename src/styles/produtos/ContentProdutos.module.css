@@ -23,7 +23,7 @@
   row-gap: 20px;
 }
 
-.cor1 {
+.azul{
   height: 30px;
   width: 30px;
   margin-left: 15px;
@@ -32,7 +32,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.cor2 {
+.preto {
   height: 30px;
   width: 30px;
   margin-left: 15px;
@@ -41,7 +41,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.cor3 {
+.vermelho {
   height: 30px;
   width: 30px;
   margin-left: 15px;
@@ -50,7 +50,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.cor4 {
+.rosa{
   height: 30px;
   width: 30px;
   margin-left: 15px;
@@ -59,7 +59,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.cor5 {
+.verde {
   height: 30px;
   width: 30px;
   margin-left: 15px;
@@ -69,11 +69,11 @@
   cursor: pointer;
 }
 
-.cor1:hover,
-.cor2:hover,
-.cor3:hover,
-.cor4:hover,
-.cor5:hover {
+.azul:hover,
+.preto:hover,
+.vermelho:hover,
+.rosa:hover,
+.verde:hover {
   border: 2px solid #fff;
 }
 

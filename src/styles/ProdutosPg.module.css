@@ -12,13 +12,11 @@
   }
   .produtos{
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
       row-gap: 40px; 
       column-gap: 45px;
       margin-bottom: 60px;
   }
-
   
   @-webkit-keyframes fadeIn {
     0% {

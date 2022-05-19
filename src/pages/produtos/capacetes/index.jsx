@@ -7,7 +7,7 @@ import Produto from "../../../components/Produto";
 
 export default function indexCap() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#2d2d2d"}}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -16,13 +16,10 @@ export default function indexCap() {
       </Head>
       <Header />
       <ProdutosPg title="CAPACETES">
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capazul.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Cappreto.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Caprosa.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capverde.jfif" />
-        <Produto href="/produtos/capacetes/capacete1" cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capvermelho.jfif" />
+        <Produto href="/produtos/capacetes/baby" titulo="BABY"cor1="azulClaro" cor2="preto" cor3="vermelho" cor4="rosa" cor5="verde" img="/images/produtos/capacetes/capacete1/Capazul.jfif" />
+        <Produto href="/produtos/capacetes/capmtb" titulo="MTB LINE (cores sólidas)"cor1="azulClaro" cor2="rosa" cor3="vermelho" img="/images/produtos/capacetes/capmtb/azul.png" />
+        <Produto href="/produtos/capacetes/capmtb" titulo="MTB LINE (textura)"cor1="azulClaro" cor2="rosa" cor3="vermelho" img="/images/produtos/capacetes/capmtb/azul.png" />
       </ProdutosPg>
-
       <Footer />
       <Zap2 />
     </div>

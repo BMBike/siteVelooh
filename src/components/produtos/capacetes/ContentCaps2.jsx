@@ -3,13 +3,13 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentCaps1() {
+export default function ContentCaps2() {
   const [cor, setCor] = useState("Azul");
   const [foto, setFoto] = useState(
-    "/images/produtos/capacetes/capacete1/Capazul.jfif"
+    "/images/produtos/capacetes/capmtb/azul.png"
   );
-  const [subfoto, setsubFoto] = useState("");
-  const [subfoto2, setsubFoto2] = useState("");
+  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/capmtb/azul2.png");
+  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/capmtb/azul3.png");
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
     setCor(cor);
@@ -32,8 +32,7 @@ export default function ContentCaps1() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                CAPACETE BABY {cor} FOSCO C/REGULAGEM 8 MESES A 4 ANOS - VELOOH
-                BABY
+                CAPACETE MTB LINE {cor}
               </p>
             </div>
             <div className={styles.cores}>
@@ -42,16 +41,20 @@ export default function ContentCaps1() {
                 onClick={() =>
                   mudarCor(
                     "Azul",
-                    "/images/produtos/capacetes/capacete1/Capazul.jfif"
+                    "/images/produtos/capacetes/capmtb/azul.png",
+                    "/images/produtos/capacetes/capmtb/azul2.png",
+                    "/images/produtos/capacetes/capmtb/azul3.png"
                   )
                 }
               ></div>
               <div
-                className={styles.preto}
+                className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    "Preto",
-                    "/images/produtos/capacetes/capacete1/Cappreto.jfif"
+                    " Rosa",
+                    "/images/produtos/capacetes/capmtb/rosa.png",
+                    "/images/produtos/capacetes/capmtb/rosa2.png",
+                    "/images/produtos/capacetes/capmtb/rosa3.png",
                   )
                 }
               ></div>
@@ -60,12 +63,14 @@ export default function ContentCaps1() {
                 onClick={() =>
                   mudarCor(
                     "Vermelho",
-                    "/images/produtos/capacetes/capacete1/Capvermelho.jfif"
+                    "/images/produtos/capacetes/capmtb/vermelho.png",
+                    "/images/produtos/capacetes/capmtb/vermelho2.png",
+                    "/images/produtos/capacetes/capmtb/vermelho3.png",
                   )
                 }
               ></div>
               <div
-                className={styles.rosa}
+                className={styles.cor4}
                 onClick={() =>
                   mudarCor(
                     "Rosa",
@@ -74,7 +79,7 @@ export default function ContentCaps1() {
                 }
               ></div>
               <div
-                className={styles.verde}
+                className={styles.cor5}
                 onClick={() =>
                   mudarCor(
                     "Verde",
