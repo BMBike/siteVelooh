@@ -290,6 +290,10 @@
   margin-top: 40px;
 }
 
+.texto2 p {
+  font-size: 1.8rem;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;

@@ -177,7 +177,7 @@ export default function ContentAro2() {
                 <img src={subfoto2} className={styles.imgProd2} />
               </div>
             </div>
-            <div className={styles.texto}>
+            <div className={styles.texto2}>
             <p> TAMANHOS: {tam}</p>
             </div>
   
