@@ -181,6 +181,43 @@
   cursor: pointer;
   border: 1px solid #000;
 }
+.amarelo{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: yellow;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.cinza{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: gray;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.laranja{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: orangered;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.grafite{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: rgb(80, 80, 80);
+  cursor: pointer;
+  border: 1px solid #000;
+}
 
 
 
@@ -188,7 +225,12 @@
 .preto:hover,
 .vermelho:hover,
 .rosa:hover,
-.verde:hover, .brancopt:hover, .cinzapt:hover, .azulpt:hover, .ptcinza:hover, .ptrosa:hover, .ptverde:hover, .ptvermelho:hover, .brancorosa:hover, .azulescuro:hover, .branco:hover, .polido:hover, .rosaclaro:hover{
+.verde:hover, .brancopt:hover, .cinzapt:hover, .azulpt:hover, .ptcinza:hover, .ptrosa:hover, .ptverde:hover, .ptvermelho:hover, .brancorosa:hover, .azulescuro:hover, .branco:hover, .polido:hover, .rosaclaro:hover,
+.amarelo:hover,
+.laranja:hover,
+.grafite:hover,
+.cinza:hover
+{
   border: 2px solid #fff;
 }
 

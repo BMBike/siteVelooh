@@ -36,7 +36,7 @@ export default function ContentCaps2() {
               </p>
             </div>
             <div className={styles.cores}>
-              <div
+            <div
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
@@ -66,24 +66,6 @@ export default function ContentCaps2() {
                     "/images/produtos/capacetes/capmtb/vermelho.png",
                     "/images/produtos/capacetes/capmtb/vermelho2.png",
                     "/images/produtos/capacetes/capmtb/vermelho3.png",
-                  )
-                }
-              ></div>
-              <div
-                className={styles.cor4}
-                onClick={() =>
-                  mudarCor(
-                    "Rosa",
-                    "/images/produtos/capacetes/capacete1/Caprosa.jfif"
-                  )
-                }
-              ></div>
-              <div
-                className={styles.cor5}
-                onClick={() =>
-                  mudarCor(
-                    "Verde",
-                    "/images/produtos/capacetes/capacete1/Capverde.jfif"
                   )
                 }
               ></div>

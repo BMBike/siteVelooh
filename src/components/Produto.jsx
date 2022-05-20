@@ -15,6 +15,7 @@ export default function Produto(props) {
               <div className={styles[props.cor6]}></div>
               <div className={styles[props.cor7]}></div>
               <div className={styles[props.cor8]}></div>
+              <div className={styles[props.cor9]}></div>
             </div>
           </div></Link>
     </div>

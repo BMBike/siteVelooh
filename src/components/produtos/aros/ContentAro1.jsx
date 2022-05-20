@@ -29,7 +29,7 @@ export default function ContentAro1() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                ARO AERO {cor}
+                ARO 20 AERo {cor} velooh 
               </p>
             </div>
             <div className={styles.cores}>

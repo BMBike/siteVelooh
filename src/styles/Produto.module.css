@@ -8,7 +8,7 @@
     justify-content: center;
     background-color: #fff;
     height: 255px;
-    width: 255px;
+    min-width: 265px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
@@ -184,6 +184,45 @@
     width: 20px;
     margin-left: 8px;
     background-color: rgb(218, 92, 165);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .amarelo{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: yellow;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+  .cinza{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: gray;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+  .laranja{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: orangered;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+  .grafite{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: rgb(80, 80, 80);
     cursor: pointer;
     border: 1px solid #000;
   }
