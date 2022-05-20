@@ -18,7 +18,7 @@ export default function ContentCaps3() {
     setsubFoto2(subfoto2);
   }
   return (
-    <div className={styles.caps}>
+    <div className={styles.prods}>
       <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
         CAPACETES:
       </h1>

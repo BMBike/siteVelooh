@@ -151,6 +151,43 @@
     border: 1px solid #000;
   }
 
+  .azulescuro{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: rgb(4, 16, 180);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .branco{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .polido{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .rosaclaro{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: rgb(218, 92, 165);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
   
  
   .cores {

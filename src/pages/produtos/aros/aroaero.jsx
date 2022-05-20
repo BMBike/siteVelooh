@@ -1,13 +1,12 @@
 import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
+import ContentAro1 from "../../../components/produtos/aros/ContentAro1";
 import Zap2 from "../../../components/Zap2";
-import ProdutosPg from "../../../components/ProdutosPg";
-import Produto from "../../../components/Produto";
 
-export default function indexAros() {
+export default function aroaero() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{backgroundColor: "#2d2d2d"}}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -15,9 +14,7 @@ export default function indexAros() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="AROS">
-      <Produto href="/produtos/aros/aroaero" titulo="aero" cor1="azulescuro" cor2="branco" cor3="polido" cor4="preto" cor5="rosaclaro" img="/images/produtos/aros/aero/azul.png" />
-      </ProdutosPg>
+      <ContentAro1 />
       <Footer />
       <Zap2 />
     </div>

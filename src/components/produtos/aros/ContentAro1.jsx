@@ -3,24 +3,21 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentCaps1() {
+export default function ContentAro1() {
   const [cor, setCor] = useState("Azul");
+  const[tam, setTam] = useState("20, 24, 26 e 26 x 1.1/2");
   const [foto, setFoto] = useState(
-    "/images/produtos/capacetes/capacete1/Capazul.jfif"
+    "/images/produtos/aros/aero/azul.png"
   );
-  const [subfoto, setsubFoto] = useState("");
-  const [subfoto2, setsubFoto2] = useState("");
-
-  function mudarCor(cor, foto, subfoto, subfoto2) {
+  function mudarCor(cor, foto, tam) {
     setCor(cor);
     setFoto(foto);
-    setsubFoto(subfoto);
-    setsubFoto2(subfoto2);
+    setTam(tam)
   }
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-        CAPACETES:
+        AROS:
       </h1>
       <div className={styles.produtos}>
         <div className={styles.produto}>
@@ -32,17 +29,17 @@ export default function ContentCaps1() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                CAPACETE BABY {cor} FOSCO C/REGULAGEM 8 MESES A 4 ANOS - VELOOH
-                BABY
+                ARO AERO {cor}
               </p>
             </div>
             <div className={styles.cores}>
               <div
-                className={styles.azul}
+                className={styles.azulescuro}
                 onClick={() =>
                   mudarCor(
                     "Azul",
-                    "/images/produtos/capacetes/capacete1/Capazul.jfif"
+                    "/images/produtos/aros/aero/azul.png",
+                    "20, 24, 26 e 26 x 1.1/2"
                   )
                 }
               ></div>
@@ -51,52 +48,46 @@ export default function ContentCaps1() {
                 onClick={() =>
                   mudarCor(
                     "Preto",
-                    "/images/produtos/capacetes/capacete1/Cappreto.jfif"
+                    "/images/produtos/aros/aero/preto.png",
+                    "20, 24, 26, 26X1.1/2 e 27"
                   )
                 }
               ></div>
               <div
-                className={styles.vermelho}
+                className={styles.branco}
                 onClick={() =>
                   mudarCor(
-                    "Vermelho",
-                    "/images/produtos/capacetes/capacete1/Capvermelho.jfif"
+                    "Branco",
+                    "/images/produtos/aros/aero/branco.png",
+                    "20, 24, 26 e 26 X 1.1/2"
                   )
                 }
               ></div>
               <div
-                className={styles.rosa}
+                className={styles.rosaclaro}
                 onClick={() =>
                   mudarCor(
                     "Rosa",
-                    "/images/produtos/capacetes/capacete1/Caprosa.jfif"
+                    "/images/produtos/aros/aero/rosa.png",
+                    "20, 26 e 26 X 1.1/2"
                   )
                 }
               ></div>
               <div
-                className={styles.verde}
+                className={styles.polido}
                 onClick={() =>
                   mudarCor(
-                    "Verde",
-                    "/images/produtos/capacetes/capacete1/Capverde.jfif"
+                    "Polido",
+                    "/images/produtos/aros/aero/polido.png",
+                    "20, 24, 26, 26 X 1.1/2 e 27"
                   )
                 }
               ></div>
             </div>
-            <div className={styles.subfotos}>
-              <div
-                onClick={() => setFoto(subfoto)}
-                className={styles.Moldfoto2}
-              >
-                <img src={subfoto} alt="Produto" className={styles.imgProd2} />
-              </div>
-              <div
-                onClick={() => setFoto(subfoto2)}
-                className={styles.Moldfoto2}
-              >
-                <img src={subfoto2} className={styles.imgProd2} />
-              </div>
+            <div className={styles.texto}>
+            <p> TAMANHOS: {tam}</p>
             </div>
+           
           </div>
         </div>
       </div>

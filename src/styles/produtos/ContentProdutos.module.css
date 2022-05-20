@@ -1,10 +1,10 @@
-.caps {
+.prods {
   -webkit-animation: fadeIn 1.5s ease-in-out;
   -moz-animation: fadeIn 1.5s ease-in-out;
   -o-animation: fadeIn 1.5s ease-in-out;
   animation: fadeIn 1.5s ease-in-out;
   color: #fff;
-  height: 64vh;
+  margin-bottom: 100px;
 }
 
 .produtos {
@@ -26,7 +26,6 @@
 .azul{
   height: 30px;
   width: 30px;
-  margin-left: 15px;
   background-color: cornflowerblue;
   border: 2px solid black;
   border-radius: 5px;
@@ -73,7 +72,7 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -83,7 +82,7 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(236,0,211,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -92,7 +91,7 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(93,93,93,1) 50%, rgba(0,0,0,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -102,7 +101,6 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
   background: linear-gradient(90deg, rgba(0,0,0,1) 50%,  rgba(35,103,217,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -112,7 +110,7 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(93,93,93,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -122,7 +120,7 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,67,175,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -132,7 +130,7 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(29,175,41,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
@@ -142,17 +140,55 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  margin-left: 8px;
+  margin-left: 15px;
   background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(224,0,0,1) 50%);
   cursor: pointer;
   border: 1px solid #000;
 }
 
+.azulescuro{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(4, 16, 180);
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.branco{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.polido{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: rgb(199, 199, 199);
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.rosaclaro{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: rgb(218, 92, 165);
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+
+
 .azul:hover,
 .preto:hover,
 .vermelho:hover,
 .rosa:hover,
-.verde:hover, .brancopt:hover, .cinzapt:hover, .azulpt:hover, .ptcinza:hover, .ptrosa:hover, .ptverde:hover, .ptvermelho:hover, .brancorosa:hover {
+.verde:hover, .brancopt:hover, .cinzapt:hover, .azulpt:hover, .ptcinza:hover, .ptrosa:hover, .ptverde:hover, .ptvermelho:hover, .brancorosa:hover, .azulescuro:hover, .branco:hover, .polido:hover, .rosaclaro:hover{
   border: 2px solid #fff;
 }
 
@@ -190,7 +226,6 @@
 }
 
 .subfotos{
-  margin-left: 10px;
   display: flex;
   column-gap: 20px;
 }
@@ -255,6 +290,10 @@
   }
 
   .texto {
+    margin-left: 15px;
+  }
+
+  .azul,.subfotos,.ptazul,.azulescuro{
     margin-left: 15px;
   }
 }
