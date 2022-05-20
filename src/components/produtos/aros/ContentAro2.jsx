@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function ContentAro2() {
   const [cor, setCor] = useState("Azul");
-  const[tam, setTam] = useState("28");
+  const[tam, setTam] = useState("29");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/adesivo/azul.png"
   );
@@ -45,7 +45,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "Azul",
                     "/images/produtos/aros/adesivo/azul.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/azul2.png",
                     "/images/produtos/aros/adesivo/azul3.png",
                     "/images/produtos/aros/adesivo/azul4.png",
@@ -58,7 +58,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "amarelo",
                     "/images/produtos/aros/adesivo/amarelo.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/amarelo2.png",
                     "/images/produtos/aros/adesivo/amarelo3.png",
                     "/images/produtos/aros/adesivo/amarelo4.png",
@@ -71,7 +71,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "cinza",
                     "/images/produtos/aros/adesivo/cinza.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/cinza2.png",
                     "/images/produtos/aros/adesivo/cinza3.png",
                     "/images/produtos/aros/adesivo/cinza4.png",
@@ -84,7 +84,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "laranja",
                     "/images/produtos/aros/adesivo/laranja.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/laranja2.png",
                     "/images/produtos/aros/adesivo/laranja3.png",
                     "/images/produtos/aros/adesivo/laranja4.png",
@@ -97,7 +97,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "prata",
                     "/images/produtos/aros/adesivo/prata.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/prata2.png",
                     "/images/produtos/aros/adesivo/prata3.png",
                     "/images/produtos/aros/adesivo/prata4.png",
@@ -110,7 +110,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "rosa",
                     "/images/produtos/aros/adesivo/rosa.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/rosa2.png",
                     "/images/produtos/aros/adesivo/rosa3.png",
                     "/images/produtos/aros/adesivo/rosa4.png",
@@ -123,7 +123,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "verde",
                     "/images/produtos/aros/adesivo/verde.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/verde2.png",
                     "/images/produtos/aros/adesivo/verde3.png",
                     "/images/produtos/aros/adesivo/verde4.png",
@@ -136,7 +136,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "vermelho",
                     "/images/produtos/aros/adesivo/vermelho.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/vermelho2.png",
                     "/images/produtos/aros/adesivo/vermelho3.png",
                     "/images/produtos/aros/adesivo/vermelho4.png",
@@ -149,7 +149,7 @@ export default function ContentAro2() {
                   mudarCor(
                     "grafite",
                     "/images/produtos/aros/adesivo/grafite.png",
-                    "28",
+                    "29",
                     "/images/produtos/aros/adesivo/grafite2.png",
                     "/images/produtos/aros/adesivo/grafite3.png",
                     "/images/produtos/aros/adesivo/grafite4.png",
@@ -174,7 +174,7 @@ export default function ContentAro2() {
                 onClick={() => setFoto(subfoto3)}
                 className={styles.Moldfoto2}
               >
-                <img src={subfoto2} className={styles.imgProd2} />
+                <img src={subfoto3} className={styles.imgProd2} />
               </div>
             </div>
             <div className={styles.texto2}>
