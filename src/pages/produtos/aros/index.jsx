@@ -20,6 +20,7 @@ export default function indexAros() {
       <Produto href="/produtos/aros/aero2" titulo="aro aero disco preto c/adesivo" cor1="azulClaro" cor2="amarelo" cor3="cinza" cor4="laranja" cor5="polido" cor6="rosa" cor7="verde" cor8="vermelho" cor9="grafite"img="/images/produtos/aros/adesivo/azul.png" />
       <Produto href="/produtos/aros/vision" titulo="aro vision retro" cor1="azulClaro" cor2="bege" cor3="marrom" cor4="verdepiscina" img="/images/produtos/aros/vision/azul.png" />
       <Produto href="/produtos/aros/aeroneon" titulo="aro aero neon" cor1="laranja" cor2="rosa" cor3="verdeclaro" cor4="amarelo" img="/images/produtos/aros/neon/laranja.png" />
+      <Produto href="/produtos/aros/aero2cubo" titulo="aro aero disco preto c/cubo" cor1="laranja" cor2="rosa" cor3="verde" cor4="amarelo" img="/images/produtos/aros/aerocubo/laranja.png" />
       </ProdutosPg>
       <Footer />
       <Zap2 />
