@@ -5,7 +5,7 @@ import "react-medium-image-zoom/dist/styles.css";
 export default function Produto(props) {
   return (
     <div>
-      <center><h3 style={{fontSize:"2rem"}}>{props.titulo}</h3></center>
+      <center><h3 style={{fontSize:"1.6rem"}}>{props.titulo}</h3></center>
      <div className={styles.prodMold}>
        <Zoom>
        <img src={props.img} alt="Produto" className={styles.imgProd} />

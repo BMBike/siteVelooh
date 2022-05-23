@@ -31,17 +31,17 @@ export default function indexGancheiras() {
        <Produto2 titulo="BH DOWNHILL/AUDAX AUGE 30/40 N°38" img="/images/produtos/gancheiras/0137.jpg"/> 
        <Produto2 titulo="BMC TIME MACHINE N°82" img="/images/produtos/gancheiras/0660.jpg"/> 
        <Produto2 titulo="CALOI EL 10/20/KODE CORRATEC SUPERBOW N°12" img="/images/produtos/gancheiras/0138.jpg"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
+       <Produto2 titulo="CALOI EL 30/CORRATE X-VERT/FIRST/SENSE N°18" img="/images/produtos/gancheiras/0139.jpg"/> 
+       <Produto2 titulo="CALOI EL CARB/RIDLEY/OGGI AGILE CARBON N°57" img="/images/produtos/gancheiras/0140.jpg"/> 
+       <Produto2 titulo="CALOI EL CARBON OGGI AGILE CARBON N°65" img="/images/produtos/gancheiras/0141.jpg"/> 
+       <Produto2 titulo="CALOI ELITE FS N°71" img="/images/produtos/gancheiras/0649.jpg"/> 
+       <Produto2 titulo="CALOI ELITE/EXPLORER/COMP N°93" img="/images/produtos/gancheiras/1436.png"/> 
+       <Produto2 titulo="CALOI STRADA N°80" img="/images/produtos/gancheiras/0658.jpg"/> 
+       <Produto2 titulo="CALOI STRADA RACING N°70 " img="/images/produtos/gancheiras/0648.jpg"/> 
+       <Produto2 titulo="CALOI VITUS 29 GROOV SKA/CALOI EL N°59" img="/images/produtos/gancheiras/0142.jpg"/> 
+       <Produto2 titulo="CALOI/FUJI/FOCUS/KHS/SOUL N°43" img="/images/produtos/gancheiras/0143.jpg"/> 
+       <Produto2 titulo="CALOI/H.ONE/VENZO/GTA/GTS M3/TSW RIDE/TOTEM/FUJI N°07" img="/images/produtos/gancheiras/0144.jpg"/> 
+       <Produto2 titulo="CANNODALE N°04" img="/images/produtos/gancheiras/0145.jpg"/> 
        <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
        <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
        <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
