@@ -249,6 +249,17 @@
   border: 1px solid #000;
 }
 
+.verdeclaro{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #46df38;
+  cursor: pointer;
+  border: 1px solid #000;
+
+}
+
 
 .azul:hover,
 .preto:hover,
@@ -261,7 +272,8 @@
 .cinza:hover,
 .bege:hover,
 .verdepiscina:hover,
-.marrom:hover
+.marrom:hover,
+.verdeclaro:hover
 {
   border: 2px solid #fff;
 }
@@ -367,7 +379,7 @@
     flex-direction: column;
   }
 
-  .texto {
+  .texto, .texto2 {
     margin-left: 15px;
   }
 
