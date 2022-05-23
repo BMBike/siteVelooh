@@ -227,6 +227,36 @@
     border: 1px solid #000;
   }
 
+  .bege{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: #dcd3ab;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+  .marrom{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: #411010;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+  .verdepiscina{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-color: #52e0aa;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
   
  
   .cores {

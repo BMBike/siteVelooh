@@ -219,6 +219,35 @@
   border: 1px solid #000;
 }
 
+.bege{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #dcd3ab;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.marrom{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #411010;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.verdepiscina{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #52e0aa;
+  cursor: pointer;
+  border: 1px solid #000;
+}
 
 
 .azul:hover,
@@ -229,7 +258,10 @@
 .amarelo:hover,
 .laranja:hover,
 .grafite:hover,
-.cinza:hover
+.cinza:hover,
+.bege:hover,
+.verdepiscina:hover,
+.marrom:hover
 {
   border: 2px solid #fff;
 }
