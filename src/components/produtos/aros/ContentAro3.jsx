@@ -70,7 +70,7 @@ export default function ContentAro3() {
                 onClick={() =>
                   mudarCor(
                     "verde",
-                    "/images/produtos/aros/vision/verdepiscina.png",
+                    "/images/produtos/aros/vision/verdePiscina.png",
                     "26 x 1.1/2"
                   )
                 }
