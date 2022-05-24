@@ -49,7 +49,7 @@ export default function Header() {
               <Link href="/produtos/capacetes/">
                 <p>Capacetes</p>
               </Link>
-              <Link href="/produtos/gancheiras/">
+              <Link href="/produtos/gancheiras/1">
                 <p>Gancheiras</p>
               </Link>
               <Link href="/produtos/pecasBike">
