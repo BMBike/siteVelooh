@@ -1,11 +1,11 @@
 
-import styles from "../styles/Produto.module.css"
+import styles from "../styles/Produto2.module.css"
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 export default function Produto(props) {
   return (
-    <div>
-      <center><h3 style={{fontSize:"1.6rem"}}>{props.titulo}</h3></center>
+    <div style={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"column"}}>
+      <center><h3 style={{fontSize:"1.7rem"}}>{props.titulo}</h3></center>
      <div className={styles.prodMold}>
        <Zoom>
        <img src={props.img} alt="Produto" className={styles.imgProd} />

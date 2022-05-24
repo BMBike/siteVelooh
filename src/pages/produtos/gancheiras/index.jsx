@@ -42,9 +42,9 @@ export default function indexGancheiras() {
        <Produto2 titulo="CALOI/FUJI/FOCUS/KHS/SOUL N°43" img="/images/produtos/gancheiras/0143.jpg"/> 
        <Produto2 titulo="CALOI/H.ONE/VENZO/GTA/GTS M3/TSW RIDE/TOTEM/FUJI N°07" img="/images/produtos/gancheiras/0144.jpg"/> 
        <Produto2 titulo="CANNODALE N°04" img="/images/produtos/gancheiras/0145.jpg"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
-       <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
+       <Produto2 titulo="CANNONDALE FLASH/FSI N°79" img="/images/produtos/gancheiras/"/> 
+       <Produto2 titulo="CANNONDALE ROAD N°86" img="/images/produtos/gancheiras/"/> 
+       <Produto2 titulo="CANNONDALE SCALPEL SI 142 KP432 N°78" img="/images/produtos/gancheiras/"/> 
        <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
        <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
        <Produto2 titulo="" img="/images/produtos/gancheiras/"/> 
