@@ -59,9 +59,6 @@ export default function Header() {
               <Link href="/produtos/vestuario/">
                 <p>Vestuário</p>
               </Link>
-
-              <p>EM BREVE!</p>
-              <p>EM BREVE!</p>
               <hr />
               <Link href="/velooh">
                 <p>Sobre</p>
