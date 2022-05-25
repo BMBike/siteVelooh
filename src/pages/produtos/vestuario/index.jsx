@@ -16,14 +16,14 @@ export default function indexVestuario() {
       </Head>
       <Header />
       <ProdutosPg title="VESTUÁRIO">
-        <Produto href="/#" titulo="BANDANAS" img="/images/produtos/vestuario/bandana/elloazul.png"/>
-        <Produto href="/#" titulo="BERMUDAS" img="/images/produtos/vestuario/bermuda/femforro.png" />
-        <Produto href="/#" titulo="CALÇAS" img="/images/produtos/vestuario/calca/mascgel.png"/>
-        <Produto href="/#" titulo="CAMISAS" img="/images/produtos/vestuario/camisa/feminfantquasarazul.png"/>
-        <Produto href="/#" titulo="LUVAS" img="/images/produtos/vestuario/luva/azul.png"/>
-        <Produto href="/#" titulo="MANGUITOS" img="/images/produtos/vestuario/manguito/quasarazul.png"/>
-        <Produto href="/#" titulo="MACAQUINHOS"img="/images/produtos/vestuario/macaquinho/azulbb.png"/>
-        <Produto href="/#" titulo="MEIAS" img="/images/produtos/vestuario/meia/elocurtoazul.jpeg"/>
+        <Produto href="/produtos/vestuario/bandanas/" titulo="BANDANAS" img="/images/produtos/vestuario/bandana/elloazul.png"/>
+        <Produto href="/produtos/vestuario/bermudas/" titulo="BERMUDAS" img="/images/produtos/vestuario/bermuda/femforro.png" />
+        <Produto href="/produtos/vestuario/calcas/" titulo="CALÇAS" img="/images/produtos/vestuario/calca/mascgel.png"/>
+        <Produto href="/produtos/vestuario/camisas/"titulo="CAMISAS" img="/images/produtos/vestuario/camisa/feminfantquasarazul.png"/>
+        <Produto href="/produtos/vestuario/luvas/" titulo="LUVAS" img="/images/produtos/vestuario/luva/azul.png"/>
+        <Produto href="/produtos/vestuario/manguitos/" titulo="MANGUITOS" img="/images/produtos/vestuario/manguito/quasarazul.png"/>
+        <Produto href="/produtos/vestuario/macaquinhos/" titulo="MACAQUINHOS"img="/images/produtos/vestuario/macaquinho/azulbb.png"/>
+        <Produto href="/produtos/vestuario/meias/" titulo="MEIAS" img="/images/produtos/vestuario/meia/elocurtoazul.jpeg"/>
       {/*   <Produto href="/#" titulo="Bandana Ello "cor1="" cor2="" cor3="" cor4="" cor5="" img="" />
       <Produto href="/#" titulo="Bandana Quasar"cor1="" cor2="" cor3="" cor4="" cor5="" img="" />
       <Produto href="/#" titulo="Bermuda Fem. Gel"cor1="" cor2="" cor3="" cor4="" cor5="" img="" />
