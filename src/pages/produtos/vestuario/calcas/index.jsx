@@ -15,8 +15,9 @@ export default function calcas() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="calças">
-        
+      <ProdutosPg title="CALÇAS">
+        <Produto href="/produtos/vestuario/calcas/femgel" titulo="Calça Feminina Gel" img="/images/produtos/vestuario/calca/femgel.png"/>
+        <Produto href="/produtos/vestuario/calcas/mascgel" titulo="Calça masculina gel"  img="/images/produtos/vestuario/calca/mascgel.png"/>
       </ProdutosPg>
       <Footer />
       <Zap2 />
