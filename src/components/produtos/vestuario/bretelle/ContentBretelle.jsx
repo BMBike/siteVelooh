@@ -1,4 +1,4 @@
-import styles from "../../../styles/produtos/ContentProdutos.module.css";
+import styles from "../../../../styles/produtos/ContentProdutos.module.css";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
