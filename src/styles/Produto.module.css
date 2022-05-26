@@ -255,7 +255,34 @@
     cursor: pointer;
     border: 1px solid #000;
   }
+  .azulrosa{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(100,149,237,1) 50%, rgba(255,0,255,1) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
 
+  .rosrox{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(233,39,131,1) 0%, rgba(199,100,237,1) 100%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .ptverdepiscina{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(82,224,170,1) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
   .verdeclaro{
     border-radius: 5px;
     height: 20px;

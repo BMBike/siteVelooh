@@ -23,7 +23,7 @@ export default function indexVestuario() {
         <Produto href="/produtos/vestuario/luvas/" titulo="LUVAS" img="/images/produtos/vestuario/luva/azul.png"/>
         <Produto href="/produtos/vestuario/manguitos/" titulo="MANGUITOS" img="/images/produtos/vestuario/manguito/quasarazul.png"/>
         <Produto href="/produtos/vestuario/macaquinhos/" titulo="MACAQUINHOS"img="/images/produtos/vestuario/macaquinho/azulbb.png"/>
-        <Produto href="/produtos/vestuario/meias/" titulo="MEIAS" img="/images/produtos/vestuario/meia/elocurtoazul.jpeg"/>
+        <Produto href="/produtos/vestuario/bretelle/" titulo="BRETELLE" img="/images/produtos/vestuario/bretelle/bretelle.png"/>
       {/*   <Produto href="/#" titulo="Bandana Ello "cor1="" cor2="" cor3="" cor4="" cor5="" img="" />
       <Produto href="/#" titulo="Bandana Quasar"cor1="" cor2="" cor3="" cor4="" cor5="" img="" />
       <Produto href="/#" titulo="Bermuda Fem. Gel"cor1="" cor2="" cor3="" cor4="" cor5="" img="" />
