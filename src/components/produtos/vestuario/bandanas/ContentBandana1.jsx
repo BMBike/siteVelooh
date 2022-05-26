@@ -63,7 +63,7 @@ export default function ContentBandana1() {
                 className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
-                    "Rosa",
+                    "Verde",
                     "/images/produtos/vestuario/bandana/elloverde.png",
                   )
                 }

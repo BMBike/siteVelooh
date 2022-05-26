@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Zap2 from "../../components/Zap2";
-import ContentKit from "../../components/produtos/ContentKit";
-
-export default function kitBike() {
+import Header from "../../../../components/Header"
+import Footer from "../../../../components/Footer";
+import ContentBermuda3 from "../../../../components/produtos/vestuario/bermudas/ContentBermuda3";
+import Zap2 from "../../../../components/Zap2";
+export default function feminfantil() {
   return (
-    <div>
+    <div style={{backgroundColor: "#2d2d2d"}}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -14,7 +13,7 @@ export default function kitBike() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ContentKit />
+      <ContentBermuda3/>
       <Footer />
       <Zap2 />
     </div>

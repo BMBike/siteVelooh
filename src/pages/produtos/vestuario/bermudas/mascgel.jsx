@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Header from "../../../../components/Header"
 import Footer from "../../../../components/Footer";
-import ContentBretelle from "../../../../components/produtos/vestuario/bretelle/ContentBretelle";
+import ContentBermuda5 from "../../../../components/produtos/vestuario/bermudas/ContentBermuda5";
 import Zap2 from "../../../../components/Zap2";
-export default function bretelle() {
+export default function mascgel() {
   return (
     <div style={{backgroundColor: "#2d2d2d"}}>
       <Head>
@@ -13,7 +13,7 @@ export default function bretelle() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ContentBretelle />
+      <ContentBermuda5/>
       <Footer />
       <Zap2 />
     </div>
