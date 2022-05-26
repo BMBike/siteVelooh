@@ -5,13 +5,13 @@ import { useState } from "react";
 
 export default function ContentBermuda3() {
     const [foto, setFoto] = useState(
-        "/images/produtos/vestuario/bretelle/bretelle.png"
+        "/images/produtos/vestuario/bermuda/feminfantil.png"
       );
-      const[tam, setTam] = useState("P, M, G, GG E XG");
+      const[tam, setTam] = useState("2,4,6,8,10 e 12");
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-        BRETELLE
+        BERMUDAS
       </h1>
       <div className={styles.produtos}>
         <div className={styles.produto}>
@@ -23,7 +23,7 @@ export default function ContentBermuda3() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                BRETELLE MASCULINO GEL D80
+              BERMUDA FEMININA INFANTIL 
               </p>
             </div>
             <div className={styles.texto2}>
