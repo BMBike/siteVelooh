@@ -34,6 +34,7 @@ export default function ContentMeia2() {
               </div>
               <div className={styles.cores}>
                 <div
+                style={{marginLeft:"0px"}}
                   className={styles.azulrosa}
                   onClick={() =>
                     mudarCor(
