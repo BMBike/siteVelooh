@@ -15,7 +15,8 @@ export default function manguitos() {
       </Head>
       <Header />
       <ProdutosPg title="manguitos">
-        
+      <Produto href="/produtos/vestuario/manguitos/preto" titulo="Manguito preto c/detatlhe" cor1="azulClaro" cor2="rosa" cor3="polido" img="/images/produtos/vestuario/manguito/ptazul.png"/>
+      <Produto href="/produtos/vestuario/manguitos/quasar" titulo="Manguito Quasar" cor1="azulClaro" cor2="azulrosa" cor3="azulrosa" cor4="rosrox" cor5="ptrosa" cor6="ptverdepiscina" img="/images/produtos/vestuario/manguito/quasarazul.png"/>
       </ProdutosPg>
       <Footer />
       <Zap2 />
