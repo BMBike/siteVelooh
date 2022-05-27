@@ -4,10 +4,10 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentMeia2() {
-    const [cor, setCor] = useState("Azul");
-    const[tam, setTam] = useState("p, m e g");
+    const [cor, setCor] = useState("AZUL/LISTRA PINK");
+    const[tam, setTam] = useState("Curto, mÉdio e longo");
     const [foto, setFoto] = useState(
-      "/images/produtos/vestuario/luva/azul.png"
+      "/images/produtos/vestuario/meia/quasarazulrosa1.jpeg"
     );
     function mudarCor(cor, foto, tam) {
       setCor(cor);
@@ -17,7 +17,7 @@ export default function ContentMeia2() {
     return (
       <div className={styles.prods}>
         <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-          LUVAS:
+          MEIAS:
         </h1>
         <div className={styles.produtos}>
           <div className={styles.produto}>
@@ -29,73 +29,64 @@ export default function ContentMeia2() {
             <div className={styles.lateral}>
               <div className={styles.texto}>
                 <p>
-                LUVA DE MAO DEDO VAZADO {cor}
+                MEIA CICLISMO QUASAR {cor}
                 </p>
               </div>
               <div className={styles.cores}>
                 <div
-                  className={styles.azul}
+                  className={styles.azulrosa}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
-                      "/images/produtos/vestuario/luva/azul.png",
-                      "p, m e g"
+                      " AZUL/LISTRA PINK",
+                      "/images/produtos/vestuario/meia/quasarazulrosa1.jpeg",
+                      "Curto, mÉdio e longo"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.laranja}
+                  className={styles.azulrosa}
                   onClick={() =>
                     mudarCor(
-                      "Laranja",
-                      "/images/produtos/vestuario/luva/laranja.png",
-                      "p, m, g e gg"
+                      "AZUL/PONTO PINK",
+                      "/images/produtos/vestuario/meia/quasarazulrosa2.jpeg",
+                      "Curto, mÉdio e longo"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.rosaclaro}
+                  className={styles.rosrox}
                   onClick={() =>
                     mudarCor(
-                      "Pink",
-                      "/images/produtos/vestuario/luva/rosa.png",
-                      "p, m, e g"
+                      "DEGRADE ROSA/ROXO",
+                      "/images/produtos/vestuario/meia/quasarox.jpeg",
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.preto}
+                  className={styles.ptrosa}
                   onClick={() =>
                     mudarCor(
-                      "Preto",
-                      "/images/produtos/vestuario/luva/preto.png",
-                      "p, m, g e gg"
+                      "PTO/ROSA",
+                      "/images/produtos/vestuario/meia/quasarptrosa.jpeg",
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.verdeclaro}
+                  className={styles.ptverdepiscina}
                   onClick={() =>
                     mudarCor(
-                      "verde",
-                      "/images/produtos/vestuario/luva/verde.png",
-                      "p, m, g e gg"
+                      "VDE AQUA QUADRIC",
+                      "/images/produtos/vestuario/meia/quasarverde.jpeg",
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
-                <div
-                  className={styles.vermelho}
-                  onClick={() =>
-                    mudarCor(
-                      "vermelho",
-                      "/images/produtos/vestuario/luva/vermelho.png",
-                      "g"
-                    )
-                  }
-                ></div>
+              
               </div>
               <div className={styles.texto}>
-              <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS do cano: {tam}</p>
               </div>
              
             </div>
