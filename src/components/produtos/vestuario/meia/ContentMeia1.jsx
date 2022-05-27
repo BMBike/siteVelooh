@@ -3,11 +3,11 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentLuva1() {
+export default function ContentMeia1() {
     const [cor, setCor] = useState("Azul");
-    const[tam, setTam] = useState("p, m e g");
+    const[tam, setTam] = useState("Curto e mÉdio");
     const [foto, setFoto] = useState(
-      "/images/produtos/vestuario/luva/azul.png"
+      "/images/produtos/vestuario/meia/elocurtoazul.jpeg"
     );
     function mudarCor(cor, foto, tam) {
       setCor(cor);
@@ -17,7 +17,7 @@ export default function ContentLuva1() {
     return (
       <div className={styles.prods}>
         <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-          LUVAS:
+          MEIAS:
         </h1>
         <div className={styles.produtos}>
           <div className={styles.produto}>
@@ -29,7 +29,7 @@ export default function ContentLuva1() {
             <div className={styles.lateral}>
               <div className={styles.texto}>
                 <p>
-                LUVA DE MAO DEDO VAZADO {cor}
+                MEIA CICLISMO ELO {cor}
                 </p>
               </div>
               <div className={styles.cores}>
@@ -38,8 +38,18 @@ export default function ContentLuva1() {
                   onClick={() =>
                     mudarCor(
                       "Azul",
-                      "/images/produtos/vestuario/luva/azul.png",
-                      "p, m e g"
+                      "/images/produtos/vestuario/meia/elocurtoazul.jpeg",
+                      "Curto e MÉDIO"
+                    )
+                  }
+                ></div>
+                <div
+                  className={styles.cinza}
+                  onClick={() =>
+                    mudarCor(
+                      "Cinza",
+                      "/images/produtos/vestuario/meia/elocinza.jpeg",
+                      "Curto e médio"
                     )
                   }
                 ></div>
@@ -48,28 +58,18 @@ export default function ContentLuva1() {
                   onClick={() =>
                     mudarCor(
                       "Laranja",
-                      "/images/produtos/vestuario/luva/laranja.png",
-                      "p, m, g e gg"
+                      "/images/produtos/vestuario/meia/elolaranja.png",
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.rosaclaro}
+                  className={styles.rosa}
                   onClick={() =>
                     mudarCor(
-                      "Pink",
-                      "/images/produtos/vestuario/luva/rosa.png",
-                      "p, m, e g"
-                    )
-                  }
-                ></div>
-                <div
-                  className={styles.preto}
-                  onClick={() =>
-                    mudarCor(
-                      "Preto",
-                      "/images/produtos/vestuario/luva/preto.png",
-                      "p, m, g e gg"
+                      "PINK",
+                      "/images/produtos/vestuario/meia/elorosa.jpeg",
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
@@ -78,24 +78,15 @@ export default function ContentLuva1() {
                   onClick={() =>
                     mudarCor(
                       "verde",
-                      "/images/produtos/vestuario/luva/verde.png",
-                      "p, m, g e gg"
+                      "/images/produtos/vestuario/meia/eloverde.jpeg",
+                      "Curto e médio"
                     )
                   }
                 ></div>
-                <div
-                  className={styles.vermelho}
-                  onClick={() =>
-                    mudarCor(
-                      "vermelho",
-                      "/images/produtos/vestuario/luva/vermelho.png",
-                      "g"
-                    )
-                  }
-                ></div>
+              
               </div>
               <div className={styles.texto}>
-              <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS do cano: {tam}</p>
               </div>
              
             </div>

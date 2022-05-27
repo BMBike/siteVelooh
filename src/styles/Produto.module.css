@@ -279,7 +279,7 @@
     height: 20px;
     width: 20px;
     margin-left: 8px;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(82,224,170,1) 50%);
+    background: linear-gradient(90deg, rgb(9, 0, 41) 50%, rgba(82,224,170,1) 50%);
     cursor: pointer;
     border: 1px solid #000;
   }
@@ -293,6 +293,35 @@
     border: 1px solid #000;
   }
   
+  .ptamarelo{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,222,0,1) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+ 
+  .vermelhoroxo{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(114,45,253,1) 100%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+ 
+  .azulverdepiscina{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,15,56,1) 0%, rgba(72,108,233,1) 50%, rgba(1,99,77,1) 100%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
  
   .cores {
     display: flex;

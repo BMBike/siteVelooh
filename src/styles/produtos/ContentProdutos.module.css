@@ -150,7 +150,7 @@
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(82,224,170,1) 50%);
+  background: linear-gradient(90deg, rgb(9, 0, 41) 50%, rgba(82,224,170,1) 50%);
   cursor: pointer;
   border: 2px solid #000;
 }
@@ -289,6 +289,35 @@
   background: linear-gradient(90deg, rgba(233,39,131,1) 0%, rgba(199,100,237,1) 100%);
 }
 
+.ptamarelo{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,222,0,1) 50%);
+}
+
+.vermelhoroxo{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(114,45,253,1) 100%);
+}
+.azulverdepiscina{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background: linear-gradient(90deg, rgba(0,15,56,1) 0%, rgba(72,108,233,1) 50%, rgba(1,99,77,1) 100%);
+}
+
 
 .azul:hover,
 .preto:hover,
@@ -305,7 +334,10 @@
 .verdeclaro:hover,
 .azulrosa:hover,
 .rosrox:hover,
-.ptverdepiscina:hover
+.ptverdepiscina:hover,
+.ptamarelo:hover,
+.vermelhoroxo:hover,
+.azulverdepiscina:hover
 {
   border: 2px solid #fff;
 }

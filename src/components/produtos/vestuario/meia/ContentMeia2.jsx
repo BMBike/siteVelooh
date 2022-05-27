@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentLuva1() {
+export default function ContentMeia2() {
     const [cor, setCor] = useState("Azul");
     const[tam, setTam] = useState("p, m e g");
     const [foto, setFoto] = useState(
