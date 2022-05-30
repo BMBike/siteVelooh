@@ -44,7 +44,7 @@ export default function ContentMacaquinho1() {
               ></div>
 
               <div
-                className={styles.rosa}
+                className={styles.ptrosa}
                 onClick={() =>
                   mudarCor(
                     "PINK",
