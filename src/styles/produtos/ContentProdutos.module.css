@@ -49,6 +49,15 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.azulbb {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #b1ddc4;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .rosa{
   height: 30px;
   width: 30px;
@@ -317,6 +326,33 @@
   border: 2px solid #000;
   background: linear-gradient(90deg, rgba(0,15,56,1) 0%, rgba(72,108,233,1) 50%, rgba(1,99,77,1) 100%);
 }
+.salmao{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background-color:#f6846f;
+}
+.roxo{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background-color:#5d304f;
+}
+.ptazulclaro{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(5,204,245,1) 50%);
+}
 
 
 .azul:hover,
@@ -337,7 +373,11 @@
 .ptverdepiscina:hover,
 .ptamarelo:hover,
 .vermelhoroxo:hover,
-.azulverdepiscina:hover
+.azulverdepiscina:hover,
+.azulbb:hover,
+.salmao:hover,
+.roxo:hover,
+.ptazulclaro:hover
 {
   border: 2px solid #fff;
 }
