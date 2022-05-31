@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentManguito1() {
+export default function ContentCamisa8() {
     const [cor, setCor] = useState("Azul");
     const[tam, setTam] = useState("P, M, G E GG");
     const [foto, setFoto] = useState(
