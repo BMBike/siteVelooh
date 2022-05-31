@@ -23,7 +23,7 @@
   row-gap: 20px;
 }
 
-.azul{
+.azul {
   height: 30px;
   width: 30px;
   background-color: #6495ed;
@@ -58,7 +58,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.rosa{
+.rosa {
   height: 30px;
   width: 30px;
   margin-left: 15px;
@@ -68,11 +68,15 @@
   cursor: pointer;
 }
 
-.azulrosa{
+.azulrosa {
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(100,149,237,1) 50%, rgba(255,0,255,1) 50%);;
+  background: linear-gradient(
+    90deg,
+    rgba(100, 149, 237, 1) 50%,
+    rgba(255, 0, 255, 1) 50%
+  );
   border: 2px solid black;
   border-radius: 5px;
   cursor: pointer;
@@ -92,7 +96,11 @@
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
@@ -102,7 +110,11 @@
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(236,0,211,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(236, 0, 211, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
@@ -111,7 +123,11 @@
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(93,93,93,1) 50%, rgba(0,0,0,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 93, 93, 1) 50%,
+    rgba(0, 0, 0, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
@@ -120,61 +136,85 @@
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%,  rgba(35,103,217,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(35, 103, 217, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
 
-.ptcinza{
+.ptcinza {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(93,93,93,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(93, 93, 93, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
 
-.ptrosa{
+.ptrosa {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,67,175,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(255, 67, 175, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
 
-.ptverde{
+.ptverde {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(29,175,41,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(29, 175, 41, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
-.ptverdepiscina{
+.ptverdepiscina {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgb(9, 0, 41) 50%, rgba(82,224,170,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgb(9, 0, 41) 50%,
+    rgba(82, 224, 170, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
 
-.ptvermelho{
+.ptvermelho {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(224,0,0,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(224, 0, 0, 1) 50%
+  );
   cursor: pointer;
   border: 2px solid #000;
 }
 
-.azulescuro{
+.azulescuro {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -182,7 +222,7 @@
   cursor: pointer;
   border: 2px solid #000;
 }
-.branco{
+.branco {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -191,7 +231,7 @@
   cursor: pointer;
   border: 2px solid #000;
 }
-.polido{
+.polido {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -200,7 +240,7 @@
   cursor: pointer;
   border: 2px solid #000;
 }
-.rosaclaro{
+.rosaclaro {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -209,7 +249,7 @@
   cursor: pointer;
   border: 2px solid #000;
 }
-.amarelo{
+.amarelo {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -218,7 +258,7 @@
   cursor: pointer;
   border: 2px solid #000;
 }
-.cinza{
+.cinza {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -227,7 +267,7 @@
   cursor: pointer;
   border: 2px solid #000;
 }
-.laranja{
+.laranja {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -237,7 +277,7 @@
   border: 2px solid #000;
 }
 
-.grafite{
+.grafite {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -247,7 +287,7 @@
   border: 2px solid #000;
 }
 
-.bege{
+.bege {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -257,7 +297,7 @@
   border: 2px solid #000;
 }
 
-.marrom{
+.marrom {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -267,7 +307,7 @@
   border: 2px solid #000;
 }
 
-.verdepiscina{
+.verdepiscina {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -277,7 +317,7 @@
   border: 2px solid #000;
 }
 
-.verdeclaro{
+.verdeclaro {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -285,81 +325,304 @@
   background-color: #46df38;
   cursor: pointer;
   border: 2px solid #000;
-
 }
 
-.rosrox{
+.rosrox {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background: linear-gradient(90deg, rgba(233,39,131,1) 0%, rgba(199,100,237,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 39, 131, 1) 0%,
+    rgba(199, 100, 237, 1) 100%
+  );
 }
 
-.ptamarelo{
+.ptamarelo {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,222,0,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(255, 222, 0, 1) 50%
+  );
 }
 
-.vermelhoroxo{
+.vermelhoroxo {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(114,45,253,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(195, 34, 34, 1) 0%,
+    rgba(114, 45, 253, 1) 100%
+  );
 }
-.azulverdepiscina{
+.azulverdepiscina {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background: linear-gradient(90deg, rgba(0,15,56,1) 0%, rgba(72,108,233,1) 50%, rgba(1,99,77,1) 100%);
+  background: linear-gradient(90deg, #000f38 0%, #486ce9 50%, #01654f 100%);
 }
-.salmao{
+.salmao {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background-color:#f6846f;
+  background-color: #f6846f;
 }
-.roxo{
+.roxo {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background-color:#5d304f;
+  background-color: #5d304f;
 }
-.ptazulclaro{
+.ptazulclaro {
   border-radius: 5px;
   height: 30px;
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 2px solid #000;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(5,204,245,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(5, 204, 245, 1) 50%
+  );
 }
 
+.cinzarosa {
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(56, 55, 55, 1) 50%,
+    rgba(245, 5, 179, 1) 50%
+  );
+}
+.verdepiscinarosa {
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background: linear-gradient(
+    100deg,
+    rgba(1, 101, 79, 1) 45%,
+    rgba(245, 5, 179, 1) 75%
+  );
+}
+
+.ptazul {
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, cornflowerblue 50%);
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.ptroxo {
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgb(100, 4, 129) 50%
+  );
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.ptpink {
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgb(206, 0, 103) 50%
+  );
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.borealazul {
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 60, 153, 1) 0%,
+    rgba(0, 131, 86, 1) 100%
+  );
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.ptverderosa {
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 16, 28, 1) 33%,
+    rgba(0, 131, 86, 1) 60%,
+    rgba(255, 0, 44, 1) 100%
+  );
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.verderosrox {
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 0, 45, 1) 33%,
+    rgba(249, 0, 172, 1) 60%,
+    rgba(0, 143, 100, 1) 100%
+  );
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.ptrosrox {
+  border-radius: 5px;
+  height: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 33%,
+    rgba(249, 0, 172, 1) 60%,
+    rgba(52, 0, 115, 1) 100%
+  );
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.ptcolorido {
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(249, 0, 0, 1) 31%,
+    rgba(0, 167, 255, 1) 50%,
+    rgba(255, 222, 0, 1) 68%,
+    rgba(0, 159, 10, 1) 89%
+  );
+}
+.azulvermelho {
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 29%,
+    rgba(1, 93, 148, 1) 71%
+  );
+}
+
+.azulverde{
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, rgba(3,18,144,1) 29%, rgba(0,133,29,1) 71%);
+}
+.ptcinza{
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(135,135,135,1) 71%);
+}
+.ptlaranja{
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,124,0,1) 50%);
+}
+.azullaranja{
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+
+  cursor: pointer;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 47%, rgba(255,76,0,1) 50%, rgba(10,22,36,1) 53%);
+}
+
+.ptbrancovermelho{
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, rgba(255,235,235,1) 36%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 69%);
+}
 
 .azul:hover,
 .preto:hover,
 .vermelho:hover,
 .rosa:hover,
-.verde:hover, .brancopt:hover, .cinzapt:hover, .azulpt:hover, .ptcinza:hover, .ptrosa:hover, .ptverde:hover, .ptvermelho:hover, .brancorosa:hover, .azulescuro:hover, .branco:hover, .polido:hover, .rosaclaro:hover,
+.verde:hover,
+.brancopt:hover,
+.cinzapt:hover,
+.azulpt:hover,
+.ptcinza:hover,
+.ptrosa:hover,
+.ptverde:hover,
+.ptvermelho:hover,
+.brancorosa:hover,
+.azulescuro:hover,
+.branco:hover,
+.polido:hover,
+.rosaclaro:hover,
 .amarelo:hover,
 .laranja:hover,
 .grafite:hover,
@@ -377,8 +640,23 @@
 .azulbb:hover,
 .salmao:hover,
 .roxo:hover,
-.ptazulclaro:hover
-{
+.ptazulclaro:hover,
+.cinzarosa:hover,
+.verdepiscinarosa:hover,
+.ptazul:hover,
+.ptroxo:hover,
+.ptpink:hover,
+.borealazul:hover,
+.ptverderosa:hover,
+.verderosrox:hover,
+.ptrosrox:hover,
+.ptcolorido:hover,
+.azulvermelho:hover,
+.azulverde:hover,
+.ptlaranja:hover,
+.azullaranja:hover,
+.ptbrancovermelho:hover
+ {
   border: 2px solid #fff;
 }
 
@@ -403,7 +681,7 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  height:80px;
+  height: 80px;
   width: 80px;
   border-radius: 10px;
   margin-top: 25px;
@@ -411,11 +689,11 @@
   overflow: hidden;
 }
 
-.Moldfoto2:hover{
+.Moldfoto2:hover {
   border: 2px solid #0081ac;
 }
 
-.subfotos{
+.subfotos {
   display: flex;
   column-gap: 20px;
 }
@@ -427,10 +705,9 @@
   width: 255px;
 }
 
-.imgProd2{
+.imgProd2 {
   height: 95%;
   width: 95%;
-
 }
 
 .texto p {
@@ -483,11 +760,13 @@
     flex-direction: column;
   }
 
-  .texto, .texto2 {
+  .texto,
+  .texto2 {
     margin-left: 15px;
   }
 
-  .cores,.subfotos{
+  .cores,
+  .subfotos {
     margin-left: 15px;
   }
 }
