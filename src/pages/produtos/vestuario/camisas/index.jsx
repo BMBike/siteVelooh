@@ -57,10 +57,9 @@ export default function camisas() {
           href="/produtos/vestuario/camisas/femquasar"
           titulo="Camisa Fem. Quasar"
           cor1="azulrosa"
-          cor2="azulrosa"
-          cor3="azulClaro"
-          cor4="cinzarosa"
-          cor5="verdepiscinarosa"
+          cor2="azulClaro"
+          cor3="cinzarosa"
+          cor4="verdepiscinarosa"
           img="/images/produtos/vestuario/camisa/femquasarazulrosa.png"
         />
         <Produto3
