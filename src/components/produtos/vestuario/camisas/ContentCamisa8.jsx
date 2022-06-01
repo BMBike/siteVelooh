@@ -63,7 +63,7 @@ export default function ContentCamisa8() {
                   onClick={() =>
                     mudarCor(
                       "DEGRADE VERMELHO/AZUL",
-                      "/images/produtos/vestuario/camisa/feminfantquasarcinzarosa.png",
+                      "/images/produtos/vestuario/camisa/03211116.png",
                       "2,6 e 8"
                     )
                   }
