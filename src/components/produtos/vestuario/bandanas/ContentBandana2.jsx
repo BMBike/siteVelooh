@@ -33,6 +33,7 @@ export default function ContentBandana2() {
             <div className={styles.cores}>
               <div
                 className={styles.azulrosa}
+                style={{marginLeft:"0"}}
                 onClick={() =>
                   mudarCor(
                     "Azul/Listra Pink",

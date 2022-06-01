@@ -45,7 +45,7 @@ export default function camisas() {
           titulo="Camisa Fem. Gold"
           cor1="borealazul"
           cor2="ptverderosa"
-          cor3="rosrox"
+          cor3="ptrosrox"
           cor4="verderosrox"
           cor5="ptrosrox"
           cor6="ptcolorido"

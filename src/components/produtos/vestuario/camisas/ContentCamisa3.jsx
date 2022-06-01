@@ -4,10 +4,10 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentCamisa3() {
-    const [cor, setCor] = useState("Azul");
-    const[tam, setTam] = useState("P, M, G E GG");
+    const [cor, setCor] = useState("AURORA BOREAL");
+    const[tam, setTam] = useState("P, M, G, GG e 3g");
     const [foto, setFoto] = useState(
-      "/images/produtos/vestuario/manguito/ptazul.png"
+      "/images/produtos/vestuario/camisa/femgoldazul.jpg"
     );
     function mudarCor(cor, foto, tam) {
       setCor(cor);
@@ -17,7 +17,7 @@ export default function ContentCamisa3() {
     return (
       <div className={styles.prods}>
         <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-          Manguitos:
+          Camisas:
         </h1>
         <div className={styles.produtos}>
           <div className={styles.produto}>
@@ -29,37 +29,88 @@ export default function ContentCamisa3() {
             <div className={styles.lateral}>
               <div className={styles.texto}>
                 <p>
-                MANGUITO C/ PROTEÇÃO UV PRETO DETALHE {cor}
+                CAMISA FEMININA GOLD {cor}
                 </p>
               </div>
               <div className={styles.cores}>
                 <div
-                  className={styles.azul}
+                  className={styles.borealazul}
+                  style={{marginLeft:"0"}}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
-                      "/images/produtos/vestuario/manguito/ptazul.png",
-                      "P, M, G E GG"
+                      "AURORA BOREAL",
+                      "/images/produtos/vestuario/camisa/femgoldazul.jpg",
+                      "P, M, G, GG e 3g"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.rosa}
+                  className={styles.ptverderosa}
                   onClick={() =>
                     mudarCor(
-                      "Rosa",
-                      "/images/produtos/vestuario/manguito/ptrosa.png",
-                      "P, M E G"
+                      "AZUL C/LISTRA VDE/PINK",
+                      "/images/produtos/vestuario/camisa/femgoldptrosaverde.png",
+                      "P, M, G, GG E 3G"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.polido}
+                  className={styles.ptrosrox}
                   onClick={() =>
                     mudarCor(
-                      "Refletivo",
-                      "/images/produtos/vestuario/manguito/ptrefletivo.png",
-                      "P, M, G E GG"
+                      "DEGRADE ROSA/ROXO/AZUL",
+                      "/images/produtos/vestuario/camisa/femgoldrosrox.png",
+                      "P, M, G, GG e 3G"
+                    )
+                  }
+                ></div>
+                <div
+                  className={styles.verderosrox}
+                  onClick={() =>
+                    mudarCor(
+                      "DEGRADE ROXO",
+                      "/images/produtos/vestuario/camisa/femgoldrosverde.png",
+                      "P, M, G, GG e 3G"
+                    )
+                  }
+                ></div>
+                <div
+                  className={styles.ptrosrox}
+                  onClick={() =>
+                    mudarCor(
+                      "ROXO/PRETO C/PINK",
+                      "/images/produtos/vestuario/camisa/femgoldrosrox2.png",
+                      "P, M, G, GG e 3G"
+                    )
+                  }
+                ></div>
+                <div
+                  className={styles.ptcolorido}
+                  onClick={() =>
+                    mudarCor(
+                      "PRETO C/LISTRA COLORIDA",
+                      "/images/produtos/vestuario/camisa/femgoldptcolorido.jpeg",
+                      "P, M, G, GG e 3G"
+                    )
+                  }
+                ></div>
+                <div
+                  className={styles.azulrosa}
+                  onClick={() =>
+                    mudarCor(
+                      "TONS DE AZUL C/ PINK",
+                      "/images/produtos/vestuario/camisa/femgolazulrosa.png",
+                      "P, M, G, GG e 3G"
+                    )
+                  }
+                ></div>
+                <div
+                  className={styles.verdepiscina}
+                  onClick={() =>
+                    mudarCor(
+                      "VERDE AGUA C/RISCO PTO",
+                      "/images/produtos/vestuario/camisa/femgoldverdepiscina.png",
+                      "P, M, G, GG e 3G"
                     )
                   }
                 ></div>
