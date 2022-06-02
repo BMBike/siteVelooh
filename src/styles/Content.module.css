@@ -111,6 +111,7 @@
   width: 100vw;
   flex-direction: column;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .horario svg {
