@@ -3,11 +3,11 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentCamisa9() {
-    const [cor, setCor] = useState("Azul");
-    const[tam, setTam] = useState("P, M, G E GG");
+export default function ContentCamisa7() {
+    const [cor, setCor] = useState("AZUL/VERDE AGUA");
+    const[tam, setTam] = useState("3G");
     const [foto, setFoto] = useState(
-      "/images/produtos/vestuario/manguito/ptazul.png"
+      "/images/produtos/vestuario/camisa/mascazulvd.png",
     );
     function mudarCor(cor, foto, tam) {
       setCor(cor);
@@ -17,7 +17,7 @@ export default function ContentCamisa9() {
     return (
       <div className={styles.prods}>
         <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-          Manguitos:
+          Camisas:
         </h1>
         <div className={styles.produtos}>
           <div className={styles.produto}>
@@ -29,40 +29,34 @@ export default function ContentCamisa9() {
             <div className={styles.lateral}>
               <div className={styles.texto}>
                 <p>
-                MANGUITO C/ PROTEÇÃO UV PRETO DETALHE {cor}
+                CAMISA MASCULINA WIND {cor}
                 </p>
               </div>
               <div className={styles.cores}>
-                <div
-                  className={styles.azul}
+              <div
+                  className={styles.ptverdepiscina}
+                  style={{marginLeft:'0'}}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
-                      "/images/produtos/vestuario/manguito/ptazul.png",
-                      "P, M, G E GG"
+                      "AZUL FLUOR",
+                      "/images/produtos/vestuario/camisa/mascazulvd.png",
+                      "3G"
                     )
                   }
                 ></div>
+                
+                
                 <div
-                  className={styles.rosa}
+                  className={styles.azulverdepiscina}
                   onClick={() =>
                     mudarCor(
-                      "Rosa",
-                      "/images/produtos/vestuario/manguito/ptrosa.png",
-                      "P, M E G"
+                      "LISTRA AZUL/VERDE",
+                      "/images/produtos/vestuario/camisa/00281408.png",
+                      "G E GG"
                     )
                   }
                 ></div>
-                <div
-                  className={styles.polido}
-                  onClick={() =>
-                    mudarCor(
-                      "Refletivo",
-                      "/images/produtos/vestuario/manguito/ptrefletivo.png",
-                      "P, M, G E GG"
-                    )
-                  }
-                ></div>
+               
               </div>
               <div className={styles.texto}>
               <p> TAMANHOS: {tam}</p>

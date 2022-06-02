@@ -11,7 +11,7 @@ export default function ContentCalca2() {
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-        CALÇAS]
+        CALÇAS
       </h1>
       <div className={styles.produtos}>
         <div className={styles.produto}>
