@@ -65,7 +65,6 @@ export default function ContentIndex() {
           </p>
   </div> */}
         <div className={styles.produtos}>
-          <h1>O que vendemos</h1>
           <div className={styles.wrapper}>
             <div className={styles.productImg1}></div>
             <div className={styles.productImg2}></div>
@@ -78,16 +77,16 @@ export default function ContentIndex() {
               </Link>
             </div>
             <div className={styles.productsContent}>
-              <h2>Peças de bike</h2>
-              <p>Qualidade sem igual</p>
-              <Link href="/produtos/pecasBike">
+              <h2>Gancheiras</h2>
+              <p>Os preferidos dos clientes</p>
+              <Link href="/produtos/gancheiras">
                 <a className={styles.visitar}>Visitar</a>
               </Link>
             </div>
             <div className={styles.productsContent}>
-              <h2>Kit bike</h2>
-              <p>Os preferidos dos clientes</p>
-              <Link href="/produtos/kitBike">
+              <h2>Vestuário</h2>
+              <p>Qualidade sem igual</p>
+              <Link href="/produtos/vestuario">
                 <a className={styles.visitar}>Visitar</a>
               </Link>
             </div>

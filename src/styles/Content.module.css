@@ -73,6 +73,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 60px;
+  
 }
 
 .itemCarousel1 {
@@ -109,7 +110,7 @@
   height: 40vh;
   width: 100vw;
   flex-direction: column;
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .horario svg {
@@ -137,23 +138,24 @@
 
 .produtos {
   margin-top: 60px;
+  background-color: #2d2d2d;
 }
 
 .productImg1 {
   background-image: url("/images/velooh.webp");
-  background-size: 100%;
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .productImg2 {
-  background-image: url("/images/pecas.webp");
-  background-size: 100%;
+  background-image: url("/images/produtos/gancheiras/expositor.jpg");
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .productImg3 {
-  background-image: url("/images/bike.webp");
-  background-size: 100%;
+  background-image: url("/images/produtos/vestuario/camisa/mascinfantilwindmangaazul.png");
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
 }
