@@ -37,16 +37,13 @@ export default function ContentIndex() {
             partialVisbile={false}
             autoPlay={true}
           >
-            <Link href={"/produtos/pecasBike"}>
-              <a>
-                <div className={styles.itemCarousel1}></div>
-              </a>
-            </Link>
-            <Link href={"/produtos/pecasBike"}>
-              <a>
-                <div className={styles.itemCarousel2}></div>
-              </a>
-            </Link>
+            <a>
+              <div className={styles.itemCarousel1}></div>
+            </a>
+
+            <a>
+              <div className={styles.itemCarousel2}></div>
+            </a>
           </Carousel>
         </div>
 
@@ -115,7 +112,9 @@ export default function ContentIndex() {
           <p>Segunda - Sexta : 7:00 - 18:00</p>
         </div>
         <div className={styles.endereco}>
-          <h1>Entre em cont<span style={{ color: "#0081ac" }}>at</span>o</h1>
+          <h1>
+            Entre em cont<span style={{ color: "#0081ac" }}>at</span>o
+          </h1>
           <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
           <p>atendimento@bmbike.com.br</p>
           <p>Tel:(11) 4591-4101</p>
