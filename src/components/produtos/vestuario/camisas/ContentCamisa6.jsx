@@ -4,10 +4,10 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentCamisa6() {
-    const [cor, setCor] = useState("DEGRADE ROSA/AZL");
-    const[tam, setTam] = useState("M, G");
+    const [cor, setCor] = useState("AZUL");
+    const[tam, setTam] = useState("P, M, G, GG, 3G E 4G");
     const [foto, setFoto] = useState(
-      "/images/produtos/vestuario/camisa/feminfantquasarazulrosa.png",
+      "/images/produtos/vestuario/camisa/masclassicjetazul.jpg",
     );
     function mudarCor(cor, foto, tam) {
       setCor(cor);
@@ -29,72 +29,61 @@ export default function ContentCamisa6() {
             <div className={styles.lateral}>
               <div className={styles.texto}>
                 <p>
-                CAMISA MASC INFANTIL WIND {cor}
+                CAMISA MASCULINA CLASSIC JET {cor}
                 </p>
               </div>
               <div className={styles.cores}>
               <div
-                  className={styles.azulrosa}
+                  className={styles.ptazul}
                   style={{marginLeft:'0'}}
                   onClick={() =>
                     mudarCor(
-                      "DEGRADE ROSA/AZL",
-                      "/images/produtos/vestuario/camisa/feminfantquasarazulrosa.png",
-                      "M, G"
+                      "AZUL",
+                      "/images/produtos/vestuario/camisa/masclassicjetazul.jpg",
+                      "P, M, G, GG, 3G E 4G"
                     )
                   }
                 ></div>
                 
                 
                 <div
-                  className={styles.azulverdepiscina}
-                  style={{marginLeft:'0'}}
+                  className={styles.ptamarelo}
                   onClick={() =>
                     mudarCor(
-                      "AZUL AQUA",
-                      "/images/produtos/vestuario/camisa/feminfantquasarazul.png",
-                      "M, G"
+                      "AMARELO FLUOR",
+                      "/images/produtos/vestuario/camisa/08098018.jpg",
+                      "P, M, G, GG, 3G E 4G"
                     )
                   }
                 ></div>
                
                 <div
-                  className={styles.ptverdepiscina}
+                  className={styles.ptcinza}
                   onClick={() =>
                     mudarCor(
-                      "PRETO/CINZA",
-                      "/images/produtos/vestuario/camisa/feminfantquasarcinzarosa.png",
-                      "G"
+                      "CINZA",
+                      "/images/produtos/vestuario/camisa/08093019.jpg",
+                      "P, M, G, GG, 3G E 4G"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.azulvermelho}
+                  className={styles.ptlaranja}
                   onClick={() =>
                     mudarCor(
-                      "VERDE OCEAN",
-                      "/images/produtos/vestuario/camisa/feminfantquasarverde.png",
-                      "G"
+                      "laranja",
+                      "/images/produtos/vestuario/camisa/08092119.jpg",
+                      "P, M, G, GG, 3G E 4G"
                     )
                   }
                 ></div>
                 <div
-                  className={styles.ptamarelo}
+                  className={styles.ptvermelho}
                   onClick={() =>
                     mudarCor(
-                      "VERDE OCEAN",
-                      "/images/produtos/vestuario/camisa/feminfantquasarverde.png",
-                      "G"
-                    )
-                  }
-                ></div>
-                <div
-                  className={styles.vermelho}
-                  onClick={() =>
-                    mudarCor(
-                      "VERDE OCEAN",
-                      "/images/produtos/vestuario/camisa/feminfantquasarverde.png",
-                      "G"
+                      "VERMELHO",
+                      "/images/produtos/vestuario/camisa/08090804.jpg",
+                      "P, M, G, GG, 3G E 4G"
                     )
                   }
                 ></div>
