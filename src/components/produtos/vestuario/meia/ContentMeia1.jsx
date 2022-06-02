@@ -39,7 +39,7 @@ export default function ContentMeia1() {
                     mudarCor(
                       "Azul",
                       "/images/produtos/vestuario/meia/elocurtoazul.jpeg",
-                      "Curto e MÉDIO"
+                      "Curto e médio"
                     )
                   }
                 ></div>
@@ -86,7 +86,7 @@ export default function ContentMeia1() {
               
               </div>
               <div className={styles.texto}>
-              <p> TAMANHOS do cano: {tam}</p>
+              <p> TAMANHOS DO CANO: {tam}</p>
               </div>
              
             </div>

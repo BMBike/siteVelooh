@@ -87,7 +87,7 @@ export default function ContentMeia2() {
               
               </div>
               <div className={styles.texto}>
-              <p> TAMANHOS do cano: {tam}</p>
+              <p> TAMANHOS DO CANO: {tam}</p>
               </div>
              
             </div>

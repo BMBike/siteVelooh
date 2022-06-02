@@ -40,7 +40,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "LISTRA AZL/VDE",
                       "/images/produtos/vestuario/meia/windazulvd.jpeg",
-                      "Curto e MÉDIO"
+                      "Curto e médio"
                     )
                   }
                 ></div>
@@ -51,7 +51,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "AMR/PTO ",
                       "/images/produtos/vestuario/meia/windamarelo.jpeg",
-                      "Curto,MÉDIO e longo"
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
@@ -87,7 +87,7 @@ export default function ContentMeia3() {
                 ></div>
               </div>
               <div className={styles.texto}>
-              <p> TAMANHOS do cano: {tam}</p>
+              <p> TAMANHOS DO CANO: {tam}</p>
               </div>
              
             </div>
