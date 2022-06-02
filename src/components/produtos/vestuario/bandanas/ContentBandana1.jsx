@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentBandana1() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL");
   const [foto, setFoto] = useState(
     "/images/produtos/vestuario/bandana/elloazul.png"
   );
@@ -35,7 +35,7 @@ export default function ContentBandana1() {
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
+                    "AZUL",
                     "/images/produtos/vestuario/bandana/elloazul.png",
                   )
                 }
@@ -44,7 +44,7 @@ export default function ContentBandana1() {
                 className={styles.cinza}
                 onClick={() =>
                   mudarCor(
-                    "Cinza",
+                    "CINZA",
                     "/images/produtos/vestuario/bandana/ellocinza.png",
                   )
                 }
@@ -53,7 +53,7 @@ export default function ContentBandana1() {
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    "Rosa",
+                    "ROSA",
                     "/images/produtos/vestuario/bandana/ellorosa.png",
             
                   )
@@ -63,7 +63,7 @@ export default function ContentBandana1() {
                 className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
-                    "Verde",
+                    "VERDE",
                     "/images/produtos/vestuario/bandana/elloverde.png",
                   )
                 }
@@ -72,7 +72,7 @@ export default function ContentBandana1() {
                 className={styles.vermelho}
                 onClick={() =>
                   mudarCor(
-                    "Vermelho",
+                    "VERMELHO",
                     "/images/produtos/vestuario/bandana/ellovermelho.png",
                   )
                 }

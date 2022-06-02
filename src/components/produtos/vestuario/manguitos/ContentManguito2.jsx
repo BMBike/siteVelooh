@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentManguito2() {
-    const [cor, setCor] = useState("Azul");
+    const [cor, setCor] = useState("AZUL");
     const[tam, setTam] = useState("P, M, e G ");
     const [foto, setFoto] = useState(
       "/images/produtos/vestuario/manguito/quasarazul.png"
@@ -37,7 +37,7 @@ export default function ContentManguito2() {
                   className={styles.azul}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
+                      "AZUL",
                       "/images/produtos/vestuario/manguito/quasarazul.png",
                       "P, M e G"
                     )

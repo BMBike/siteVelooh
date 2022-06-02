@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentCaps2() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL");
   const [foto, setFoto] = useState(
     "/images/produtos/capacetes/capmtb/azul.png"
   );
@@ -40,7 +40,7 @@ export default function ContentCaps2() {
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
+                    "AZUL",
                     "/images/produtos/capacetes/capmtb/azul.png",
                     "/images/produtos/capacetes/capmtb/azul2.png",
                     "/images/produtos/capacetes/capmtb/azul3.png"
@@ -51,7 +51,7 @@ export default function ContentCaps2() {
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    " Rosa",
+                    "ROSA",
                     "/images/produtos/capacetes/capmtb/rosa.png",
                     "/images/produtos/capacetes/capmtb/rosa2.png",
                     "/images/produtos/capacetes/capmtb/rosa3.png",
@@ -62,7 +62,7 @@ export default function ContentCaps2() {
                 className={styles.vermelho}
                 onClick={() =>
                   mudarCor(
-                    "Vermelho",
+                    "VERMELHO",
                     "/images/produtos/capacetes/capmtb/vermelho.png",
                     "/images/produtos/capacetes/capmtb/vermelho2.png",
                     "/images/produtos/capacetes/capmtb/vermelho3.png",

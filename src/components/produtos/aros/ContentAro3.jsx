@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentAro3() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL");
   const[tam, setTam] = useState("26 x 1.1/2");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/vision/azul.png"
@@ -38,7 +38,7 @@ export default function ContentAro3() {
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
+                    "AZUL",
                     "/images/produtos/aros/vision/azul.png",
                     "26 x 1.1/2"
                   )
@@ -48,7 +48,7 @@ export default function ContentAro3() {
                 className={styles.bege}
                 onClick={() =>
                   mudarCor(
-                    "Bege",
+                    "BEGE",
                     "/images/produtos/aros/vision/bege.png",
                     "26 x 1.1/2"
                   )
@@ -59,7 +59,7 @@ export default function ContentAro3() {
                 className={styles.marrom}
                 onClick={() =>
                   mudarCor(
-                    "Café",
+                    "CAFÉ",
                     "/images/produtos/aros/vision/marrom.png",
                     "26 x 1.1/2"
                   )
@@ -69,7 +69,7 @@ export default function ContentAro3() {
                 className={styles.verdepiscina}
                 onClick={() =>
                   mudarCor(
-                    "verde",
+                    "VERDE",
                     "/images/produtos/aros/vision/verdePiscina.png",
                     "26 x 1.1/2"
                   )

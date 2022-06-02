@@ -4,8 +4,8 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentMacaquinho1() {
-  const [cor, setCor] = useState("Gel Azul BB");
-  const [tam, setTam] = useState("p, m, g, gg e 3g");
+  const [cor, setCor] = useState("GEL AZUL BB");
+  const [tam, setTam] = useState("P, M, G, GG E 3G");
   const [foto, setFoto] = useState(
     "/images/produtos/vestuario/macaquinhos/azulbb.png"
   );
@@ -36,9 +36,9 @@ export default function ContentMacaquinho1() {
                 style={{ marginLeft: "0" }}
                 onClick={() =>
                   mudarCor(
-                    "Gel Azul BB",
+                    "GEL AZUL BB",
                     "/images/produtos/vestuario/macaquinhos/azulbb.png",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -47,9 +47,9 @@ export default function ContentMacaquinho1() {
                 className={styles.amarelo}
                 onClick={() =>
                   mudarCor(
-                    "Gel Amarelo Fluor",
+                    "GEL AMARELO FLUOR",
                     "/images/produtos/vestuario/macaquinhos/amarelo.jpeg",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -58,9 +58,9 @@ export default function ContentMacaquinho1() {
                 className={styles.salmao}
                 onClick={() =>
                   mudarCor(
-                    "Gel Salmão",
+                    "GEL SALMÃO",
                     "/images/produtos/vestuario/macaquinhos/salmao.jpeg",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -68,9 +68,9 @@ export default function ContentMacaquinho1() {
                 className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
-                    "Gel Verde Fluor",
+                    "GEL VERDE FLUOR",
                     "/images/produtos/vestuario/macaquinhos/verde.jpeg",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -80,7 +80,7 @@ export default function ContentMacaquinho1() {
                   mudarCor(
                     "GEL VERMELHO",
                     "/images/produtos/vestuario/macaquinhos/vermelho.png",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -90,7 +90,7 @@ export default function ContentMacaquinho1() {
                   mudarCor(
                     "DEGRADE ROSA/AZUL",
                     "/images/produtos/vestuario/macaquinhos/rosaazul.png",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -100,7 +100,7 @@ export default function ContentMacaquinho1() {
                   mudarCor(
                     "PRETO/VERMELHO",
                     "/images/produtos/vestuario/macaquinhos/ptvermelho.jpeg",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -110,7 +110,7 @@ export default function ContentMacaquinho1() {
                   mudarCor(
                     "VINHO",
                     "/images/produtos/vestuario/macaquinhos/roxo.jpeg",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>

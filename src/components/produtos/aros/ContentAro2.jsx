@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentAro2() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL");
   const[tam, setTam] = useState("29");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/adesivo/azul.png"
@@ -35,7 +35,7 @@ export default function ContentAro2() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                ARO aero 36f disco pto c/adesivo {cor}  
+                ARO AERO 36F DISCO PTO C/ADESIVO {cor}  
               </p>
             </div>
             <div className={styles.cores}>
@@ -43,7 +43,7 @@ export default function ContentAro2() {
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
+                    "AZUL",
                     "/images/produtos/aros/adesivo/azul.png",
                     "29",
                     "/images/produtos/aros/adesivo/azul2.png",
@@ -56,7 +56,7 @@ export default function ContentAro2() {
                 className={styles.amarelo}
                 onClick={() =>
                   mudarCor(
-                    "amarelo",
+                    "AMARELO",
                     "/images/produtos/aros/adesivo/amarelo.png",
                     "29",
                     "/images/produtos/aros/adesivo/amarelo2.png",
@@ -69,7 +69,7 @@ export default function ContentAro2() {
                 className={styles.cinza}
                 onClick={() =>
                   mudarCor(
-                    "cinza",
+                    "CINZA",
                     "/images/produtos/aros/adesivo/cinza.png",
                     "29",
                     "/images/produtos/aros/adesivo/cinza2.png",
@@ -82,7 +82,7 @@ export default function ContentAro2() {
                 className={styles.laranja}
                 onClick={() =>
                   mudarCor(
-                    "laranja",
+                    "LARANJA",
                     "/images/produtos/aros/adesivo/laranja.png",
                     "29",
                     "/images/produtos/aros/adesivo/laranja2.png",
@@ -95,7 +95,7 @@ export default function ContentAro2() {
                 className={styles.polido}
                 onClick={() =>
                   mudarCor(
-                    "prata",
+                    "PRATA",
                     "/images/produtos/aros/adesivo/prata.png",
                     "29",
                     "/images/produtos/aros/adesivo/prata2.png",
@@ -108,7 +108,7 @@ export default function ContentAro2() {
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    "rosa",
+                    "ROSA",
                     "/images/produtos/aros/adesivo/rosa.png",
                     "29",
                     "/images/produtos/aros/adesivo/rosa2.png",
@@ -121,7 +121,7 @@ export default function ContentAro2() {
                 className={styles.verde}
                 onClick={() =>
                   mudarCor(
-                    "verde",
+                    "VERDE",
                     "/images/produtos/aros/adesivo/verde.png",
                     "29",
                     "/images/produtos/aros/adesivo/verde2.png",
@@ -134,7 +134,7 @@ export default function ContentAro2() {
                 className={styles.vermelho}
                 onClick={() =>
                   mudarCor(
-                    "vermelho",
+                    "VERMELHO",
                     "/images/produtos/aros/adesivo/vermelho.png",
                     "29",
                     "/images/produtos/aros/adesivo/vermelho2.png",
@@ -147,7 +147,7 @@ export default function ContentAro2() {
                 className={styles.grafite}
                 onClick={() =>
                   mudarCor(
-                    "grafite",
+                    "GRAFITE",
                     "/images/produtos/aros/adesivo/grafite.png",
                     "29",
                     "/images/produtos/aros/adesivo/grafite2.png",

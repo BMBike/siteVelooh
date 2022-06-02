@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentAro4() {
-  const [cor, setCor] = useState("Laranja");
+  const [cor, setCor] = useState("LARANJA");
   const[tam, setTam] = useState("20, 24, 26 e 26 x 1.1/2");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/neon/laranja.png"
@@ -39,7 +39,7 @@ export default function ContentAro4() {
                 className={styles.laranja}
                 onClick={() =>
                   mudarCor(
-                    "Laranja",
+                    "LARANJA",
                     "/images/produtos/aros/neon/laranja.png",
                     "20, 24, 26 e 26 x 1.1/2"
                   )
@@ -49,7 +49,7 @@ export default function ContentAro4() {
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    "Rosa",
+                    "ROSA",
                     "/images/produtos/aros/neon/rosa.png",
                     "20, 24, 26 e 26 x 1.1/2"
                   )
@@ -60,7 +60,7 @@ export default function ContentAro4() {
                 className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
-                    "Verde",
+                    "VERDE",
                     "/images/produtos/aros/neon/verde.png",
                     "20, 24 e 26"
                   )
@@ -70,7 +70,7 @@ export default function ContentAro4() {
                 className={styles.amarelo}
                 onClick={() =>
                   mudarCor(
-                    "Amarelo",
+                    "AMARELO",
                     "/images/produtos/aros/neon/amarelo.png",
                     "26 x 1.1/2"
                   )

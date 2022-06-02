@@ -23,7 +23,7 @@ export default function ContentCalca2() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-              CALÇA masculina GEL D80
+              CALÇA MASCULINA GEL D80
               </p>
             </div>
             <div className={styles.texto2}>

@@ -23,7 +23,7 @@ export default function ContentBermuda4() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-              BERMUDA masc FORRO ESPUMA D40 C/BOLSO PRETO
+              BERMUDA MASC FORRO ESPUMA D40 C/BOLSO PRETO
               </p>
             </div>
             <div className={styles.texto2}>

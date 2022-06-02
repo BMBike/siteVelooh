@@ -17,7 +17,7 @@ export default function ContentCamisa6() {
     return (
       <div className={styles.prods}>
         <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-          Camisas:
+          CAMISAS:
         </h1>
         <div className={styles.produtos}>
           <div className={styles.produto}>
@@ -71,7 +71,7 @@ export default function ContentCamisa6() {
                   className={styles.ptlaranja}
                   onClick={() =>
                     mudarCor(
-                      "laranja",
+                      "LARANJA",
                       "/images/produtos/vestuario/camisa/08092119.jpg",
                       "P, M, G, GG, 3G E 4G"
                     )

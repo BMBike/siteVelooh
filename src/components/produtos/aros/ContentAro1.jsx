@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentAro1() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL");
   const[tam, setTam] = useState("20, 24, 26 e 26 x 1.1/2");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/aero/azul.png"
@@ -29,7 +29,7 @@ export default function ContentAro1() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                ARO 20 AERo {cor} velooh 
+                ARO 20 AERO {cor} VELOOH
               </p>
             </div>
             <div className={styles.cores}>
@@ -37,7 +37,7 @@ export default function ContentAro1() {
                 className={styles.azulescuro}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
+                    "AZUL",
                     "/images/produtos/aros/aero/azul.png",
                     "20, 24, 26 e 26 x 1.1/2"
                   )
@@ -47,7 +47,7 @@ export default function ContentAro1() {
                 className={styles.preto}
                 onClick={() =>
                   mudarCor(
-                    "Preto",
+                    "PRETO",
                     "/images/produtos/aros/aero/preto.png",
                     "20, 24, 26, 26X1.1/2 e 27"
                   )
@@ -57,7 +57,7 @@ export default function ContentAro1() {
                 className={styles.branco}
                 onClick={() =>
                   mudarCor(
-                    "Branco",
+                    "BRANCO",
                     "/images/produtos/aros/aero/branco.png",
                     "20, 24, 26 e 26 X 1.1/2"
                   )
@@ -67,7 +67,7 @@ export default function ContentAro1() {
                 className={styles.rosaclaro}
                 onClick={() =>
                   mudarCor(
-                    "Rosa",
+                    "ROSA",
                     "/images/produtos/aros/aero/rosa.png",
                     "20, 26 e 26 X 1.1/2"
                   )
@@ -77,7 +77,7 @@ export default function ContentAro1() {
                 className={styles.polido}
                 onClick={() =>
                   mudarCor(
-                    "Polido",
+                    "POLIDO",
                     "/images/produtos/aros/aero/polido.png",
                     "20, 24, 26, 26 X 1.1/2 e 27"
                   )

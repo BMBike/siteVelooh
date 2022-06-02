@@ -4,8 +4,8 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentLuva1() {
-    const [cor, setCor] = useState("Azul");
-    const[tam, setTam] = useState("p, m e g");
+    const [cor, setCor] = useState("AZUL");
+    const[tam, setTam] = useState("P, M E G");
     const [foto, setFoto] = useState(
       "/images/produtos/vestuario/luva/azul.png"
     );
@@ -37,9 +37,9 @@ export default function ContentLuva1() {
                   className={styles.azul}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
+                      "AZUL",
                       "/images/produtos/vestuario/luva/azul.png",
-                      "p, m e g"
+                      "P, M E G"
                     )
                   }
                 ></div>
@@ -47,9 +47,9 @@ export default function ContentLuva1() {
                   className={styles.laranja}
                   onClick={() =>
                     mudarCor(
-                      "Laranja",
+                      "LARANJA",
                       "/images/produtos/vestuario/luva/laranja.png",
-                      "p, m, g e gg"
+                      "P, M, G E GG"
                     )
                   }
                 ></div>
@@ -57,9 +57,9 @@ export default function ContentLuva1() {
                   className={styles.rosaclaro}
                   onClick={() =>
                     mudarCor(
-                      "Pink",
+                      "PINK",
                       "/images/produtos/vestuario/luva/rosa.png",
-                      "p, m, e g"
+                      "P, M, E G"
                     )
                   }
                 ></div>
@@ -67,9 +67,9 @@ export default function ContentLuva1() {
                   className={styles.preto}
                   onClick={() =>
                     mudarCor(
-                      "Preto",
+                      "PRETO",
                       "/images/produtos/vestuario/luva/preto.png",
-                      "p, m, g e gg"
+                      "P, M, G E GG"
                     )
                   }
                 ></div>
@@ -77,9 +77,9 @@ export default function ContentLuva1() {
                   className={styles.verdeclaro}
                   onClick={() =>
                     mudarCor(
-                      "verde",
+                      "VERDE",
                       "/images/produtos/vestuario/luva/verde.png",
-                      "p, m, g e gg"
+                      "P, M, G E GG"
                     )
                   }
                 ></div>
@@ -87,9 +87,9 @@ export default function ContentLuva1() {
                   className={styles.vermelho}
                   onClick={() =>
                     mudarCor(
-                      "vermelho",
+                      "VERMELHO",
                       "/images/produtos/vestuario/luva/vermelho.png",
-                      "g"
+                      "G"
                     )
                   }
                 ></div>

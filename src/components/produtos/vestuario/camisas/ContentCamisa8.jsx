@@ -17,7 +17,7 @@ export default function ContentCamisa8() {
     return (
       <div className={styles.prods}>
         <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
-          Camisas:
+          CAMISAS:
         </h1>
         <div className={styles.produtos}>
           <div className={styles.produto}>

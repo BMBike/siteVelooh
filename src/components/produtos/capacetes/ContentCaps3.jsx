@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentCaps3() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL");
   const [foto, setFoto] = useState(
     "/images/produtos/capacetes/mtbtext/azulpt.png"
   );
@@ -40,7 +40,7 @@ export default function ContentCaps3() {
                 className={styles.azulpt}
                 onClick={() =>
                   mudarCor(
-                    "Preto e Azul",
+                    "PRETO E AZUL",
                     "/images/produtos/capacetes/mtbtext/azulpt.png",
                     "/images/produtos/capacetes/mtbtext/azulpt2.png",
                     "/images/produtos/capacetes/mtbtext/azulpt3.png",
@@ -52,7 +52,7 @@ export default function ContentCaps3() {
                 className={styles.brancorosa}
                 onClick={() =>
                   mudarCor(
-                    "Branco e Rosa",
+                    "BRANCO E ROSA",
                     "/images/produtos/capacetes/mtbtext/brancorosa.png",
                     "/images/produtos/capacetes/mtbtext/brancorosa2.png",
                     "/images/produtos/capacetes/mtbtext/brancorosa3.png",
@@ -63,7 +63,7 @@ export default function ContentCaps3() {
                 className={styles.cinzapt}
                 onClick={() =>
                   mudarCor(
-                    "Cinza e Preto",
+                    "CINZA E PRETO",
                     "/images/produtos/capacetes/mtbtext/cinzapt.png",
                     "/images/produtos/capacetes/mtbtext/cinzapt2.png",
                     "/images/produtos/capacetes/mtbtext/cinzapt3.png",
@@ -74,7 +74,7 @@ export default function ContentCaps3() {
                 className={styles.brancopt}
                 onClick={() =>
                   mudarCor(
-                    "Branco e Preto",
+                    "BRANCO E PRETO",
                     "/images/produtos/capacetes/mtbtext/brancopt.png",
                     "/images/produtos/capacetes/mtbtext/brancopt2.png",
                     "/images/produtos/capacetes/mtbtext/brancopt3.png",
@@ -87,7 +87,7 @@ export default function ContentCaps3() {
                 className={styles.ptcinza}
                 onClick={() =>
                   mudarCor(
-                    "Preto e Cinza",
+                    "PRETO E CINZA",
                     "/images/produtos/capacetes/mtbtext/ptcinza.png",
                     "/images/produtos/capacetes/mtbtext/ptcinza2.png",
                     "/images/produtos/capacetes/mtbtext/ptcinza3.png",
@@ -98,7 +98,7 @@ export default function ContentCaps3() {
                 className={styles.ptrosa}
                 onClick={() =>
                   mudarCor(
-                    "Preto e Rosa",
+                    "PRETO E ROSA",
                     "/images/produtos/capacetes/mtbtext/ptrosa.png",
                     "/images/produtos/capacetes/mtbtext/ptrosa2.png",
                     "/images/produtos/capacetes/mtbtext/ptrosa3.png",
@@ -109,7 +109,7 @@ export default function ContentCaps3() {
                 className={styles.ptverde}
                 onClick={() =>
                   mudarCor(
-                    "Preto e Verde",
+                    "PRETO E VERDE",
                     "/images/produtos/capacetes/mtbtext/ptverde.png",
                     "/images/produtos/capacetes/mtbtext/ptverde2.png",
                     "/images/produtos/capacetes/mtbtext/ptverde3.png",
@@ -120,7 +120,7 @@ export default function ContentCaps3() {
                 className={styles.ptvermelho}
                 onClick={() =>
                   mudarCor(
-                    "Preto e Vermelho",
+                    "PRETO E VERMELHO",
                     "/images/produtos/capacetes/mtbtext/ptvermelho.png",
                     "/images/produtos/capacetes/mtbtext/ptvermelho2.png",
                     "/images/produtos/capacetes/mtbtext/ptvermelho3.png",

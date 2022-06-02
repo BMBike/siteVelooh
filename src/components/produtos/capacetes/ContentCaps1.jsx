@@ -41,7 +41,7 @@ export default function ContentCaps1() {
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
-                    "Azul",
+                    "AZUL",
                     "/images/produtos/capacetes/capacete1/Capazul.jfif"
                   )
                 }
@@ -50,7 +50,7 @@ export default function ContentCaps1() {
                 className={styles.preto}
                 onClick={() =>
                   mudarCor(
-                    "Preto",
+                    "PRETO",
                     "/images/produtos/capacetes/capacete1/Cappreto.jfif"
                   )
                 }
@@ -59,7 +59,7 @@ export default function ContentCaps1() {
                 className={styles.vermelho}
                 onClick={() =>
                   mudarCor(
-                    "Vermelho",
+                    "VERMELHO",
                     "/images/produtos/capacetes/capacete1/Capvermelho.jfif"
                   )
                 }
@@ -68,7 +68,7 @@ export default function ContentCaps1() {
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    "Rosa",
+                    "ROSA",
                     "/images/produtos/capacetes/capacete1/Caprosa.jfif"
                   )
                 }
@@ -77,7 +77,7 @@ export default function ContentCaps1() {
                 className={styles.verde}
                 onClick={() =>
                   mudarCor(
-                    "Verde",
+                    "VERDE",
                     "/images/produtos/capacetes/capacete1/Capverde.jfif"
                   )
                 }

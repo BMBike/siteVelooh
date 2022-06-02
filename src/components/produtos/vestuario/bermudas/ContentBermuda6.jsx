@@ -7,7 +7,7 @@ export default function ContentBermuda6() {
     const [foto, setFoto] = useState(
         "/images/produtos/vestuario/bermuda/mascinfantil.png"
       );
-      const[tam, setTam] = useState("2,4,6,8,10 e 12");
+      const[tam, setTam] = useState("2, 4, 6, 8, 10 e 12");
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>

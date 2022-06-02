@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentAro5() {
-  const [cor, setCor] = useState("Laranja");
+  const [cor, setCor] = useState("LARANJA");
   const[tam, setTam] = useState("29");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/aerocubo/laranja.png"
@@ -32,7 +32,7 @@ export default function ContentAro5() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-              ARO aero 36f disco pto c/adesivo {cor} e c/cubo  
+              ARO AERO 36F DISCO PTO C/ADESIVO {cor} E C/CUBO  
               </p>
             </div>
             <div className={styles.cores}>

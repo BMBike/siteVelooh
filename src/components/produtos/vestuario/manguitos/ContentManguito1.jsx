@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentManguito1() {
-    const [cor, setCor] = useState("Azul");
+    const [cor, setCor] = useState("AZUL");
     const[tam, setTam] = useState("P, M, G E GG");
     const [foto, setFoto] = useState(
       "/images/produtos/vestuario/manguito/ptazul.png"
@@ -37,7 +37,7 @@ export default function ContentManguito1() {
                   className={styles.azul}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
+                      "AZUL",
                       "/images/produtos/vestuario/manguito/ptazul.png",
                       "P, M, G E GG"
                     )
@@ -47,7 +47,7 @@ export default function ContentManguito1() {
                   className={styles.rosa}
                   onClick={() =>
                     mudarCor(
-                      "Rosa",
+                      "ROSA",
                       "/images/produtos/vestuario/manguito/ptrosa.png",
                       "P, M E G"
                     )
@@ -57,7 +57,7 @@ export default function ContentManguito1() {
                   className={styles.polido}
                   onClick={() =>
                     mudarCor(
-                      "Refletivo",
+                      "REFLETIVO",
                       "/images/produtos/vestuario/manguito/ptrefletivo.png",
                       "P, M, G E GG"
                     )

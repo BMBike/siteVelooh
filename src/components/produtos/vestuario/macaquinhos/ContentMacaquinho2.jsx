@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function ContentMacaquinho1() {
   const [cor, setCor] = useState("PRETO/AZUL");
-  const [tam, setTam] = useState("p, m, g, gg e 3g");
+  const [tam, setTam] = useState("P, M, G, GG E 3G");
   const [foto, setFoto] = useState(
     "/images/produtos/vestuario/macaquinhos/azulptlonga.png"
   );
@@ -38,7 +38,7 @@ export default function ContentMacaquinho1() {
                   mudarCor(
                     "PRETO/AZUL",
                     "/images/produtos/vestuario/macaquinhos/azulptlonga.png",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -49,7 +49,7 @@ export default function ContentMacaquinho1() {
                   mudarCor(
                     "PINK",
                     "/images/produtos/vestuario/macaquinhos/pinkrosa.png",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
@@ -58,9 +58,9 @@ export default function ContentMacaquinho1() {
                 className={styles.cinza}
                 onClick={() =>
                   mudarCor(
-                    "Gel Salmão",
+                    "GEL SALMÃO",
                     "/images/produtos/vestuario/macaquinhos/cinza.png",
-                    "p, m, g, gg e 3g"
+                    "P, M, G, GG E 3G"
                   )
                 }
               ></div>
