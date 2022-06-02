@@ -15,7 +15,7 @@ export default function luvas() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="luvas">
+      <ProdutosPg title="LUVAS">
       <Produto href="/produtos/vestuario/luvas/luvadedovazado" titulo="Luva de mão com dedo vazado" cor1="azulClaro" cor2="laranja" cor3="rosaclaro" cor4="preto" cor5="verdeclaro" cor6="vermelho" img="/images/produtos/vestuario/luva/azul.png"/>
       </ProdutosPg>
       <Footer />

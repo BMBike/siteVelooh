@@ -15,7 +15,7 @@ export default function meias() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="meias">
+      <ProdutosPg title="MEIAS">
       <Produto href="/produtos/vestuario/meias/elo" titulo="Meia Ciclismo Elo" cor1="azulClaro" cor2="cinza" cor3="laranja" cor4="rosa" cor5="verdeclaro" img="/images/produtos/vestuario/meia/elocurtoazul.jpeg"/>
       <Produto href="/produtos/vestuario/meias/quasar" titulo="Meia Ciclismo Quasar" cor1="azulrosa" cor2="azulrosa" cor3="rosrox" cor4="ptrosa" cor5="ptverdepiscina" img="/images/produtos/vestuario/meia/quasarazulrosa1.jpeg"/>
       <Produto href="/produtos/vestuario/meias/wind" titulo="Meia Ciclismo Wind" cor1="ptamarelo" cor2="ptverdepiscina" cor3="vermelhoroxo" cor4="azulverdepiscina" cor5="vermelho" img="/images/produtos/vestuario/meia/windazulvd.jpeg"/>

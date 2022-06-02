@@ -15,7 +15,7 @@ export default function bermudas() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="bermudas">
+      <ProdutosPg title="BERMUDAS">
         <Produto href="/produtos/vestuario/bermudas/femforro" titulo="Bermuda Fem. Forro" img="/images/produtos/vestuario/bermuda/femforro.png"/>
         <Produto href="/produtos/vestuario/bermudas/femgel" titulo="Bermuda Fem. Gel"  img="/images/produtos/vestuario/bermuda/femgel.png"/>
         <Produto href="/produtos/vestuario/bermudas/feminfantil" titulo="Bermuda Fem. Infantil" img="/images/produtos/vestuario/bermuda/feminfantil.png"/>

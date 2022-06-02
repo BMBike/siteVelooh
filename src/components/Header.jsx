@@ -16,17 +16,17 @@ export default function Header() {
         <ul>
           <Link href="/sobre">
             <li>
-              <a>A empresa</a>
+              <a>EMPRESA</a>
             </li>
           </Link>
           <Link href="/contato">
             <li>
-              <a>Contato</a>
+              <a>CONTATO</a>
             </li>
           </Link>
           <div className={styles.dropdown}>
             <li>
-              <a>Velooh</a>
+              <a>VELOOH</a>
             </li>
             <div className={styles.dropdownContent}>
               <h3

@@ -14,7 +14,7 @@ export default function camisas() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="camisas">
+      <ProdutosPg title="CAMISAS">
         <Produto3
           href="/produtos/vestuario/camisas/corrida"
           titulo="Camisa de Corrida velooh"

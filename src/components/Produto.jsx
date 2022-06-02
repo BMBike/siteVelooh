@@ -3,7 +3,7 @@ import styles from "../styles/Produto.module.css"
 export default function Produto(props) {
   return (
     <div>
-      <center><h3 style={{fontSize:"2rem"}}>{props.titulo}</h3></center>
+      <center><h3 style={{fontSize:"1.5rem"}}>{props.titulo}</h3></center>
         <Link href={props.href}><div className={styles.prodMold}>
             <img src={props.img} alt="Produto" className={styles.imgProd} />
             <div className={styles.cores}>
