@@ -256,7 +256,7 @@ export default function Contato() {
       <div className={styles.feedbackDiv}>
         <div className={styles.feedbackText}>
           <h2>
-            FEEDB<span style={{ color: "#0081ac" }}>AC</span>K
+            Feedb<span style={{ color: "#0081ac" }}>ac</span>k
           </h2>
         </div>
         <div className={styles.formDivFeedback}>
@@ -296,10 +296,10 @@ export default function Contato() {
             </center>
           </form>
         </div>
-      </div>
+      </div><span style={{ color: "#0081ac" }}></span>
 
       <div className={styles.endereco}>
-        <h1>Entre em contato</h1>
+        <h1>Entre em cont<span style={{ color: "#0081ac" }}>at</span>o</h1>
         <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
         <p>atendimento@bmbike.com.br</p>
         <p>Tel:(11) 4591-4101</p>

@@ -100,7 +100,9 @@ export default function ContentVelooh() {
         </Carousel>
       </div>
       <div className={styles.endereco}>
-        <h1>Entre em contato</h1>
+        <h1>
+          Entre em cont<span style={{ color: "#0081ac" }}>at</span>o
+        </h1>
         <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
         <p>atendimento@bmbike.com.br</p>
         <p>Tel:(11) 4591-4101</p>
