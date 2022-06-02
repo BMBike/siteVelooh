@@ -16,8 +16,8 @@ export default function calcas() {
       </Head>
       <Header />
       <ProdutosPg title="CALÇAS">
-        <Produto href="/produtos/vestuario/calcas/femgel" titulo="Calça Feminina Gel" img="/images/produtos/vestuario/calca/femgel.png"/>
-        <Produto href="/produtos/vestuario/calcas/mascgel" titulo="Calça masculina gel"  img="/images/produtos/vestuario/calca/mascgel.png"/>
+        <Produto href="/produtos/vestuario/calcas/femgel" titulo="CALÇA FEMININA GEL" img="/images/produtos/vestuario/calca/femgel.png"/>
+        <Produto href="/produtos/vestuario/calcas/mascgel" titulo="CALÇA MASCULINA GEL"  img="/images/produtos/vestuario/calca/mascgel.png"/>
       </ProdutosPg>
       <Footer />
       <Zap2 />

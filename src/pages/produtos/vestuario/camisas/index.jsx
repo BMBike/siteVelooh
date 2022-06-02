@@ -17,12 +17,12 @@ export default function camisas() {
       <ProdutosPg title="CAMISAS">
         <Produto3
           href="/produtos/vestuario/camisas/corrida"
-          titulo="Camisa de Corrida velooh"
+          titulo="CAMISA DE CORRIDA VELOOH"
           img="/images/produtos/vestuario/camisa/corrida.png"
         />
         <Produto3
           href="/produtos/vestuario/camisas/feminfquasar"
-          titulo="Camisa Fem. Infantil Quasar"
+          titulo="CAMISA FEM. INFANTIL QUASAR"
           cor1="azulClaro"
           cor2="azulrosa"
           cor3="rosrox"
@@ -32,7 +32,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/femclassicjet"
-          titulo="Camisa Fem. Classic Jet"
+          titulo="CAMISA FEM. CLASSIC JET"
           cor1="ptazul"
           cor2="ptazulclaro"
           cor3="ptpink"
@@ -42,7 +42,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/femgold"
-          titulo="Camisa Fem. Gold"
+          titulo="CAMISA FEM. GOLD"
           cor1="borealazul"
           cor2="ptverderosa"
           cor3="ptrosrox"
@@ -55,7 +55,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/femquasar"
-          titulo="Camisa Fem. Quasar"
+          titulo="CAMISA FEM. QUASAR"
           cor1="azulrosa"
           cor2="azulClaro"
           cor3="cinzarosa"
@@ -64,7 +64,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/mascinfwind"
-          titulo="Camisa Masc. Infantil Wind"
+          titulo="CAMISA MASC. INFANTIL WIND"
           img="/images/produtos/vestuario/camisa/mascinfantilwind.png"
           cor1="azulverdepiscina"
           cor2="ptverdepiscina"
@@ -74,7 +74,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/mascwindmanga"
-          titulo="Camisa Masc. Wind C/manga longa"
+          titulo="CAMISA MASC. WIND C/MANGA LONGA"
           img="/images/produtos/vestuario/camisa/mascinfantilwindmangaazul.png"
           cor1="azulverde"
           cor2="cinza"
@@ -84,7 +84,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/mascclassicjet"
-          titulo="Camisa Masc. Classic Jet"
+          titulo="CAMISA MASC. CLASSIC JET"
           img="/images/produtos/vestuario/camisa/masclassicjetazul.jpg"
           cor1="ptazul"
           cor2="ptamarelo"
@@ -94,7 +94,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/mascgold"
-          titulo="Camisa Masculina Gold"
+          titulo="CAMISA MASCULINA GOLD"
           img="/images/produtos/vestuario/camisa/mascgoldazul.jpeg"
           cor1="azulClaro"
           cor2="azulescuro"
@@ -109,7 +109,7 @@ export default function camisas() {
         />
         <Produto3
           href="/produtos/vestuario/camisas/mascwind"
-          titulo="Camisa Masc. Wind"
+          titulo="CAMISA MASC. WIND"
           img="/images/produtos/vestuario/camisa/mascazulvd.png"
           cor1="ptverdepiscina"
           cor2="azulverdepiscina"

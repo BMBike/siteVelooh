@@ -16,12 +16,12 @@ export default function bermudas() {
       </Head>
       <Header />
       <ProdutosPg title="BERMUDAS">
-        <Produto href="/produtos/vestuario/bermudas/femforro" titulo="Bermuda Fem. Forro" img="/images/produtos/vestuario/bermuda/femforro.png"/>
-        <Produto href="/produtos/vestuario/bermudas/femgel" titulo="Bermuda Fem. Gel"  img="/images/produtos/vestuario/bermuda/femgel.png"/>
-        <Produto href="/produtos/vestuario/bermudas/feminfantil" titulo="Bermuda Fem. Infantil" img="/images/produtos/vestuario/bermuda/feminfantil.png"/>
-        <Produto href="/produtos/vestuario/bermudas/mascforro" titulo="Bermuda Masc. Forro"img="/images/produtos/vestuario/bermuda/mascforro.png"/>
-        <Produto href="/produtos/vestuario/bermudas/mascgel" titulo="Bermuda Masc. Gel" img="/images/produtos/vestuario/bermuda/mascgel.png"/>
-        <Produto href="/produtos/vestuario/bermudas/mascinfantil" titulo="Bermuda Masc. Infantil" img="/images/produtos/vestuario/bermuda/mascinfantil.png"/>
+        <Produto href="/produtos/vestuario/bermudas/femforro" titulo="BERMUDA FEM. FORRO" img="/images/produtos/vestuario/bermuda/femforro.png"/>
+        <Produto href="/produtos/vestuario/bermudas/femgel" titulo="BERMUDA FEM. GEL"  img="/images/produtos/vestuario/bermuda/femgel.png"/>
+        <Produto href="/produtos/vestuario/bermudas/feminfantil" titulo="BERMUDA FEM. INFANTIL" img="/images/produtos/vestuario/bermuda/feminfantil.png"/>
+        <Produto href="/produtos/vestuario/bermudas/mascforro" titulo="BERMUDA MASC. FORRO"img="/images/produtos/vestuario/bermuda/mascforro.png"/>
+        <Produto href="/produtos/vestuario/bermudas/mascgel" titulo="BERMUDA MASC. GEL" img="/images/produtos/vestuario/bermuda/mascgel.png"/>
+        <Produto href="/produtos/vestuario/bermudas/mascinfantil" titulo="BERMUDA MASC. INFANTIL" img="/images/produtos/vestuario/bermuda/mascinfantil.png"/>
       </ProdutosPg>
       <Footer />
       <Zap2 />
