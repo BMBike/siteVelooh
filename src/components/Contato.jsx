@@ -299,7 +299,7 @@ export default function Contato() {
       </div><span style={{ color: "#0081ac" }}></span>
 
       <div className={styles.endereco}>
-        <h1>Entre em cont<span style={{ color: "#0081ac" }}>at</span>o</h1>
+        <h1> Entre em<span style={{ color: "#0081ac" }}> contato</span></h1>
         <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
         <p>atendimento@bmbike.com.br</p>
         <p>Tel:(11) 4591-4101</p>
