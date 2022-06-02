@@ -79,7 +79,7 @@ export default function ContentIndex() {
             <div className={styles.productsContent}>
               <h2>Gancheiras</h2>
               <p>Os preferidos dos clientes</p>
-              <Link href="/produtos/gancheiras">
+              <Link href="/produtos/gancheiras/1">
                 <a className={styles.visitar}>Visitar</a>
               </Link>
             </div>
