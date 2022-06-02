@@ -27,7 +27,7 @@ export default function ContentIndex() {
     <div className={styles.index}>
       <main className={styles.content}>
         <h1> VELOOH </h1>
-        <p>ajudando você a chegar mais longe</p>
+        <p>Ajudando você a chegar mais longe</p>
         <div className={styles.carouselDiv}>
           <Carousel
             responsive={responsive}
