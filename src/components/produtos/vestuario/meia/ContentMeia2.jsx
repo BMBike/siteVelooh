@@ -50,7 +50,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       "AZUL/PONTO PINK",
                       "/images/produtos/vestuario/meia/quasarazulrosa2.jpeg",
-                      "Curto, mÉdio e longo"
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>

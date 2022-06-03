@@ -245,6 +245,10 @@
     width: 200px;
   }
 
+  .titleCard {
+    font-size: 1.5rem;
+  }
+
   /*
   .mapDiv,
   .map {
@@ -265,7 +269,7 @@
     border-radius: 0;
   }
   .feedbackText h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: normal;
                 
   }
