@@ -1,14 +1,14 @@
 /*#0081ac   #003d51
   }*/
 
-.prodMold {
+  .prodMold {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    min-height: 255px;
-    min-width: 265px;
+    min-height: 300px;
+    min-width: 300px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
@@ -304,12 +304,30 @@
     border: 1px solid #000;
   }
   
+  .ptazul{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, cornflowerblue 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
   .ptazulclaro{
     border-radius: 5px;
     height: 20px;
     width: 20px;
     margin-left: 8px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(5,204,245,1) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .ptroxo{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgb(100, 4, 129) 50%);
     cursor: pointer;
     border: 1px solid #000;
   }
@@ -361,6 +379,147 @@
     cursor: pointer;
     border: 1px solid #000;
   }
+
+  .ptpink{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%,  rgb(206, 0, 103) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+  .cinzarosa{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(56,55,55,1) 50%, rgba(245,5,179,1) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .borealazul{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,60,153,1) 0%, rgba(0,131,86,1) 100%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .ptverderosa{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,16,28,1) 33%, rgba(0,131,86,1) 66%, rgba(255,0,44,1) 99%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .verderosrox{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(19,0,45,1) 33%, rgba(249,0,172,1) 66%, rgba(0,143,100,1) 99%);
+    cursor: pointer;
+    border: 1px solid #000;
+    
+  }
+  .azulvermelho{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 29%, rgba(1,93,148,1) 71%);
+    cursor: pointer;
+    border: 1px solid #000;
+    
+  }
+  .azulverde{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(3,18,144,1) 29%, rgba(0,133,29,1) 71%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .ptcinza{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(135,135,135,1) 71%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .ptlaranja{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,124,0,1) 50%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  .azullaranja{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+   background: linear-gradient(90deg, rgba(0,0,0,1) 36%, rgba(255,76,0,1) 50%, rgba(10,22,36,1) 69%);
+    border: 1px solid #000;
+  }
+
+
+
+  .verdepiscinarosa{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background: linear-gradient(100deg, rgba(1,101,79,1) 45%, rgba(245,5,179,1) 75%);
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+
+
+.ptrosrox{
+  border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: 1px solid #000;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(249,0,172,1) 66%, rgba(52,0,115,1) 99%);
+}
+.ptcolorido{
+  border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(249,0,0,1) 31%, rgba(0,167,255,1) 50%, rgba(255,222,0,1) 68%, rgba(0,159,10,1) 89%);
+}
+.ptbrancovermelho{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background: linear-gradient(90deg, rgba(255,235,235,1) 36%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 69%);
+}
+
+
+
+
+
+
+
  
   .cores {
     display: flex;

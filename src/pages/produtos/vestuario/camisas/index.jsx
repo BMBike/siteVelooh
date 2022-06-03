@@ -3,7 +3,7 @@ import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import Zap2 from "../../../../components/Zap2";
 import ProdutosPg from "../../../../components/ProdutosPg";
-import Produto3 from "../../../../components/Produto3";
+import Produto from "../../../../components/Produto";
 export default function camisas() {
   return (
     <div style={{ backgroundColor: "#2d2d2d" }}>
@@ -15,12 +15,12 @@ export default function camisas() {
       </Head>
       <Header />
       <ProdutosPg title="CAMISAS">
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/corrida"
           titulo="CAMISA DE CORRIDA VELOOH"
           img="/images/produtos/vestuario/camisa/corrida.png"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/feminfquasar"
           titulo="CAMISA FEM. INFANTIL QUASAR"
           cor1="azulClaro"
@@ -30,7 +30,7 @@ export default function camisas() {
           cor5="verdepiscinarosa"
           img="/images/produtos/vestuario/camisa/feminfantquasarazul.png"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/femclassicjet"
           titulo="CAMISA FEM. CLASSIC JET"
           cor1="ptazul"
@@ -40,7 +40,7 @@ export default function camisas() {
           cor5="ptroxo"
           img="/images/produtos/vestuario/camisa/femclassicjetazul.jpg"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/femgold"
           titulo="CAMISA FEM. GOLD"
           cor1="borealazul"
@@ -53,7 +53,7 @@ export default function camisas() {
           cor8="verdepiscina"
           img="/images/produtos/vestuario/camisa/femgoldazul.jpg"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/femquasar"
           titulo="CAMISA FEM. QUASAR"
           cor1="azulrosa"
@@ -62,7 +62,7 @@ export default function camisas() {
           cor4="verdepiscinarosa"
           img="/images/produtos/vestuario/camisa/femquasarazulrosa.png"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/mascinfwind"
           titulo="CAMISA MASC. INFANTIL WIND"
           img="/images/produtos/vestuario/camisa/mascinfantilwind.png"
@@ -72,7 +72,7 @@ export default function camisas() {
           cor4="ptamarelo"
           cor5="vermelho"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/mascwindmanga"
           titulo="CAMISA MASC. WIND C/MANGA LONGA"
           img="/images/produtos/vestuario/camisa/mascinfantilwindmangaazul.png"
@@ -82,7 +82,7 @@ export default function camisas() {
           cor4="ptverde"
           cor5="ptamarelo"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/mascclassicjet"
           titulo="CAMISA MASC. CLASSIC JET"
           img="/images/produtos/vestuario/camisa/masclassicjetazul.jpg"
@@ -92,7 +92,7 @@ export default function camisas() {
           cor4="ptlaranja"
           cor5="ptvermelho"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/mascgold"
           titulo="CAMISA MASCULINA GOLD"
           img="/images/produtos/vestuario/camisa/mascgoldazul.jpeg"
@@ -107,7 +107,7 @@ export default function camisas() {
           cor9="ptverde"
           cor10="ptcinza"
         />
-        <Produto3
+        <Produto
           href="/produtos/vestuario/camisas/mascwind"
           titulo="CAMISA MASC. WIND"
           img="/images/produtos/vestuario/camisa/mascazulvd.png"
