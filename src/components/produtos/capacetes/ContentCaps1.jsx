@@ -4,7 +4,7 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentCaps1() {
-  const [cor, setCor] = useState("Azul");
+  const [cor, setCor] = useState("AZUL FOSCO");
   const [foto, setFoto] = useState(
     "/images/produtos/capacetes/capacete1/Capazul.jfif"
   );

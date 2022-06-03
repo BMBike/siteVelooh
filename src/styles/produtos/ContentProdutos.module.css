@@ -756,8 +756,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 800px) {
-  .caps {
-    height: 100vh;
+  
+
+
+  .prods{
+    padding: 10px;
   }
   .produto {
     flex-direction: column;
@@ -766,10 +769,21 @@
   .texto,
   .texto2 {
     margin-left: 15px;
+    
+  }
+  .texto p,
+  .texto2 p{
+    font-size: 1.4rem;
+    
   }
 
   .cores,
   .subfotos {
     margin-left: 15px;
+  }
+
+  .Moldfoto{
+    margin-left: 0;
+    align-self: center;
   }
 }

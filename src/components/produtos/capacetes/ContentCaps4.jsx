@@ -3,13 +3,13 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentCaps1() {
-  const [cor, setCor] = useState("Azul");
+export default function ContentCaps4() {
+  const [cor, setCor] = useState("RAIO AZUL FOSCO");
   const [foto, setFoto] = useState(
-    "/images/produtos/capacetes/capacete1/Capazul.jfif"
+    "/images/produtos/capacetes/kids/03091299.png"
   );
-  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/capacete1/03171299.png");
-  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/capacete1/03171299(1).png");
+  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/kids/03091299.png");
+  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/kids/03091299.png");
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
     setCor(cor);
@@ -32,42 +32,66 @@ export default function ContentCaps1() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                CAPACETE BABY {cor} C/REGULAGEM 8 MESES A 4 ANOS - VELOOH
-                BABY
+              CAPACETE KIDS {cor} C/REGULAGEM 4/12 ANOS
               </p>
             </div>
             <div className={styles.cores}>
               <div
-                className={styles.azul}
+                style={{marginLeft:"0px"}}
+                className={styles.ptazulclaro}
                 onClick={() =>
                   mudarCor(
-                    "AZUL FOSCO",
-                    "/images/produtos/capacetes/capacete1/Capazul.jfif",
-                    "/images/produtos/capacetes/capacete1/03171299.png",
-                    "/images/produtos/capacetes/capacete1/03171299(1).png",
-                    
+                    "RAIO AZUL FOSCO",
+                    "/images/produtos/capacetes/kids/03091299.png",
+                    "/images/produtos/capacetes/kids/03091299(3).png",
+                    "/images/produtos/capacetes/kids/03091299(2).png",
+         
                   )
                 }
               ></div>
               <div
-                className={styles.preto}
+                className={styles.ptcinza}
                 onClick={() =>
                   mudarCor(
-                    "GRAFITE/PTO FOSCO",
-                    "/images/produtos/capacetes/capacete1/Cappreto.jfif",
-                    "/images/produtos/capacetes/capacete1/03175099(3).png",
-                    "/images/produtos/capacetes/capacete1/03175099(2).png"
+                    "RAIO PRATA FOSCO",
+                   "/images/produtos/capacetes/kids/03093199(3).png",
+                   "/images/produtos/capacetes/kids/03093199.png",
+                   "/images/produtos/capacetes/kids/03093199(1).png",
+                   
                   )
                 }
               ></div>
               <div
-                className={styles.laranja}
+                className={styles.ptrosa}
                 onClick={() =>
                   mudarCor(
-                    "LARANJA FOSCO",
-                    "/images/produtos/capacetes/capacete1/Capvermelho.jfif",
-                    "/images/produtos/capacetes/capacete1/download.jpg",
-                    "/images/produtos/capacetes/capacete1/03172199(2).png"
+                    "RAIO ROSA FOSCO",
+                    "/images/produtos/capacetes/kids/03092499(2).png",
+                    "/images/produtos/capacetes/kids/03092499(3).png",
+                    "/images/produtos/capacetes/kids/03092499.png"
+                  )
+                }
+              ></div>
+              
+              <div
+                className={styles.ptverde}
+                onClick={() =>
+                  mudarCor(
+                    "RAIO VERDE FOSCO",
+                    "/images/produtos/capacetes/kids/03092799(1).png",
+                    "/images/produtos/capacetes/kids/03092799(3).png",
+                    "/images/produtos/capacetes/kids/03092799(3).png"
+                  )
+                }
+              ></div>
+              <div
+                className={styles.ptvermelho}
+                onClick={() =>
+                  mudarCor(
+                    "RAIO VERMELHO FOSCO ",
+                    "/images/produtos/capacetes/kids/03090899(1).png",
+                    "/images/produtos/capacetes/kids/03090899(3).png",
+                    "/images/produtos/capacetes/kids/03090899.png"
                   )
                 }
               ></div>
@@ -76,20 +100,20 @@ export default function ContentCaps1() {
                 onClick={() =>
                   mudarCor(
                     "ROSA FOSCO",
-                    "/images/produtos/capacetes/capacete1/Caprosa.jfif",
-                    "/images/produtos/capacetes/capacete1/03172499(3).png",
-                    "/images/produtos/capacetes/capacete1/03172499(2).png"
+                    "/images/produtos/capacetes/kids/030910524(1).png",
+                    "/images/produtos/capacetes/capacete1/download.jpg",
+                    "/images/produtos/capacetes/kids/030910524.png"
                   )
                 }
               ></div>
               <div
-                className={styles.verde}
+                className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
                     "VERDE FOSCO",
-                    "/images/produtos/capacetes/capacete1/Capverde.jfif",
-                    "/images/produtos/capacetes/capacete1/03192799(3).png",
-                    "/images/produtos/capacetes/capacete1/03192799(3).png"
+                    "/images/produtos/capacetes/kids/verde.jpg",
+                    "/images/produtos/capacetes/kids/verde2.jpg",
+                    "/images/produtos/capacetes/kids/verde3.jpg",
                   )
                 }
               ></div>
@@ -97,58 +121,14 @@ export default function ContentCaps1() {
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
-                    "ROSA FOSCO SKY ",
-                    "/images/produtos/capacetes/capacete1/03175199(1).png",
-                    "/images/produtos/capacetes/capacete1/03175199(3).png",
-                    "/images/produtos/capacetes/capacete1/03175199.png",
+                    "ROSA/BCO FOSCO ",
+                    "/images/produtos/capacetes/kids/03095199(2).png",
+                    "/images/produtos/capacetes/kids/03095199(1).png",
+                    "/images/produtos/capacetes/kids/03095199.png",
                   )
                 }
               ></div>
-              <div
-                className={styles.azul}
-                style={{marginLeft:"15px"}}
-                onClick={() =>
-                  mudarCor(
-                    "TOYS AZUL FOSCO",
-                    "/images/produtos/capacetes/capacete1/03191299(1).png",
-                    "/images/produtos/capacetes/capacete1/03191299(2).png",
-                    "/images/produtos/capacetes/capacete1/03191299(3).png",
-                  )
-                }
-              ></div>
-              <div
-                className={styles.vermelho}
-                onClick={() =>
-                  mudarCor(
-                    "TOYS VERMELHO FOSCO",
-                    "/images/produtos/capacetes/capacete1/03190899(2).png",
-                    "/images/produtos/capacetes/capacete1/03190899(3).png",
-                    "/images/produtos/capacetes/capacete1/03190899(1).png"
-                  )
-                }
-              ></div>
-              <div
-                className={styles.rosa}
-                onClick={() =>
-                  mudarCor(
-                    "UNICÓRNIO ROSA FOSCO",
-                    "/images/produtos/capacetes/capacete1/03182499(1).png",
-                    "/images/produtos/capacetes/capacete1/03182499(2).png",
-                    "/images/produtos/capacetes/capacete1/03182499.png",
-                  )
-                }
-              ></div>
-              <div
-                className={styles.roxo}
-                onClick={() =>
-                  mudarCor(
-                    "UNICÓRNIO ROXO FOSCO ",
-                    "/images/produtos/capacetes/capacete1/03185299(2).png",
-                    "/images/produtos/capacetes/capacete1/03185299(3).png",
-                    "/images/produtos/capacetes/capacete1/03185299.png",
-                  )
-                }
-              ></div>
+              
             </div>
             <div className={styles.subfotos}>
               <div
