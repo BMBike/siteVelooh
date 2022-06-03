@@ -32,8 +32,7 @@
 
 .feedbackText h2 {
   font-size: 3.5rem;
-  color: #fff;
-  letter-spacing: 2px;               
+  color: #fff;               
 }
 
 .map {
@@ -270,7 +269,6 @@
   }
   .feedbackText h2 {
     font-size: 1.5rem;
-    letter-spacing: normal;
                 
   }
 
