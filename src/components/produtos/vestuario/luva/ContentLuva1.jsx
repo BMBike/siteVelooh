@@ -16,7 +16,7 @@ export default function ContentLuva1() {
     }
     return (
       <div className={styles.prods}>
-        <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
+        <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
           LUVAS:
         </h1>
         <div className={styles.produtos}>

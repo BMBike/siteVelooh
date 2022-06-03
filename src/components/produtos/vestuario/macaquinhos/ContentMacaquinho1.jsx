@@ -16,7 +16,7 @@ export default function ContentMacaquinho1() {
   }
   return (
     <div className={styles.prods}>
-      <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
+      <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
         MACAQUINHOS:
       </h1>
       <div className={styles.produtos}>

@@ -16,7 +16,7 @@ export default function ContentMeia2() {
     }
     return (
       <div className={styles.prods}>
-        <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
+        <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
           MEIAS:
         </h1>
         <div className={styles.produtos}>
@@ -40,7 +40,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       " AZUL/LISTRA PINK",
                       "/images/produtos/vestuario/meia/quasarazulrosa1.jpeg",
-                      "Curto, mÉdio e longo"
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>

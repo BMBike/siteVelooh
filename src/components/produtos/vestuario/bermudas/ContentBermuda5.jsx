@@ -10,7 +10,7 @@ export default function ContentBermuda5() {
       const[tam, setTam] = useState("P, M, G, GG E XG");
   return (
     <div className={styles.prods}>
-      <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
+      <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
         BERMUDAS
       </h1>
       <div className={styles.produtos}>

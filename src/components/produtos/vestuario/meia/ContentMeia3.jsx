@@ -16,7 +16,7 @@ export default function ContentMeia3() {
     }
     return (
       <div className={styles.prods}>
-        <h1 style={{ fontSize: "4rem", marginTop: "60px", marginLeft: "60px" }}>
+        <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
           MEIAS:
         </h1>
         <div className={styles.produtos}>
@@ -61,7 +61,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "AZL/VDE AQUA",
                       "/images/produtos/vestuario/meia/windverde.jpeg",
-                      "Curto e MÉDIO")
+                      "Curto e médio")
                   }
                 ></div>
                 <div
@@ -70,7 +70,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "DEGRADE VMO/AZL",
                       "/images/produtos/vestuario/meia/windazulvm.jpeg",
-                      "Curto, MÉDIO e longo"
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
@@ -81,7 +81,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "Vemelho",
                       "/images/produtos/vestuario/meia/windvermelho.jpeg",
-                      "Curto, MÉDIO e longo"
+                      "Curto, médio e longo"
                     )
                   }
                 ></div>
