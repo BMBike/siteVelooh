@@ -3,7 +3,7 @@ import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import Zap2 from "../../../../components/Zap2";
 import ProdutosPg from "../../../../components/ProdutosPg";
-import Produto3 from "../../../../components/Produto3";
+import Produto from "../../../../components/Produto";
 
 export default function macaquinhos() {
   return (
@@ -16,8 +16,8 @@ export default function macaquinhos() {
       </Head>
       <Header />
       <ProdutosPg title="MACAQUINHOS">
-      <Produto3 href="/produtos/vestuario/macaquinhos/look" titulo="MACAQUINHO LOOK FEM." cor1="azulbb" cor2="amarelo" cor3="salmao" cor4="verdeclaro" cor5="vermelho" cor6="azulrosa" cor7="ptvermelho" cor8="roxo" img="/images/produtos/vestuario/macaquinhos/azulbb.png"/>
-      <Produto3 href="/produtos/vestuario/macaquinhos/lookmanga" titulo="MACAQUINHO LOOK FEM. M/LONGA" cor1="ptazulclaro" cor2="rosa" cor3="cinza" img="/images/produtos/vestuario/macaquinhos/azulptlonga.png"/>
+      <Produto href="/produtos/vestuario/macaquinhos/look" titulo="MACAQUINHO LOOK FEM." cor1="azulbb" cor2="amarelo" cor3="salmao" cor4="verdeclaro" cor5="vermelho" cor6="azulrosa" cor7="ptvermelho" cor8="roxo" img="/images/produtos/vestuario/macaquinhos/azulbb.png"/>
+      <Produto href="/produtos/vestuario/macaquinhos/lookmanga" titulo="MACAQUINHO LOOK FEM. M/LONGA" cor1="ptazulclaro" cor2="rosa" cor3="cinza" img="/images/produtos/vestuario/macaquinhos/azulptlonga.png"/>
       </ProdutosPg>
       <Footer />
       <Zap2 />
