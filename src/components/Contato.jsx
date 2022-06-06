@@ -25,6 +25,22 @@ export default function Contato() {
   const [submitted, setSubmitted] = useState(false);
   const [submitted2, setSubmitted2] = useState(false);
 
+  const dispatchCep = async (e) => {
+    const { value } = e.target;
+
+    const replacedCep = value?.replace(/[^0-9]/g, "");
+
+    if (replacedCep?.length !== 8) {
+      return;
+    }
+
+    const response = await fetch(
+      `https://viacep.com.br/ws/${replacedCep}/json/`
+    );
+    const result = await response.json();
+    setCepComplete(result);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const cidade = e.target.cidade.value;
@@ -61,22 +77,6 @@ export default function Contato() {
     toast.success("Enviado, Entraremos em contato!");
     setSubmitted(true);
     console.log(razao, fantasia, cnpj);
-  };
-
-  const dispatchCep = async (e) => {
-    const { value } = e.target;
-
-    const replacedCep = value?.replace(/[^0-9]/g, "");
-
-    if (replacedCep?.length !== 8) {
-      return;
-    }
-
-    const response = await fetch(
-      `https://viacep.com.br/ws/${replacedCep}/json/`
-    );
-    const result = await response.json();
-    setCepComplete(result);
   };
 
   const feedback = async (e) => {
