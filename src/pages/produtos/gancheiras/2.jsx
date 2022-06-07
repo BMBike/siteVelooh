@@ -5,7 +5,7 @@ import Zap2 from "../../../components/Zap2";
 import ProdutosPg from "../../../components/ProdutosPg";
 import Produto2 from "../../../components/Produto2";
 import Link from "next/link";
-import styles from "../../../styles/produtos/Gancheira.module.css";
+import styles from "../../../styles/produtos/Paginator.module.css";
 
 export default function Gancheiras2() {
   return (
