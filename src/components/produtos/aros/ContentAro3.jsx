@@ -5,15 +5,13 @@ import { useState } from "react";
 
 export default function ContentAro3() {
   const [cor, setCor] = useState("AZUL");
-  const[tam, setTam] = useState("26 x 1.1/2");
-  const [foto, setFoto] = useState(
-    "/images/produtos/aros/vision/azul.png"
-  );
+  const [tam, setTam] = useState("26 x 1.1/2");
+  const [foto, setFoto] = useState("/images/produtos/aros/vision/azul.png");
 
   function mudarCor(cor, foto, tam) {
     setCor(cor);
     setFoto(foto);
-    setTam(tam)
+    setTam(tam);
   }
   return (
     <div className={styles.prods}>
@@ -29,12 +27,10 @@ export default function ContentAro3() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-                ARO VISION RETRO {cor}
-              </p>
+              <p>ARO VISION RETRO {cor}</p>
             </div>
             <div className={styles.cores}>
-            <div
+              <div
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
@@ -44,7 +40,7 @@ export default function ContentAro3() {
                   )
                 }
               ></div>
-            <div
+              <div
                 className={styles.bege}
                 onClick={() =>
                   mudarCor(
@@ -54,8 +50,8 @@ export default function ContentAro3() {
                   )
                 }
               ></div>
-            
-            <div
+
+              <div
                 className={styles.marrom}
                 onClick={() =>
                   mudarCor(
@@ -65,7 +61,7 @@ export default function ContentAro3() {
                   )
                 }
               ></div>
-            <div
+              <div
                 className={styles.verdepiscina}
                 onClick={() =>
                   mudarCor(
@@ -75,13 +71,10 @@ export default function ContentAro3() {
                   )
                 }
               ></div>
-            
             </div>
             <div className={styles.texto2}>
-            <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS: {tam}</p>
             </div>
-  
-           
           </div>
         </div>
       </div>

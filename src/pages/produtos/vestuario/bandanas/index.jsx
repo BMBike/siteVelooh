@@ -7,7 +7,7 @@ import Produto from "../../../../components/Produto";
 
 export default function bandanas() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d"}}>
+    <div style={{ backgroundColor: "#2d2d2d" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -16,8 +16,26 @@ export default function bandanas() {
       </Head>
       <Header />
       <ProdutosPg title="BANDANAS">
-      <Produto href="/produtos/vestuario/bandanas/ello" titulo="BANDANA ELLO" cor1="azulClaro" cor2="cinza" cor3="rosa" cor4="verdeclaro" cor5="vermelho" img="/images/produtos/vestuario/bandana/elloazul.png" />
-      <Produto href="/produtos/vestuario/bandanas/quasar" titulo="BANDANA QUASAR" cor1="azulrosa" cor2="azulrosa" cor3="rosrox" cor4="ptrosa" cor5="ptverdepiscina" img="/images/produtos/vestuario/bandana/quasarazulrosa1.png" />
+        <Produto
+          href="/produtos/vestuario/bandanas/ello"
+          titulo="BANDANA ELLO"
+          cor1="azulClaro"
+          cor2="cinza"
+          cor3="rosa"
+          cor4="verdeclaro"
+          cor5="vermelho"
+          img="/images/produtos/vestuario/bandana/elloazul.png"
+        />
+        <Produto
+          href="/produtos/vestuario/bandanas/quasar"
+          titulo="BANDANA QUASAR"
+          cor1="azulrosa"
+          cor2="azulrosa"
+          cor3="rosrox"
+          cor4="ptrosa"
+          cor5="ptverdepiscina"
+          img="/images/produtos/vestuario/bandana/quasarazulrosa1.png"
+        />
       </ProdutosPg>
       <Footer />
       <Zap2 />

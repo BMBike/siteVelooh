@@ -562,51 +562,73 @@
   );
 }
 
-.azulverde{
+.azulverde {
   border-radius: 5px;
   height: 30px;
   margin-left: 15px;
   width: 30px;
   cursor: pointer;
   border: 1px solid #000;
-  background: linear-gradient(90deg, rgba(3,18,144,1) 29%, rgba(0,133,29,1) 71%);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 18, 144, 1) 29%,
+    rgba(0, 133, 29, 1) 71%
+  );
 }
-.ptcinza{
+.ptcinza {
   border-radius: 5px;
   height: 30px;
   margin-left: 15px;
   width: 30px;
   cursor: pointer;
   border: 1px solid #000;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(135,135,135,1) 71%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 29%,
+    rgba(135, 135, 135, 1) 71%
+  );
 }
-.ptlaranja{
+.ptlaranja {
   border-radius: 5px;
   height: 30px;
   margin-left: 15px;
   width: 30px;
   cursor: pointer;
   border: 1px solid #000;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,124,0,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(255, 124, 0, 1) 50%
+  );
 }
-.azullaranja{
+.azullaranja {
   border-radius: 5px;
   height: 30px;
   margin-left: 15px;
   width: 30px;
   cursor: pointer;
   border: 1px solid #000;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 47%, rgba(255,76,0,1) 50%, rgba(10,22,36,1) 53%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 47%,
+    rgba(255, 76, 0, 1) 50%,
+    rgba(10, 22, 36, 1) 53%
+  );
 }
 
-.ptbrancovermelho{
+.ptbrancovermelho {
   width: 30px;
   border-radius: 5px;
   height: 30px;
   margin-left: 15px;
   cursor: pointer;
   border: 1px solid #000;
-  background: linear-gradient(90deg, rgba(255,235,235,1) 36%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 69%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 235, 235, 1) 36%,
+    rgba(255, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 69%
+  );
 }
 
 .azul:hover,
@@ -658,8 +680,7 @@
 .azulverde:hover,
 .ptlaranja:hover,
 .azullaranja:hover,
-.ptbrancovermelho:hover
- {
+.ptbrancovermelho:hover {
   border: 2px solid #fff;
 }
 
@@ -756,10 +777,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 800px) {
-  
-
-
-  .prods{
+  .prods {
     padding: 10px;
   }
   .produto {
@@ -769,12 +787,10 @@
   .texto,
   .texto2 {
     margin-left: 15px;
-    
   }
   .texto p,
-  .texto2 p{
+  .texto2 p {
     font-size: 1.4rem;
-    
   }
 
   .cores,
@@ -782,11 +798,11 @@
     margin-left: 15px;
   }
 
-  .Moldfoto{
+  .Moldfoto {
     margin-left: 0;
     align-self: center;
   }
-  .prods h1{
-    margin-left: 15px!important;
+  .prods h1 {
+    margin-left: 15px !important;
   }
 }

@@ -4,10 +4,10 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentBermuda3() {
-    const [foto, setFoto] = useState(
-        "/images/produtos/vestuario/bermuda/feminfantil.png"
-      );
-      const[tam, setTam] = useState("2,4,6,8,10 e 12");
+  const [foto, setFoto] = useState(
+    "/images/produtos/vestuario/bermuda/feminfantil.png"
+  );
+  const [tam, setTam] = useState("2,4,6,8,10 e 12");
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
@@ -22,12 +22,10 @@ export default function ContentBermuda3() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              BERMUDA FEMININA INFANTIL 
-              </p>
+              <p>BERMUDA FEMININA INFANTIL</p>
             </div>
             <div className={styles.texto2}>
-            <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS: {tam}</p>
             </div>
           </div>
         </div>

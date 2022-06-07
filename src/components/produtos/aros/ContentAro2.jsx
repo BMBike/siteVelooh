@@ -5,20 +5,24 @@ import { useState } from "react";
 
 export default function ContentAro2() {
   const [cor, setCor] = useState("AZUL");
-  const[tam, setTam] = useState("29");
-  const [foto, setFoto] = useState(
-    "/images/produtos/aros/adesivo/azul.png"
+  const [tam, setTam] = useState("29");
+  const [foto, setFoto] = useState("/images/produtos/aros/adesivo/azul.png");
+  const [subfoto, setsubFoto] = useState(
+    "/images/produtos/aros/adesivo/azul2.png"
   );
-  const [subfoto, setsubFoto] = useState("/images/produtos/aros/adesivo/azul2.png");
-  const [subfoto2, setsubFoto2] = useState("/images/produtos/aros/adesivo/azul3.png");
-  const [subfoto3, setsubFoto3] = useState("/images/produtos/aros/adesivo/azul4.png");
-  function mudarCor(cor, foto, tam, f1,f2,f3) {
+  const [subfoto2, setsubFoto2] = useState(
+    "/images/produtos/aros/adesivo/azul3.png"
+  );
+  const [subfoto3, setsubFoto3] = useState(
+    "/images/produtos/aros/adesivo/azul4.png"
+  );
+  function mudarCor(cor, foto, tam, f1, f2, f3) {
     setCor(cor);
     setFoto(foto);
-    setTam(tam)
-    setsubFoto(f1)
-    setsubFoto2(f2)
-    setsubFoto3(f3)
+    setTam(tam);
+    setsubFoto(f1);
+    setsubFoto2(f2);
+    setsubFoto3(f3);
   }
   return (
     <div className={styles.prods}>
@@ -34,12 +38,10 @@ export default function ContentAro2() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-                ARO AERO 36F DISCO PTO C/ADESIVO {cor}  
-              </p>
+              <p>ARO AERO 36F DISCO PTO C/ADESIVO {cor}</p>
             </div>
             <div className={styles.cores}>
-            <div
+              <div
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
@@ -48,7 +50,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/azul2.png",
                     "/images/produtos/aros/adesivo/azul3.png",
-                    "/images/produtos/aros/adesivo/azul4.png",
+                    "/images/produtos/aros/adesivo/azul4.png"
                   )
                 }
               ></div>
@@ -61,7 +63,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/amarelo2.png",
                     "/images/produtos/aros/adesivo/amarelo3.png",
-                    "/images/produtos/aros/adesivo/amarelo4.png",
+                    "/images/produtos/aros/adesivo/amarelo4.png"
                   )
                 }
               ></div>
@@ -74,7 +76,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/cinza2.png",
                     "/images/produtos/aros/adesivo/cinza3.png",
-                    "/images/produtos/aros/adesivo/cinza4.png",
+                    "/images/produtos/aros/adesivo/cinza4.png"
                   )
                 }
               ></div>
@@ -87,7 +89,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/laranja2.png",
                     "/images/produtos/aros/adesivo/laranja3.png",
-                    "/images/produtos/aros/adesivo/laranja4.png",
+                    "/images/produtos/aros/adesivo/laranja4.png"
                   )
                 }
               ></div>
@@ -100,7 +102,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/prata2.png",
                     "/images/produtos/aros/adesivo/prata3.png",
-                    "/images/produtos/aros/adesivo/prata4.png",
+                    "/images/produtos/aros/adesivo/prata4.png"
                   )
                 }
               ></div>
@@ -113,7 +115,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/rosa2.png",
                     "/images/produtos/aros/adesivo/rosa3.png",
-                    "/images/produtos/aros/adesivo/rosa4.png",
+                    "/images/produtos/aros/adesivo/rosa4.png"
                   )
                 }
               ></div>
@@ -126,7 +128,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/verde2.png",
                     "/images/produtos/aros/adesivo/verde3.png",
-                    "/images/produtos/aros/adesivo/verde4.png",
+                    "/images/produtos/aros/adesivo/verde4.png"
                   )
                 }
               ></div>
@@ -139,7 +141,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/vermelho2.png",
                     "/images/produtos/aros/adesivo/vermelho3.png",
-                    "/images/produtos/aros/adesivo/vermelho4.png",
+                    "/images/produtos/aros/adesivo/vermelho4.png"
                   )
                 }
               ></div>
@@ -152,7 +154,7 @@ export default function ContentAro2() {
                     "29",
                     "/images/produtos/aros/adesivo/grafite2.png",
                     "/images/produtos/aros/adesivo/grafite3.png",
-                    "/images/produtos/aros/adesivo/grafite4.png",
+                    "/images/produtos/aros/adesivo/grafite4.png"
                   )
                 }
               ></div>
@@ -178,10 +180,8 @@ export default function ContentAro2() {
               </div>
             </div>
             <div className={styles.texto2}>
-            <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS: {tam}</p>
             </div>
-  
-           
           </div>
         </div>
       </div>

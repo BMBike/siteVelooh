@@ -7,7 +7,7 @@ import Produto from "../../../../components/Produto";
 
 export default function calcas() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d"}}>
+    <div style={{ backgroundColor: "#2d2d2d" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -16,8 +16,16 @@ export default function calcas() {
       </Head>
       <Header />
       <ProdutosPg title="CALÇAS">
-        <Produto href="/produtos/vestuario/calcas/femgel" titulo="CALÇA FEMININA GEL" img="/images/produtos/vestuario/calca/femgel.png"/>
-        <Produto href="/produtos/vestuario/calcas/mascgel" titulo="CALÇA MASCULINA GEL"  img="/images/produtos/vestuario/calca/mascgel.png"/>
+        <Produto
+          href="/produtos/vestuario/calcas/femgel"
+          titulo="CALÇA FEMININA GEL"
+          img="/images/produtos/vestuario/calca/femgel.png"
+        />
+        <Produto
+          href="/produtos/vestuario/calcas/mascgel"
+          titulo="CALÇA MASCULINA GEL"
+          img="/images/produtos/vestuario/calca/mascgel.png"
+        />
       </ProdutosPg>
       <Footer />
       <Zap2 />

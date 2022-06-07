@@ -26,9 +26,7 @@ export default function ContentBandana1() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              BANDANA ELLO C/PROTEÇÃO UV {cor}
-              </p>
+              <p>BANDANA ELLO C/PROTEÇÃO UV {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
@@ -36,7 +34,7 @@ export default function ContentBandana1() {
                 onClick={() =>
                   mudarCor(
                     "AZUL",
-                    "/images/produtos/vestuario/bandana/elloazul.png",
+                    "/images/produtos/vestuario/bandana/elloazul.png"
                   )
                 }
               ></div>
@@ -45,7 +43,7 @@ export default function ContentBandana1() {
                 onClick={() =>
                   mudarCor(
                     "CINZA",
-                    "/images/produtos/vestuario/bandana/ellocinza.png",
+                    "/images/produtos/vestuario/bandana/ellocinza.png"
                   )
                 }
               ></div>
@@ -54,8 +52,7 @@ export default function ContentBandana1() {
                 onClick={() =>
                   mudarCor(
                     "ROSA",
-                    "/images/produtos/vestuario/bandana/ellorosa.png",
-            
+                    "/images/produtos/vestuario/bandana/ellorosa.png"
                   )
                 }
               ></div>
@@ -64,7 +61,7 @@ export default function ContentBandana1() {
                 onClick={() =>
                   mudarCor(
                     "VERDE",
-                    "/images/produtos/vestuario/bandana/elloverde.png",
+                    "/images/produtos/vestuario/bandana/elloverde.png"
                   )
                 }
               ></div>
@@ -73,7 +70,7 @@ export default function ContentBandana1() {
                 onClick={() =>
                   mudarCor(
                     "VERMELHO",
-                    "/images/produtos/vestuario/bandana/ellovermelho.png",
+                    "/images/produtos/vestuario/bandana/ellovermelho.png"
                   )
                 }
               ></div>

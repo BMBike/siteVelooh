@@ -8,8 +8,12 @@ export default function ContentCaps1() {
   const [foto, setFoto] = useState(
     "/images/produtos/capacetes/capacete1/Capazul.jfif"
   );
-  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/capacete1/03171299.png");
-  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/capacete1/03171299(1).png");
+  const [subfoto, setsubFoto] = useState(
+    "/images/produtos/capacetes/capacete1/03171299.png"
+  );
+  const [subfoto2, setsubFoto2] = useState(
+    "/images/produtos/capacetes/capacete1/03171299(1).png"
+  );
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
     setCor(cor);
@@ -32,8 +36,7 @@ export default function ContentCaps1() {
           <div className={styles.lateral}>
             <div className={styles.texto}>
               <p>
-                CAPACETE BABY {cor} C/REGULAGEM 8 MESES A 4 ANOS - VELOOH
-                BABY
+                CAPACETE BABY {cor} C/REGULAGEM 8 MESES A 4 ANOS - VELOOH BABY
               </p>
             </div>
             <div className={styles.cores}>
@@ -44,8 +47,7 @@ export default function ContentCaps1() {
                     "AZUL FOSCO",
                     "/images/produtos/capacetes/capacete1/Capazul.jfif",
                     "/images/produtos/capacetes/capacete1/03171299.png",
-                    "/images/produtos/capacetes/capacete1/03171299(1).png",
-                    
+                    "/images/produtos/capacetes/capacete1/03171299(1).png"
                   )
                 }
               ></div>
@@ -100,19 +102,19 @@ export default function ContentCaps1() {
                     "ROSA FOSCO SKY ",
                     "/images/produtos/capacetes/capacete1/03175199(1).png",
                     "/images/produtos/capacetes/capacete1/03175199(3).png",
-                    "/images/produtos/capacetes/capacete1/03175199.png",
+                    "/images/produtos/capacetes/capacete1/03175199.png"
                   )
                 }
               ></div>
               <div
                 className={styles.azul}
-                style={{marginLeft:"15px"}}
+                style={{ marginLeft: "15px" }}
                 onClick={() =>
                   mudarCor(
                     "TOYS AZUL FOSCO",
                     "/images/produtos/capacetes/capacete1/03191299(1).png",
                     "/images/produtos/capacetes/capacete1/03191299(2).png",
-                    "/images/produtos/capacetes/capacete1/03191299(3).png",
+                    "/images/produtos/capacetes/capacete1/03191299(3).png"
                   )
                 }
               ></div>
@@ -134,7 +136,7 @@ export default function ContentCaps1() {
                     "UNICÓRNIO ROSA FOSCO",
                     "/images/produtos/capacetes/capacete1/03182499(1).png",
                     "/images/produtos/capacetes/capacete1/03182499(2).png",
-                    "/images/produtos/capacetes/capacete1/03182499.png",
+                    "/images/produtos/capacetes/capacete1/03182499.png"
                   )
                 }
               ></div>
@@ -145,7 +147,7 @@ export default function ContentCaps1() {
                     "UNICÓRNIO ROXO FOSCO ",
                     "/images/produtos/capacetes/capacete1/03185299(2).png",
                     "/images/produtos/capacetes/capacete1/03185299(3).png",
-                    "/images/produtos/capacetes/capacete1/03185299.png",
+                    "/images/produtos/capacetes/capacete1/03185299.png"
                   )
                 }
               ></div>

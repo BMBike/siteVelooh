@@ -16,11 +16,57 @@ export default function indexAros() {
       </Head>
       <Header />
       <ProdutosPg title="AROS">
-      <Produto href="/produtos/aros/aroaero" titulo="ARO 20 AERO" cor1="azulescuro" cor2="branco" cor3="polido" cor4="preto" cor5="rosaclaro" img="/images/produtos/aros/aero/azul.png" />
-      <Produto href="/produtos/aros/aero2" titulo="ARO AERO DISCO PRETO C/ADESIVO" cor1="azulClaro" cor2="amarelo" cor3="cinza" cor4="laranja" cor5="polido" cor6="rosa" cor7="verde" cor8="vermelho" cor9="grafite"img="/images/produtos/aros/adesivo/azul.png" />
-      <Produto href="/produtos/aros/vision" titulo="ARO VISION RETRO" cor1="azulClaro" cor2="bege" cor3="marrom" cor4="verdepiscina" img="/images/produtos/aros/vision/azul.png" />
-      <Produto href="/produtos/aros/aeroneon" titulo="ARO AERO NEON" cor1="laranja" cor2="rosa" cor3="verdeclaro" cor4="amarelo" img="/images/produtos/aros/neon/laranja.png" />
-      <Produto href="/produtos/aros/aero2cubo" titulo="ARO AERO DISCO PRETO C/CUBO" cor1="laranja" cor2="rosa" cor3="verde" cor4="amarelo" img="/images/produtos/aros/aerocubo/laranja.png" />
+        <Produto
+          href="/produtos/aros/aroaero"
+          titulo="ARO 20 AERO"
+          cor1="azulescuro"
+          cor2="branco"
+          cor3="polido"
+          cor4="preto"
+          cor5="rosaclaro"
+          img="/images/produtos/aros/aero/azul.png"
+        />
+        <Produto
+          href="/produtos/aros/aero2"
+          titulo="ARO AERO DISCO PRETO C/ADESIVO"
+          cor1="azulClaro"
+          cor2="amarelo"
+          cor3="cinza"
+          cor4="laranja"
+          cor5="polido"
+          cor6="rosa"
+          cor7="verde"
+          cor8="vermelho"
+          cor9="grafite"
+          img="/images/produtos/aros/adesivo/azul.png"
+        />
+        <Produto
+          href="/produtos/aros/vision"
+          titulo="ARO VISION RETRO"
+          cor1="azulClaro"
+          cor2="bege"
+          cor3="marrom"
+          cor4="verdepiscina"
+          img="/images/produtos/aros/vision/azul.png"
+        />
+        <Produto
+          href="/produtos/aros/aeroneon"
+          titulo="ARO AERO NEON"
+          cor1="laranja"
+          cor2="rosa"
+          cor3="verdeclaro"
+          cor4="amarelo"
+          img="/images/produtos/aros/neon/laranja.png"
+        />
+        <Produto
+          href="/produtos/aros/aero2cubo"
+          titulo="ARO AERO DISCO PRETO C/CUBO"
+          cor1="laranja"
+          cor2="rosa"
+          cor3="verde"
+          cor4="amarelo"
+          img="/images/produtos/aros/aerocubo/laranja.png"
+        />
       </ProdutosPg>
       <Footer />
       <Zap2 />

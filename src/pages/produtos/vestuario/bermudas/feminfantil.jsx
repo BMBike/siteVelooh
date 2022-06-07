@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Header from "../../../../components/Header"
+import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import ContentBermuda3 from "../../../../components/produtos/vestuario/bermudas/ContentBermuda3";
 import Zap2 from "../../../../components/Zap2";
 export default function feminfantil() {
   return (
-    <div style={{backgroundColor: "#2d2d2d"}}>
+    <div style={{ backgroundColor: "#2d2d2d" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -13,7 +13,7 @@ export default function feminfantil() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ContentBermuda3/>
+      <ContentBermuda3 />
       <Footer />
       <Zap2 />
     </div>

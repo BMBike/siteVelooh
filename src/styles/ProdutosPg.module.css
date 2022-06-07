@@ -1,72 +1,70 @@
-.index{
-    -webkit-animation: fadeIn 1.5s ease-in-out;
-    -moz-animation: fadeIn 1.5s ease-in-out;
-    -o-animation: fadeIn 1.5s ease-in-out;
-    animation: fadeIn 1.5s ease-in-out;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 40px;
-  }
-  .produtos{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      row-gap: 40px; 
-      column-gap: 80px;
-      margin-bottom: 60px;
+.index {
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 80px;
+  margin-bottom: 60px;
+}
 
-  }
-  
-.titulo{
+.titulo {
   font-size: 3rem;
   margin-top: 40px;
 }
 
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  @-o-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @media (min-width: 320px) and (max-width: 800px) {
-    .produtos{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 30px;
-    }
-    .titulo{
-      font-size: 2.5rem;
-    }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .titulo {
+    font-size: 2.5rem;
+  }
+}

@@ -6,7 +6,7 @@ import Zap2 from "../../../../components/Zap2";
 
 export default function ellobandana() {
   return (
-    <div style={{backgroundColor: "#2d2d2d"}}>
+    <div style={{ backgroundColor: "#2d2d2d" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />

@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Header from "../../../../components/Header"
+import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import ContentBermuda4 from "../../../../components/produtos/vestuario/bermudas/ContentBermuda4";
 import Zap2 from "../../../../components/Zap2";
 export default function mascforro() {
   return (
-    <div style={{backgroundColor: "#2d2d2d"}}>
+    <div style={{ backgroundColor: "#2d2d2d" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -13,7 +13,7 @@ export default function mascforro() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ContentBermuda4/>
+      <ContentBermuda4 />
       <Footer />
       <Zap2 />
     </div>

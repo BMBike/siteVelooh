@@ -8,8 +8,12 @@ export default function ContentCaps2() {
   const [foto, setFoto] = useState(
     "/images/produtos/capacetes/capmtb/azul.png"
   );
-  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/capmtb/azul2.png");
-  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/capmtb/azul3.png");
+  const [subfoto, setsubFoto] = useState(
+    "/images/produtos/capacetes/capmtb/azul2.png"
+  );
+  const [subfoto2, setsubFoto2] = useState(
+    "/images/produtos/capacetes/capmtb/azul3.png"
+  );
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
     setCor(cor);
@@ -31,12 +35,10 @@ export default function ContentCaps2() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-                CAPACETE MTB LINE {cor}
-              </p>
+              <p>CAPACETE MTB LINE {cor}</p>
             </div>
             <div className={styles.cores}>
-            <div
+              <div
                 className={styles.azul}
                 onClick={() =>
                   mudarCor(
@@ -54,7 +56,7 @@ export default function ContentCaps2() {
                     "ROSA",
                     "/images/produtos/capacetes/capmtb/rosa.png",
                     "/images/produtos/capacetes/capmtb/rosa2.png",
-                    "/images/produtos/capacetes/capmtb/rosa3.png",
+                    "/images/produtos/capacetes/capmtb/rosa3.png"
                   )
                 }
               ></div>
@@ -65,7 +67,7 @@ export default function ContentCaps2() {
                     "VERMELHO",
                     "/images/produtos/capacetes/capmtb/vermelho.png",
                     "/images/produtos/capacetes/capmtb/vermelho2.png",
-                    "/images/produtos/capacetes/capmtb/vermelho3.png",
+                    "/images/produtos/capacetes/capmtb/vermelho3.png"
                   )
                 }
               ></div>

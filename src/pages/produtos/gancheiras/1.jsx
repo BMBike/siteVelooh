@@ -136,22 +136,20 @@ export default function Gancheiras1() {
           />
         </ProdutosPg>
         <div>
-
           <div className={styles.navdiv}>
-          <Link href={"/produtos/gancheiras/1"}>
-            <p className={styles.nav}>1</p>
-          </Link>
-          <Link href={"/produtos/gancheiras/2"}>
-            <p className={styles.nav}>2</p>
-          </Link>
-          <Link href={"/produtos/gancheiras/3"}>
-            <p className={styles.nav}>3</p>
-          </Link>
-          <Link href={"/produtos/gancheiras/4"}>
-            <p className={styles.nav}>4</p>
-          </Link>
+            <Link href={"/produtos/gancheiras/1"}>
+              <p className={styles.nav}>1</p>
+            </Link>
+            <Link href={"/produtos/gancheiras/2"}>
+              <p className={styles.nav}>2</p>
+            </Link>
+            <Link href={"/produtos/gancheiras/3"}>
+              <p className={styles.nav}>3</p>
+            </Link>
+            <Link href={"/produtos/gancheiras/4"}>
+              <p className={styles.nav}>4</p>
+            </Link>
           </div>
-          
         </div>
       </div>
 

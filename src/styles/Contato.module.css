@@ -32,7 +32,7 @@
 
 .feedbackText h2 {
   font-size: 3.5rem;
-  color: #fff;               
+  color: #fff;
 }
 
 .map {
@@ -96,7 +96,6 @@
 }
 
 .feedbackDiv {
-
   display: flex;
   background-color: #f0f0f0;
   width: 50vw;
@@ -263,13 +262,12 @@
 
   .feedbackDiv {
     width: 100vw;
-   
+
     margin-top: 60px;
     border-radius: 0;
   }
   .feedbackText h2 {
     font-size: 1.5rem;
-                
   }
 
   .feedbackDiv input {
@@ -277,7 +275,6 @@
   }
 
   .formDivFeedback {
-  
     margin-left: 55px;
     margin-top: 30px;
   }

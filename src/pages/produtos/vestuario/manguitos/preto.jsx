@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Header from "../../../../components/Header"
+import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import ContentManguito1 from "../../../../components/produtos/vestuario/manguitos/ContentManguito1";
 import Zap2 from "../../../../components/Zap2";
 export default function manguitoPreto() {
   return (
-    <div style={{backgroundColor: "#2d2d2d"}}>
+    <div style={{ backgroundColor: "#2d2d2d" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />

@@ -8,8 +8,12 @@ export default function ContentCaps4() {
   const [foto, setFoto] = useState(
     "/images/produtos/capacetes/kids/03091299.png"
   );
-  const [subfoto, setsubFoto] = useState("/images/produtos/capacetes/kids/03091299.png");
-  const [subfoto2, setsubFoto2] = useState("/images/produtos/capacetes/kids/03091299.png");
+  const [subfoto, setsubFoto] = useState(
+    "/images/produtos/capacetes/kids/03091299.png"
+  );
+  const [subfoto2, setsubFoto2] = useState(
+    "/images/produtos/capacetes/kids/03091299.png"
+  );
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
     setCor(cor);
@@ -31,21 +35,18 @@ export default function ContentCaps4() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              CAPACETE KIDS {cor} C/REGULAGEM 4/12 ANOS
-              </p>
+              <p>CAPACETE KIDS {cor} C/REGULAGEM 4/12 ANOS</p>
             </div>
             <div className={styles.cores}>
               <div
-                style={{marginLeft:"0px"}}
+                style={{ marginLeft: "0px" }}
                 className={styles.ptazulclaro}
                 onClick={() =>
                   mudarCor(
                     "RAIO AZUL FOSCO",
                     "/images/produtos/capacetes/kids/03091299.png",
                     "/images/produtos/capacetes/kids/03091299(3).png",
-                    "/images/produtos/capacetes/kids/03091299(2).png",
-         
+                    "/images/produtos/capacetes/kids/03091299(2).png"
                   )
                 }
               ></div>
@@ -54,10 +55,9 @@ export default function ContentCaps4() {
                 onClick={() =>
                   mudarCor(
                     "RAIO PRATA FOSCO",
-                   "/images/produtos/capacetes/kids/03093199(3).png",
-                   "/images/produtos/capacetes/kids/03093199.png",
-                   "/images/produtos/capacetes/kids/03093199(1).png",
-                   
+                    "/images/produtos/capacetes/kids/03093199(3).png",
+                    "/images/produtos/capacetes/kids/03093199.png",
+                    "/images/produtos/capacetes/kids/03093199(1).png"
                   )
                 }
               ></div>
@@ -72,7 +72,7 @@ export default function ContentCaps4() {
                   )
                 }
               ></div>
-              
+
               <div
                 className={styles.ptverde}
                 onClick={() =>
@@ -113,7 +113,7 @@ export default function ContentCaps4() {
                     "VERDE FOSCO",
                     "/images/produtos/capacetes/kids/verde.jpg",
                     "/images/produtos/capacetes/kids/verde2.jpg",
-                    "/images/produtos/capacetes/kids/verde3.jpg",
+                    "/images/produtos/capacetes/kids/verde3.jpg"
                   )
                 }
               ></div>
@@ -124,11 +124,10 @@ export default function ContentCaps4() {
                     "ROSA/BCO FOSCO ",
                     "/images/produtos/capacetes/kids/03095199(2).png",
                     "/images/produtos/capacetes/kids/03095199(1).png",
-                    "/images/produtos/capacetes/kids/03095199.png",
+                    "/images/produtos/capacetes/kids/03095199.png"
                   )
                 }
               ></div>
-              
             </div>
             <div className={styles.subfotos}>
               <div

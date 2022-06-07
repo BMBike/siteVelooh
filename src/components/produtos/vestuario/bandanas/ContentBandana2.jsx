@@ -26,18 +26,16 @@ export default function ContentBandana2() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              BANDANA QUASAR C/PROTEÇÃO UV {cor}
-              </p>
+              <p>BANDANA QUASAR C/PROTEÇÃO UV {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azulrosa}
-                style={{marginLeft:"0"}}
+                style={{ marginLeft: "0" }}
                 onClick={() =>
                   mudarCor(
                     "Azul/Listra Pink",
-                    "/images/produtos/vestuario/bandana/quasarazulrosa1.png",
+                    "/images/produtos/vestuario/bandana/quasarazulrosa1.png"
                   )
                 }
               ></div>
@@ -46,7 +44,7 @@ export default function ContentBandana2() {
                 onClick={() =>
                   mudarCor(
                     "AZUL/PONTO PINK",
-                    "/images/produtos/vestuario/bandana/quasarazulrosa2.png",
+                    "/images/produtos/vestuario/bandana/quasarazulrosa2.png"
                   )
                 }
               ></div>
@@ -55,8 +53,7 @@ export default function ContentBandana2() {
                 onClick={() =>
                   mudarCor(
                     "DEGRADE ROSA/ROXO",
-                    "/images/produtos/vestuario/bandana/quasarrosrox.png",
-            
+                    "/images/produtos/vestuario/bandana/quasarrosrox.png"
                   )
                 }
               ></div>
@@ -65,7 +62,7 @@ export default function ContentBandana2() {
                 onClick={() =>
                   mudarCor(
                     "PTO/ROSA",
-                    "/images/produtos/vestuario/bandana/quasarptrosa.png",
+                    "/images/produtos/vestuario/bandana/quasarptrosa.png"
                   )
                 }
               ></div>
@@ -74,7 +71,7 @@ export default function ContentBandana2() {
                 onClick={() =>
                   mudarCor(
                     "VERDE AQUA QUADRIC",
-                    "/images/produtos/vestuario/bandana/quasarverde.png",
+                    "/images/produtos/vestuario/bandana/quasarverde.png"
                   )
                 }
               ></div>

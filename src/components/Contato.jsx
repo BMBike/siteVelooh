@@ -12,7 +12,7 @@ export default function Contato() {
   const [email, setEmail] = useState("");
   const [cep, setCep] = useState("");
   {
-  /*const [cidade, setCidade] = useState("");
+    /*const [cidade, setCidade] = useState("");
   const [uf, setUf] = useState("");
   const [bairro, setBairro] = useState("");
   const [endereco, setEndereco] = useState("");*/
@@ -296,10 +296,14 @@ export default function Contato() {
             </center>
           </form>
         </div>
-      </div><span style={{ color: "#0081ac" }}></span>
+      </div>
+      <span style={{ color: "#0081ac" }}></span>
 
       <div className={styles.endereco}>
-        <h1> Entre em<span style={{ color: "#0081ac" }}> contato</span></h1>
+        <h1>
+          {" "}
+          Entre em<span style={{ color: "#0081ac" }}> contato</span>
+        </h1>
         <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
         <p>atendimento@bmbike.com.br</p>
         <p>Tel:(11) 4591-4101</p>

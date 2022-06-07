@@ -5,17 +5,17 @@ import { useState } from "react";
 
 export default function ContentAro5() {
   const [cor, setCor] = useState("LARANJA");
-  const[tam, setTam] = useState("29");
+  const [tam, setTam] = useState("29");
   const [foto, setFoto] = useState(
     "/images/produtos/aros/aerocubo/laranja.png"
   );
-  const [cubo, setCubo] = useState("Alumínio")
+  const [cubo, setCubo] = useState("Alumínio");
 
   function mudarCor(cor, foto, tam, cubo) {
     setCor(cor);
     setFoto(foto);
-    setTam(tam)
-    setCubo(cubo)
+    setTam(tam);
+    setCubo(cubo);
   }
   return (
     <div className={styles.prods}>
@@ -31,13 +31,11 @@ export default function ContentAro5() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              ARO AERO 36F DISCO PTO C/ADESIVO {cor} E C/CUBO  
-              </p>
+              <p>ARO AERO 36F DISCO PTO C/ADESIVO {cor} E C/CUBO</p>
             </div>
             <div className={styles.cores}>
-            <div
-                style={{marginLeft:"0px"}}
+              <div
+                style={{ marginLeft: "0px" }}
                 className={styles.laranja}
                 onClick={() =>
                   mudarCor(
@@ -48,7 +46,7 @@ export default function ContentAro5() {
                   )
                 }
               ></div>
-            <div
+              <div
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
@@ -59,8 +57,8 @@ export default function ContentAro5() {
                   )
                 }
               ></div>
-            
-            <div
+
+              <div
                 className={styles.verde}
                 onClick={() =>
                   mudarCor(
@@ -71,7 +69,7 @@ export default function ContentAro5() {
                   )
                 }
               ></div>
-            <div
+              <div
                 className={styles.amarelo}
                 onClick={() =>
                   mudarCor(
@@ -81,16 +79,14 @@ export default function ContentAro5() {
                     "Alumínio"
                   )
                 }
-              ></div>  
+              ></div>
             </div>
             <div className={styles.texto2}>
-            <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS: {tam}</p>
             </div>
             <div className={styles.texto2}>
-            <p> Materiais de cubo disponíveis: {cubo}</p>
+              <p> Materiais de cubo disponíveis: {cubo}</p>
             </div>
-  
-           
           </div>
         </div>
       </div>

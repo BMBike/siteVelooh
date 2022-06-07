@@ -64,7 +64,6 @@ export default function ContentMacaquinho1() {
                   )
                 }
               ></div>
-              
             </div>
             <div className={styles.texto}>
               <p> TAMANHOS: {tam}</p>

@@ -5,15 +5,13 @@ import { useState } from "react";
 
 export default function ContentAro4() {
   const [cor, setCor] = useState("LARANJA");
-  const[tam, setTam] = useState("20, 24, 26 e 26 x 1.1/2");
-  const [foto, setFoto] = useState(
-    "/images/produtos/aros/neon/laranja.png"
-  );
+  const [tam, setTam] = useState("20, 24, 26 e 26 x 1.1/2");
+  const [foto, setFoto] = useState("/images/produtos/aros/neon/laranja.png");
 
   function mudarCor(cor, foto, tam) {
     setCor(cor);
     setFoto(foto);
-    setTam(tam)
+    setTam(tam);
   }
   return (
     <div className={styles.prods}>
@@ -29,13 +27,11 @@ export default function ContentAro4() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-                ARO AERO NEON {cor} VELOOH
-              </p>
+              <p>ARO AERO NEON {cor} VELOOH</p>
             </div>
             <div className={styles.cores}>
-            <div
-                style={{marginLeft:"0px"}}
+              <div
+                style={{ marginLeft: "0px" }}
                 className={styles.laranja}
                 onClick={() =>
                   mudarCor(
@@ -45,7 +41,7 @@ export default function ContentAro4() {
                   )
                 }
               ></div>
-            <div
+              <div
                 className={styles.rosa}
                 onClick={() =>
                   mudarCor(
@@ -55,8 +51,8 @@ export default function ContentAro4() {
                   )
                 }
               ></div>
-            
-            <div
+
+              <div
                 className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
@@ -66,7 +62,7 @@ export default function ContentAro4() {
                   )
                 }
               ></div>
-            <div
+              <div
                 className={styles.amarelo}
                 onClick={() =>
                   mudarCor(
@@ -75,13 +71,11 @@ export default function ContentAro4() {
                     "26 x 1.1/2"
                   )
                 }
-              ></div>  
+              ></div>
             </div>
             <div className={styles.texto2}>
-            <p> TAMANHOS: {tam}</p>
+              <p> TAMANHOS: {tam}</p>
             </div>
-  
-           
           </div>
         </div>
       </div>

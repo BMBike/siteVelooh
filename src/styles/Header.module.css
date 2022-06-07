@@ -76,12 +76,11 @@
 }*/
 
 @media (min-width: 320px) and (max-width: 800px) {
- 
   .dropdownContent p {
     font-size: 0.7rem;
   }
   .dropdownContent h3 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
   .header nav a {
     font-size: 1rem;
