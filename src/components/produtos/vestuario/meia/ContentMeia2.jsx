@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function ContentMeia2() {
     const [cor, setCor] = useState("AZUL/LISTRA PINK");
-    const[tam, setTam] = useState("Curto, mÉdio e longo");
+    const[tam, setTam] = useState("CURTO, MÉDIO E LONGO");
     const [foto, setFoto] = useState(
       "/images/produtos/vestuario/meia/quasarazulrosa1.jpeg"
     );
@@ -40,7 +40,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       " AZUL/LISTRA PINK",
                       "/images/produtos/vestuario/meia/quasarazulrosa1.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -50,7 +50,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       "AZUL/PONTO PINK",
                       "/images/produtos/vestuario/meia/quasarazulrosa2.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -60,7 +60,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       "DEGRADE ROSA/ROXO",
                       "/images/produtos/vestuario/meia/quasarox.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -70,7 +70,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       "PTO/ROSA",
                       "/images/produtos/vestuario/meia/quasarptrosa.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -80,7 +80,7 @@ export default function ContentMeia2() {
                     mudarCor(
                       "VDE AQUA QUADRIC",
                       "/images/produtos/vestuario/meia/quasarverde.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>

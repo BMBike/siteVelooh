@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function ContentMeia3() {
     const [cor, setCor] = useState("LISTRA AZL/VDE");
-    const[tam, setTam] = useState("Curto e médio");
+    const[tam, setTam] = useState("CURTO E MÉDIO");
     const [foto, setFoto] = useState(
       "/images/produtos/vestuario/meia/windazulvd.jpeg"
     );
@@ -40,7 +40,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "LISTRA AZL/VDE",
                       "/images/produtos/vestuario/meia/windazulvd.jpeg",
-                      "Curto e médio"
+                      "CURTO E MÉDIO"
                     )
                   }
                 ></div>
@@ -51,7 +51,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "AMR/PTO ",
                       "/images/produtos/vestuario/meia/windamarelo.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -61,7 +61,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "AZL/VDE AQUA",
                       "/images/produtos/vestuario/meia/windverde.jpeg",
-                      "Curto e médio")
+                      "CURTO E MÉDIO")
                   }
                 ></div>
                 <div
@@ -70,7 +70,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "DEGRADE VMO/AZL",
                       "/images/produtos/vestuario/meia/windazulvm.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -81,7 +81,7 @@ export default function ContentMeia3() {
                     mudarCor(
                       "Vemelho",
                       "/images/produtos/vestuario/meia/windvermelho.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>

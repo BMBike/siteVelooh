@@ -4,8 +4,8 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentMeia1() {
-    const [cor, setCor] = useState("Azul");
-    const[tam, setTam] = useState("Curto e mÉdio");
+    const [cor, setCor] = useState("AZUL");
+    const[tam, setTam] = useState("CURTO E MÉDIO");
     const [foto, setFoto] = useState(
       "/images/produtos/vestuario/meia/elocurtoazul.jpeg"
     );
@@ -37,9 +37,9 @@ export default function ContentMeia1() {
                   className={styles.azul}
                   onClick={() =>
                     mudarCor(
-                      "Azul",
+                      "AZUL",
                       "/images/produtos/vestuario/meia/elocurtoazul.jpeg",
-                      "Curto e médio"
+                      "CURTO E MÉDIO"
                     )
                   }
                 ></div>
@@ -47,9 +47,9 @@ export default function ContentMeia1() {
                   className={styles.cinza}
                   onClick={() =>
                     mudarCor(
-                      "Cinza",
+                      "CINZA",
                       "/images/produtos/vestuario/meia/elocinza.jpeg",
-                      "Curto e médio"
+                      "CURTO E MÉDIO"
                     )
                   }
                 ></div>
@@ -57,9 +57,9 @@ export default function ContentMeia1() {
                   className={styles.laranja}
                   onClick={() =>
                     mudarCor(
-                      "Laranja",
+                      "LARANJA",
                       "/images/produtos/vestuario/meia/elolaranja.png",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -69,7 +69,7 @@ export default function ContentMeia1() {
                     mudarCor(
                       "PINK",
                       "/images/produtos/vestuario/meia/elorosa.jpeg",
-                      "Curto, médio e longo"
+                      "CURTO, MÉDIO E LONGO"
                     )
                   }
                 ></div>
@@ -77,9 +77,9 @@ export default function ContentMeia1() {
                   className={styles.verdeclaro}
                   onClick={() =>
                     mudarCor(
-                      "verde",
+                      "VERDE",
                       "/images/produtos/vestuario/meia/eloverde.jpeg",
-                      "Curto e médio"
+                      "CURTO E MÉDIO"
                     )
                   }
                 ></div>
