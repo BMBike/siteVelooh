@@ -26,24 +26,28 @@ export default function Pecas2() {
         }}
       >
         <ProdutosPg title="PEÇAS">
-          <Produto href="#" titulo="KIT REPARO FREIO HIDRÁULICO" img="" />
-          <Produto href="#" titulo="KIT SUPORTE TRANSBIKE" img="" />
-          <Produto href="#" titulo="MANGUEIRA P/ FREIO HIDRÁULICO" img="" />
-          <Produto href="#" titulo="MANIPULO P/TRANSBIKE" img="" />
-          <Produto href="#" titulo="MANOPLA BORRACHA" img="" />
-          <Produto href="#" titulo="OLIVIA/PINO P/FREIO HIDRÁULICO" img="" />
-          <Produto href="#" titulo="PARAFUSO SUPORTE CARAMANHOLA" img="" />
-          <Produto href="#" titulo="PARALAMAS" img="" />
-          <Produto href="#" titulo="PASTILHA DE FREIO" img="" />
-          <Produto href="#" titulo="PASTILHA M719" img="" />
-          <Produto href="#" titulo="PASTILHA M722" img="" />
-          <Produto href="#" titulo="PASTILHA M731" img="" />
-          <Produto href="#" titulo="PROLONGADOR ALUM UNIVERSAL" img="" />
-          <Produto href="#" titulo="PROLONGADOR" img="" />
-          <Produto href="#" titulo="PROTETOR DE QUADRO" img="" />
-          <Produto href="#" titulo="REPARO TUBELESS" img="" />
-          <Produto href="#" titulo="ROLDANA CÂMBIO" img="" />
-          <Produto href="#" titulo="SUPORTE DE GUIDÃO" img="" />
+          <Produto href="#" titulo="KIT REPARO FREIO HIDRÁULICO" img="/images/produtos/pecas/1690.jpg" />
+          <Produto href="#" titulo="KIT SUPORTE TRANSBIKE" img="/images/produtos/pecas/0239(1).png" />
+          <Produto href="#" titulo="MANGUEIRA P/ FREIO HIDRÁULICO" img="/images/produtos/pecas/0216.png" />
+          <Produto href="#" titulo="MANIPULO P/TRANSBIKE" img="/images/produtos/pecas/0237.png" />
+          <Produto href="#" titulo="MANOPLA BORRACHA" img="/images/produtos/pecas/0218.jpeg" />
+          <Produto href="#" titulo="MANOPLA MTB" img="/images/produtos/pecas/1747.png" />
+          <Produto href="#" titulo="MANOPLA SILICONE" img="/images/produtos/pecas/02211299.png" />
+          <Produto href="#" titulo="OLIVA/PINO P/FREIO HIDRÁULICO" img="/images/produtos/pecas/0209(2).png" />
+          <Produto href="#" titulo="PARAFUSO SUPORTE CARAMANHOLA" img="/images/produtos/pecas/1543.png" />
+          <Produto href="#" titulo="PARALAMA DIANTEIRO MTB" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PARALAMA NYLON DIANT/TRAS C/SUP" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PARALAMA TRAS. PRATA" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PASTILHA DE FREIO" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PASTILHA M719" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PASTILHA M722" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PASTILHA M731" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PROLONGADOR ALUM UNIVERSAL" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PROLONGADOR" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="PROTETOR DE QUADRO" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="REPARO TUBELESS" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="ROLDANA CÂMBIO" img="/images/produtos/pecas/" />
+          <Produto href="#" titulo="SUPORTE DE GUIDÃO" img="/images/produtos/pecas/" />
           <Produto
             href="#"
             titulo="SUPORTE DE PAREDE HORIZONTAL C/SUPORTE"

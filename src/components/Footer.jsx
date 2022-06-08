@@ -4,7 +4,7 @@ import styles from "../styles/Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>Copyright © 2022 | Por BM Bike.</p>
+      <p>Copyright © 2022 | Desenvolvido por BM Bike.</p>
       <div className={styles.icons}>
         <a
           href={"https://www.instagram.com/veloohbike/"}
