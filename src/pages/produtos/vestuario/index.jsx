@@ -15,7 +15,7 @@ export default function indexVestuario() {
         <link rel="icon" href="/images/icon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <ProdutosPg title="VESTUÁRIO">
+      <ProdutosPg gap="150px" title="VESTUÁRIO">
         <Produto
           href="/produtos/vestuario/bandanas/"
           titulo="BANDANAS"

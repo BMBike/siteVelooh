@@ -77,7 +77,7 @@
 
 @media (min-width: 320px) and (max-width: 800px) {
   .dropdownContent p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .dropdownContent h3 {
     font-size: 1rem !important;

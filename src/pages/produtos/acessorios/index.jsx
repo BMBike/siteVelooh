@@ -124,9 +124,29 @@ export default function indexAcessorios() {
           img="/images/produtos/acessorios/0103.jpeg"
         />
         <Produto
-          href="/#"
-          titulo="TRANSBIKES"
+          href="/produtos/acessorios/transbike1"
+          titulo="TRANSBIKE ENGATE BOLA 3 BIKES C/ABRACADEIRA"
+          img="/images/produtos/acessorios/0233.png"
+        />
+        <Produto
+          href="/produtos/acessorios/transbike2"
+          titulo="TRANSBIKE PORTA MALA C/CATRACA JET C/ABRAC. "
+          img="/images/produtos/acessorios/0231.png"
+        />
+        <Produto
+          href="/produtos/acessorios/transbike3"
+          titulo="TRANSBIKE PORTA MALA C/CATRACA JET S/ABRAC."
           img="/images/produtos/acessorios/0230.png"
+        />
+        <Produto
+          href="/produtos/acessorios/transbike4"
+          titulo="TRANSBIKE PORTA MALA PREMIUM 3 BIKES C/ABRAC"
+          img="/images/produtos/acessorios/0234.png"
+        />
+        <Produto
+          href="/produtos/acessorios/transbike5"
+          titulo="TRANSBIKE STEP TRANSBORDO 2 BIKE  C/ ABRAC."
+          img="/images/produtos/acessorios/0232.jpg"
         />
       </ProdutosPg>
 
