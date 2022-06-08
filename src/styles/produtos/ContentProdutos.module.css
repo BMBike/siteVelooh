@@ -501,6 +501,17 @@
   cursor: pointer;
   border: 1px solid #000;
 }
+
+.lilas{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  background-color: #a37faf;
+  cursor: pointer;
+  border: 1px solid #000;
+ 
+}
 .verderosrox {
   border-radius: 5px;
   height: 30px;
@@ -680,7 +691,8 @@
 .azulverde:hover,
 .ptlaranja:hover,
 .azullaranja:hover,
-.ptbrancovermelho:hover {
+.ptbrancovermelho:hover,
+.lilas:hover {
   border: 2px solid #fff;
 }
 

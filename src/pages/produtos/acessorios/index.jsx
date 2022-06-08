@@ -104,12 +104,22 @@ export default function indexAcessorios() {
           img="/images/produtos/acessorios/0205.png"
         />
         <Produto
-          href="/#"
+          cor1="azulClaro"
+          cor2="branco"
+          cor3="grafite"
+          cor4="laranja"
+          cor5="lilas"
+          cor6="preto"
+          cor7="rosa"
+          cor8="verdeclaro"
+          cor9="vermelho"
+          cor10="preto"
+          href="/produtos/acessorios/suportecaramanhola"
           titulo="SUPORTE CARAMANHOLA"
           img="/images/produtos/acessorios/02031299.png"
         />
         <Produto
-          href="/#"
+          href="/produtos/acessorios/suportecelular"
           titulo="SUPORTE P/ CELULAR DE SILICONE"
           img="/images/produtos/acessorios/0103.jpeg"
         />
