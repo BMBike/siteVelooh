@@ -66,7 +66,7 @@ export default function ManoplaSilicone() {
                 onClick={() =>
                   mudarCor(
                     "135MM VERMELHO",
-                    "/images/produtos/pecas/02210899.png",
+                    "/images/produtos/pecas/vermelho.png",
                   )
                 }
               ></div>

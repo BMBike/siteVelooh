@@ -40,7 +40,7 @@ export default function Pecas1() {
             img="/images/produtos/pecas/0558.png"
           />
           <Produto2
-            titulo="BLOCAGEM DE ALUM P/SELIM"
+            titulo="BLOCAGEM DE ALUM PTO P/SELIM"
             img="/images/produtos/pecas/"
           />
           <Produto2
