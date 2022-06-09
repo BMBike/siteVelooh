@@ -4,10 +4,10 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function ContentCortaVento() {
-  const [cor, setCor] = useState("");
-  const [tam, setTam] = useState("");
+  const [cor, setCor] = useState("PRETO");
+  const [tam, setTam] = useState("M, G E GG");
   const [foto, setFoto] = useState(
-    "/images/produtos/vestuario/cortavento/"
+    "/images/produtos/vestuario/cortavento/preto.jpg"
   );
   function mudarCor(cor, foto, tam) {
     setCor(cor);
@@ -32,33 +32,33 @@ export default function ContentCortaVento() {
             </div>
             <div className={styles.cores}>
               <div
-                className={styles.branco}
+                className={styles.preto}
                 style={{ marginLeft: "0" }}
                 onClick={() =>
                   mudarCor(
-                    "",
-                    "/images/produtos/vestuario/cortavento/",
-                    ""
+                    "PRETO",
+                    "/images/produtos/vestuario/cortavento/preto.jpg",
+                    "M, G E GG"
                   )
                 }
               ></div>
               <div
-                className={styles.branco}
+                className={styles.verdeclaro}
                 onClick={() =>
                   mudarCor(
-                    "",
-                    "/images/produtos/vestuario/cortavento/",
-                    ""
+                    "VERDE NEON",
+                    "/images/produtos/vestuario/cortavento/verdeneon.jpg",
+                    "P, M, G E GG"
                   )
                 }
               ></div>
               <div
-                className={styles.branco}
+                className={styles.amarelo}
                 onClick={() =>
                   mudarCor(
-                    "",
-                    "/images/produtos/vestuario/cortavento/",
-                    ""
+                    "AMARELO NEON",
+                    "/images/produtos/vestuario/cortavento/amarelo.jpg",
+                    "P, M, G E GG"
                   )
                 }
               ></div>

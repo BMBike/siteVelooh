@@ -39,7 +39,7 @@ export default function indexVestuario() {
         <Produto
           href="/produtos/vestuario/cortavento/"
           titulo="CORTA VENTO"
-          img="/images/produtos/vestuario/"
+          img="/images/produtos/vestuario/cortavento/preto.jpg"
         />
         <Produto
           href="/produtos/vestuario/luvas/"

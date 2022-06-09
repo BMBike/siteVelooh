@@ -164,29 +164,35 @@ export default function Pecas2() {
             titulo="REPARO TUBELESS C/APLICADOR"
             img="/images/produtos/pecas/1912.jpg"
           />
-          <Produto2
-            href="#"
+          <Produto
+            cor1="azulescuro"
+            cor2="amarelo"
+            cor3="polido"
+            cor4="preto"
+            cor5="vermelho"
+            cor6="polido"
+            href="/produtos/pecas/roldanacambio"
             titulo="ROLDANA CÂMBIO"
             img="/images/produtos/pecas/01009912.png"
           />
           <Produto2
             href="#"
-            titulo="SUPORTE DE GUIDÃO"
+            titulo="SUPORTE DE GUIDÃO 31.8 X 50MM/70MM/80MM/100MM 10° HEAD SET PTO"
             img="/images/produtos/pecas/0859(1).png"
           />
           <Produto2
             href="#"
-            titulo="SUPORTE DE PAREDE HORIZONTAL C/SUPORTE"
+            titulo="SUPORTE DE PAREDE HORIZONTAL C/SUPORTE PREMIUM"
             img="/images/produtos/pecas/0241.png"
           />
           <Produto2
             href="#"
-            titulo="TIRAS SILICONE DE TRASNBIKE"
+            titulo="TIRAS SILICONE DE TRANSBIKE"
             img="/images/produtos/pecas/0236.png"
           />
           <Produto2
             href="#"
-            titulo="VÁLVULA TUBELESS"
+            titulo="VÁLVULA TUBELESS 48MM ALUM PRETO"
             img="/images/produtos/pecas/0107.png"
           />
           <Produto2
