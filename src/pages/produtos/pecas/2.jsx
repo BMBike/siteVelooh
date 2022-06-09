@@ -86,11 +86,7 @@ export default function Pecas2() {
             titulo="PARALAMA TRAS. PRATA"
             img="/images/produtos/pecas/0807.png"
           />
-          <Produto
-            href="#"
-            titulo="PASTILHA DE FREIO"
-            img="/images/produtos/pecas/0873.png"
-          />
+          
           <Produto
             href="#"
             titulo="PASTILHA M719"
@@ -151,6 +147,21 @@ export default function Pecas2() {
             titulo="VÁLVULA TUBELESS"
             img="/images/produtos/pecas/0107.png"
           />
+          <Produto
+            href="#"
+            titulo="PASTILHA DE FREIO DISCO GTS/ ZOOM/LTX (PAR) "
+            img="/images/produtos/pecas/0873.png"
+          />
+          <Produto
+            href="#"
+            titulo="PASTILHA DE FREIO A DISCO MOD.WG (PAR)"
+            img="/images/produtos/pecas/1945.jpg"
+          />
+          <Produto
+            href="#"
+            titulo="PASTILHA DE FREIO DISCO MOD ABSOLUTE/SHUNFENG (PAR)"
+            img="/images/produtos/pecas/1041.png"
+          />
         </ProdutosPg>
         <div>
           <div className={styles.navdiv}>
@@ -159,6 +170,9 @@ export default function Pecas2() {
             </Link>
             <Link href={"/produtos/pecas/2"}>
               <p className={styles.nav}>2</p>
+            </Link>
+            <Link href={"/produtos/pecas/3"}>
+              <p className={styles.nav}>3</p>
             </Link>
           </div>
         </div>
