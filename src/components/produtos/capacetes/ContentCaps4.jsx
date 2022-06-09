@@ -9,10 +9,10 @@ export default function ContentCaps4() {
     "/images/produtos/capacetes/kids/03091299.png"
   );
   const [subfoto, setsubFoto] = useState(
-    "/images/produtos/capacetes/kids/03091299.png"
+    "/images/produtos/capacetes/kids/03091299(3).png"
   );
   const [subfoto2, setsubFoto2] = useState(
-    "/images/produtos/capacetes/kids/03091299.png"
+    "/images/produtos/capacetes/kids/03091299(2).png"
   );
 
   function mudarCor(cor, foto, subfoto, subfoto2) {
