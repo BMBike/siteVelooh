@@ -29,6 +29,16 @@ export default function Pecas3() {
         <ProdutosPg title="PEÇAS">
         <Produto2
             href="#"
+            titulo="PASTILHA DE FREIO A DISCO MOD.WG (PAR)"
+            img="/images/produtos/pecas/1945.jpg"
+          />
+          <Produto2
+            href="#"
+            titulo="PASTILHA DE FREIO DISCO MOD ABSOLUTE/SHUNFENG (PAR)"
+            img="/images/produtos/pecas/1041.png"
+          />
+        <Produto2
+            href="#"
             titulo="PASTILHA DE FREIO DISCO MOD DEORE SLX/XT (PAR)"
             img="/images/produtos/pecas/0612.jpg"
           />

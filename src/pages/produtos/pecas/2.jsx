@@ -90,17 +90,24 @@ export default function Pecas2() {
           />
           <Produto2
             href="#"
-            titulo="PARAFUSO SUPORTE CARAMANHOLA"
+            titulo="PARAFUSO SUPORTE CARAMANHOLA ZINC (PCT C/10)"
             img="/images/produtos/pecas/1543.png"
           />
-          <Produto2
-            href="#"
+          <Produto
+            cor1="azulClaro"
+            cor2="branco"
+            cor3="laranja"
+            cor4="polido"
+            cor5="rosa"
+            cor6="verde"
+            cor7="vermelho"
+            href="/produtos/pecas/paralamamtb/"
             titulo="PARALAMA DIANTEIRO MTB"
             img="/images/produtos/pecas/02071299.png"
           />
           <Produto2
             href="#"
-            titulo="PARALAMA NYLON DIANT/TRAS C/SUP"
+            titulo="PARALAMA NYLON DIANT/TRAS C/SUP 20 A 29 PTO"
             img="/images/produtos/pecas/1955.jpg"
           />
           <Produto2
@@ -126,22 +133,35 @@ export default function Pecas2() {
           />
           <Produto2
             href="#"
-            titulo="PROLONGADOR ALUM UNIVERSAL"
+            titulo="PROLONGADOR ALUM UNIVERSAL MTB/SPEED P/COG 50D"
             img="/images/produtos/pecas/1001.png"
           />
           <Produto2
             href="#"
-            titulo="PROLONGADOR P/CÂMBIO SHIMANO"
+            titulo="PROLONGADOR P/CÂMBIO SHIMANO 10/11V XT/XTR P/COG 50D "
             img="/images/produtos/pecas/1002.png"
           />
           <Produto2
             href="#"
+            titulo="PROLONGADOR P/CÂMBIO SHIMANO 11V SLX/XT/XTR P/COG 50D"
+            img="/images/produtos/pecas/1004.png"
+          />
+          <Produto2
+            href="#"
+            titulo="PROLONGADOR P/CAMBIO SRAM 10/11V P/COG 50D "
+            img="/images/produtos/pecas/1003.png"
+          />
+          <Produto
+            cor1="azulClaro"
+            cor2="rosa"
+            cor3="polido"
+            href="/produtos/pecas/protetorquadro"
             titulo="PROTETOR DE QUADRO"
             img="/images/produtos/pecas/03261299.png"
           />
           <Produto2
             href="#"
-            titulo="REPARO TUBELESS"
+            titulo="REPARO TUBELESS C/APLICADOR"
             img="/images/produtos/pecas/1912.jpg"
           />
           <Produto2
@@ -174,16 +194,8 @@ export default function Pecas2() {
             titulo="PASTILHA DE FREIO DISCO GTS/ ZOOM/LTX (PAR) "
             img="/images/produtos/pecas/0873.png"
           />
-          <Produto2
-            href="#"
-            titulo="PASTILHA DE FREIO A DISCO MOD.WG (PAR)"
-            img="/images/produtos/pecas/1945.jpg"
-          />
-          <Produto2
-            href="#"
-            titulo="PASTILHA DE FREIO DISCO MOD ABSOLUTE/SHUNFENG (PAR)"
-            img="/images/produtos/pecas/1041.png"
-          />
+  
+          
         </ProdutosPg>
         <div>
           <div className={styles.navdiv}>
