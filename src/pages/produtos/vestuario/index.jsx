@@ -37,6 +37,11 @@ export default function indexVestuario() {
           img="/images/produtos/vestuario/camisa/feminfantquasarazul.png"
         />
         <Produto
+          href="/produtos/vestuario/cortavento/"
+          titulo="CORTA VENTO"
+          img="/images/produtos/vestuario/"
+        />
+        <Produto
           href="/produtos/vestuario/luvas/"
           titulo="LUVAS"
           img="/images/produtos/vestuario/luva/azul.png"

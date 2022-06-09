@@ -10,7 +10,7 @@
   min-height: 300px;
   min-width: 300px;
   border-radius: 20px;
-  cursor: pointer;
+  cursor: zoom-in;
   margin-top: 20px;
   border: 8px solid #003d51;
 }

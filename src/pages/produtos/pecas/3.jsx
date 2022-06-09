@@ -4,6 +4,7 @@ import Footer from "../../../components/Footer";
 import Zap2 from "../../../components/Zap2";
 import ProdutosPg from "../../../components/ProdutosPg";
 import Produto from "../../../components/Produto";
+import Produto2 from "../../../components/Produto2";
 import Link from "next/link";
 import styles from "../../../styles/produtos/Paginator.module.css";
 
@@ -26,57 +27,57 @@ export default function Pecas3() {
         }}
       >
         <ProdutosPg title="PEÇAS">
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD DEORE SLX/XT (PAR)"
             img="/images/produtos/pecas/0612.jpg"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD GTS/PACO VMO COM MOLA (PAR)"
             img="/images/produtos/pecas/0616(1).png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD HEILAND/GTS/LTX/HIGH ONE (PAR)"
             img="/images/produtos/pecas/0617(1).png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD SPEED SHUNFENG"
             img="/images/produtos/pecas/1273.png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD SRAM AVID BB8 (PAR)"
             img="/images/produtos/pecas/0613.jpg"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD SRAM/AVID/ELIXIR (PAR) "
             img="/images/produtos/pecas/0883.png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO DISCO MOD SYPO (PEIXINHO) (PAR) "
             img="/images/produtos/pecas/0884.png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO RACE/BENGAL (PAR)"
             img="/images/produtos/pecas/0887.png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO SHUNFENG/ SAIGUAN/PROMAX (PAR) "
             img="/images/produtos/pecas/0885.png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA DE FREIO ZOOM (PAR)"
             img="/images/produtos/pecas/0886.png"
           />
-        <Produto
+        <Produto2
             href="#"
             titulo="PASTILHA FREIO DISCO MOD DEORE SLX/XT/XTR M675/M785"
             img="/images/produtos/pecas/0615.jpg"
@@ -85,7 +86,7 @@ export default function Pecas3() {
         </ProdutosPg>
         <div>
           <div className={styles.navdiv}>
-            <Link href={"/produtos/pecas/1"}>
+            <Link href={"/produtos/pecas/"}>
               <p className={styles.nav}>1</p>
             </Link>
             <Link href={"/produtos/pecas/2"}>
