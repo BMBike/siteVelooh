@@ -216,20 +216,17 @@
     font-size: small;
   }
 
-  .carouselDiv {
-    height: 500px;
-  }
 
   .carouselDiv a {
     margin-bottom: -100px;
   }
-
-  .itemCarousel1,
-  .itemCarousel2 {
-    position: relative;
-    bottom: 200px;
+  .itemCarousel1, .itemCarousel2, .itemCarousel3{
+    height: 300px;
     background-size: 100%;
+    
   }
+
+  
 
   .productImg1,
   .productImg2,
