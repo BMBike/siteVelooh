@@ -34,7 +34,7 @@ export default function indexVestuario() {
         <Produto
           href="/produtos/vestuario/camisas/"
           titulo="CAMISAS"
-          img="/images/produtos/vestuario/camisa/feminfantquasarazul.png"
+          img="/images/produtos/vestuario/camisa/06368519.png"
         />
         <Produto
           href="/produtos/vestuario/cortavento/"
