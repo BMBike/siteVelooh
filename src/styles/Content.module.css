@@ -76,25 +76,32 @@
 }
 
 .itemCarousel1 {
-  background-image: url("/images/1.jpg");
+  background-image: url("/images/1.png");
   background-position: center;
-  background-size: 80%;
+  background-size: 50%;
   background-repeat: no-repeat;
-  height: 850px;
-  width: 100vw;
+  height: 600px;
+ 
 }
 .itemCarousel2 {
-  background-image: url("/images/2.jpg");
+  background-image: url("/images/2.png");
   background-position: center;
-  background-size: 80%;
+  background-size: 50%;
   background-repeat: no-repeat;
-  height: 850px;
-  width: 100vw;
+  height: 600px;
+  
+}
+.itemCarousel3 {
+  background-image: url("/images/3.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+  
 }
 
 .carouselDiv {
   margin-top: 40px;
-  height: 850px;
   width: 100vw;
   background-color: #2d2d2d;
 }
