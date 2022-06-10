@@ -81,6 +81,22 @@ export default function ContentVelooh() {
               alt="produtos"
             />
           </center>
+          <center>
+            <img
+              src={"/images/c5.png"}
+              width="500px"
+              height="500px"
+              alt="produtos"
+            />
+          </center>
+          <center>
+            <img
+              src={"/images/c6.png"}
+              width="500px"
+              height="500px"
+              alt="produtos"
+            />
+          </center>
         </Carousel>
       </div>
       <div className={styles.endereco}>

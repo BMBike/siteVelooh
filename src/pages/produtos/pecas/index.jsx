@@ -108,7 +108,7 @@ export default function Pecas1() {
             img="/images/produtos/pecas/0206.png"
           />
           <Produto2
-            titulo="FAROL (300 LUMENS/ 400LUMENS/450 LUMENS)"
+            titulo="FAROL (300 LUMENS/400 LUMENS/450 LUMENS)"
             img="/images/produtos/pecas/0247(3).jfif"
           />
           <Produto
