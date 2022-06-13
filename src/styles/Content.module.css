@@ -215,6 +215,9 @@
   .productsContent {
     font-size: small;
   }
+  .productsContent h2 {
+    font-size: 1.2rem;
+  }
 
 
   .carouselDiv a {

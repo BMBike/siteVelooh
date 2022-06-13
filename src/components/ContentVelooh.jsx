@@ -39,7 +39,7 @@ export default function ContentVelooh() {
         <h1>Nosso Estoque</h1>
         <h3>A qualidade que você merece!</h3>
       </div>
-      <div className={styles.carousel}>
+      {/*<div className={styles.carousel}>
         <Carousel
           responsive={responsive}
           swipeable={true}
@@ -97,6 +97,37 @@ export default function ContentVelooh() {
               alt="produtos"
             />
           </center>
+        </Carousel>
+  </div>*/}
+      <div className={styles.carouselDiv}>
+        <Carousel
+          responsive={responsive}
+          swipeable={true}
+          draggable={false}
+          infinite={true}
+          partialVisbile={false}
+          autoPlay={true}
+          showDots={true}
+        >
+          <a>
+            <div className={styles.itemCarousel1}></div>
+          </a>
+
+          <a>
+            <div className={styles.itemCarousel2}></div>
+          </a>
+          <a>
+            <div className={styles.itemCarousel3}></div>
+          </a>
+          <a>
+            <div className={styles.itemCarousel4}></div>
+          </a>
+          <a>
+            <div className={styles.itemCarousel5}></div>
+          </a>
+          <a>
+            <div className={styles.itemCarousel6}></div>
+          </a>
         </Carousel>
       </div>
       <div className={styles.endereco}>

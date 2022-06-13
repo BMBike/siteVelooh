@@ -1,13 +1,14 @@
-.velooh {
+                                                                                            .velooh {
   -webkit-animation: fadeIn 1.5s ease-in-out;
   -moz-animation: fadeIn 1.5s ease-in-out;
   -o-animation: fadeIn 1.5s ease-in-out;
   animation: fadeIn 1.5s ease-in-out;
 }
 
-.carousel {
-  height: 70vh;
-}
+.carouselDiv {
+  background-color: #2d2d2d; 
+  padding-bottom: 50px;   
+}                                             
 
 .veloohSobre {
   height: 100vh;
@@ -83,8 +84,53 @@
   flex-direction: column;
 }
 
-.itemCarousel {
-  height: 100px;
+.itemCarousel1 {
+  background-image: url("/images/c1.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+ 
+}
+.itemCarousel2 {
+  background-image: url("/images/c2.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+  
+}
+.itemCarousel3 {
+  background-image: url("/images/c3.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+  
+}
+.itemCarousel4 {
+  background-image: url("/images/c4.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+ 
+}
+.itemCarousel5 {
+  background-image: url("/images/c5.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+  
+}
+.itemCarousel6 {
+  background-image: url("/images/c6.png");
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 600px;
+  
 }
 @-webkit-keyframes fadeIn {
   0% {
@@ -135,8 +181,13 @@
   .veloohText p {
     width: 80vw;
   }
-  .carousel img {
-    position: relative;
-    left: -42px;
+
+  .carouselDiv a {
+    margin-bottom: -100px;
+  }
+  .itemCarousel1, .itemCarousel2, .itemCarousel3, .itemCarousel4, .itemCarousel5, .itemCarousel6{
+    height: 300px;
+    background-size: 100%;
+    
   }
 }
