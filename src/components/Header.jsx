@@ -14,11 +14,12 @@ export default function Header() {
 
       <nav>
         <ul>
-          <Link href="/sobre">
             <li>
-              <a>EMPRESA</a>
+              <a
+               href={"https://www.bmbike.com.br/"}
+               target="_blank"
+               rel="noopener noreferrer">EMPRESA</a>
             </li>
-          </Link>
           <Link href="/contato">
             <li>
               <a>CONTATO</a>
