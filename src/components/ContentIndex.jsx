@@ -32,7 +32,7 @@ export default function ContentIndex() {
           <Carousel
             responsive={responsive}
             swipeable={true}
-            draggable={false}
+            draggable={false} 
             infinite={true}
             partialVisbile={false}
             autoPlay={true}
