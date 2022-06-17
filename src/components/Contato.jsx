@@ -283,14 +283,15 @@ export default function Contato() {
 
             <label htmlFor="mensagem">Mensagem: </label>
 
-            <input
-              type="text"
-              className={styles.mensagem}
-              onChange={(e) => setMensagem(e.target.value)}
-              id="mensagem"
-              name="mensagem"
-              required
-            />
+            <textarea
+             onChange={(e) => setMensagem(e.target.value)}
+             className={styles.mensagem}
+             id="mensagem"
+             name="mensagem"
+             wrap="hard"
+             required>
+             
+            </textarea>
             <center>
               <input className={styles.send2} type="submit" />
             </center>

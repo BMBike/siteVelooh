@@ -178,6 +178,9 @@
 .mensagem {
   height: 15vh !important;
   border-radius: 10px !important;
+  background: transparent;
+  border: 1px solid black;
+  padding: 4px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -272,7 +275,7 @@
   }
 
   .feedbackDiv input {
-    width: 120px;
+    width: 175px;
   }
 
   .formDivFeedback {

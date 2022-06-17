@@ -27,9 +27,10 @@ export default function Header() {
           </Link>
           <div className={styles.dropdown}>
             <li>
-              <a>VELOOH</a>
+              <a>PRODUTOS</a>
             </li>
             <div className={styles.dropdownContent}>
+              {/*
               <h3
                 style={{
                   color: "rgb(0, 129, 172)",
@@ -39,7 +40,7 @@ export default function Header() {
               >
                 PRODUTOS
               </h3>
-              <hr />
+              <hr />*/}
               <Link href="/produtos/acessorios/">
                 <p>Acessórios</p>
               </Link>
@@ -60,12 +61,16 @@ export default function Header() {
               <Link href="/produtos/vestuario/">
                 <p>Vestuário</p>
               </Link>
-              <hr />
-              <Link href="/velooh">
-                <p>Sobre</p>
-              </Link>
+             {/* <hr />*/}
+             
+             
             </div>
           </div>
+          <Link href="/velooh">
+                <li>
+                <a>SOBRE</a>
+                </li>
+              </Link>
         </ul>
       </nav>
     </header>
