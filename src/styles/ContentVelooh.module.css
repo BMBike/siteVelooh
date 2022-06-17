@@ -1,4 +1,4 @@
-                                                                                            .velooh {
+.velooh {
   -webkit-animation: fadeIn 1.5s ease-in-out;
   -moz-animation: fadeIn 1.5s ease-in-out;
   -o-animation: fadeIn 1.5s ease-in-out;
@@ -6,9 +6,9 @@
 }
 
 .carouselDiv {
-  background-color: #2d2d2d; 
-  padding-bottom: 50px;   
-}                                             
+  background-color: #2d2d2d;
+  padding-bottom: 50px;
+}
 
 .veloohSobre {
   height: 100vh;
@@ -90,7 +90,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
- 
 }
 .itemCarousel2 {
   background-image: url("/images/c2.png");
@@ -98,7 +97,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
-  
 }
 .itemCarousel3 {
   background-image: url("/images/c3.png");
@@ -106,7 +104,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
-  
 }
 .itemCarousel4 {
   background-image: url("/images/c4.png");
@@ -114,7 +111,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
- 
 }
 .itemCarousel5 {
   background-image: url("/images/c5.png");
@@ -122,7 +118,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
-  
 }
 .itemCarousel6 {
   background-image: url("/images/c6.png");
@@ -130,7 +125,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
-  
 }
 @-webkit-keyframes fadeIn {
   0% {
@@ -171,11 +165,16 @@
   }
 
   .veloohText {
-    row-gap: 100px;
+    row-gap: 65px;
   }
-
+  .veloohSobre {
+    height: 60vh;
+  }
   .caps {
+    height: 40vh;
     font-size: 1.5rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .veloohText p {
@@ -185,9 +184,13 @@
   .carouselDiv a {
     margin-bottom: -100px;
   }
-  .itemCarousel1, .itemCarousel2, .itemCarousel3, .itemCarousel4, .itemCarousel5, .itemCarousel6{
+  .itemCarousel1,
+  .itemCarousel2,
+  .itemCarousel3,
+  .itemCarousel4,
+  .itemCarousel5,
+  .itemCarousel6 {
     height: 300px;
     background-size: 100%;
-    
   }
 }
