@@ -14,6 +14,7 @@
   text-align: center;
 }
 
+/*
 .parallax {
   background-image: url("/images/2.jpg");
   height: 600px;
@@ -22,7 +23,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 /*.parallax2 {
   display: flex;
@@ -81,7 +82,6 @@
   background-size: 50%;
   background-repeat: no-repeat;
   height: 600px;
- 
 }
 .itemCarousel2 {
   background-image: url("/images/2.png");
@@ -89,7 +89,6 @@
   background-size: 50%;
   background-repeat: no-repeat;
   height: 600px;
-  
 }
 .itemCarousel3 {
   background-image: url("/images/c3.png");
@@ -97,7 +96,6 @@
   background-size: 30%;
   background-repeat: no-repeat;
   height: 600px;
-  
 }
 
 .carouselDiv {
@@ -150,7 +148,7 @@
 
 .productImg1 {
   background-image: url("/images/velooh.webp");
-  background-size:90%;
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -219,17 +217,15 @@
     font-size: 1.2rem;
   }
 
-
   .carouselDiv a {
     margin-bottom: -100px;
   }
-  .itemCarousel1, .itemCarousel2, .itemCarousel3{
+  .itemCarousel1,
+  .itemCarousel2,
+  .itemCarousel3 {
     height: 300px;
     background-size: 100%;
-    
   }
-
-  
 
   .productImg1,
   .productImg2,
