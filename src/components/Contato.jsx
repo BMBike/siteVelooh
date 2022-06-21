@@ -11,12 +11,6 @@ export default function Contato() {
   const [fone, setFone] = useState("");
   const [email, setEmail] = useState("");
   const [cep, setCep] = useState("");
-  {
-    /*const [cidade, setCidade] = useState("");
-  const [uf, setUf] = useState("");
-  const [bairro, setBairro] = useState("");
-  const [endereco, setEndereco] = useState("");*/
-  }
   const [numero, setNumero] = useState("");
   const [nomeFeedback, setnomeFeedback] = useState("");
   const [emailFeedback, setemailFeedback] = useState("");
