@@ -6,7 +6,7 @@ async function contact2(req, res) {
   try {
     await sendgrid.send({
       to: 'suportebmbike@gmail.com',
-      from: 'mensageirobmbike@gmail.com',
+      from: 'sitesbmbike@gmail.com',
       subject: `E-mail de ${req.body.emailFeedback} para Feedback.`,
       text: "Nome: " + req.body.nomeFeedback + "\nE-mail: " + req.body.emailFeedback + "\nMensagem: " + req.body.mensagem,
     });
