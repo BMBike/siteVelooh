@@ -77,25 +77,19 @@
 }
 
 .itemCarousel1 {
-  background-image: url("/images/1.png");
+  background-image: url("/images/main.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
   height: 600px;
 }
 .itemCarousel2 {
-  background-image: url("/images/main.png");
+  background-image: url("/images/main2.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
 }
-.itemCarousel3 {
-  background-image: url("/images/c3.png");
-  background-position: center;
-  background-size: 30%;
-  background-repeat: no-repeat;
-  height: 600px;
-}
+
 
 .carouselDiv {
   margin-top: 40px;
