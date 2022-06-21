@@ -80,7 +80,6 @@
   background-image: url("/images/main.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50%;
   height: 600px;
 }
 .itemCarousel2 {
@@ -215,9 +214,9 @@
     margin-bottom: -100px;
   }
   .itemCarousel1,
-  .itemCarousel2,
-  .itemCarousel3 {
-    height: 300px;
+  .itemCarousel2
+  {
+    height: 250px;
     background-size: 100%;
   }
 
