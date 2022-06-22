@@ -41,7 +41,7 @@ export default function Pecas1() {
           />
           <Produto2
             titulo="BLOCAGEM DE ALUM PTO P/SELIM"
-            img="/images/produtos/pecas/"
+            img="/images/produtos/pecas/faltante.jpg"
           />
           <Produto2
             titulo="BLOCAGEM DE CUBO ALUM DIANT/TRAS PRETO"
