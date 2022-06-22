@@ -101,7 +101,7 @@ export default function ContentCaps4() {
                   mudarCor(
                     "ROSA FOSCO",
                     "/images/produtos/capacetes/kids/030910524(1).png",
-                    "/images/produtos/capacetes/capacete1/rosafaltante.jpg",
+                    "/images/produtos/capacetes/kids/rosafaltante.jpg",
                     "/images/produtos/capacetes/kids/030910524.png"
                   )
                 }
