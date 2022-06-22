@@ -141,7 +141,7 @@ export default function indexAcessorios() {
         <Produto
           href="/produtos/acessorios/transbike4"
           titulo="TRANSBIKE PORTA MALA PREMIUM 3 BIKES C/ABRAC"
-          img="/images/produtos/acessorios/0234.png"
+          img="/images/produtos/acessorios/trans2.jpg"
         />
         <Produto
           href="/produtos/acessorios/transbike5"
