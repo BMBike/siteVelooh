@@ -68,7 +68,7 @@ export default function ContentCaps1() {
                   mudarCor(
                     "LARANJA FOSCO",
                     "/images/produtos/capacetes/capacete1/Capvermelho.jfif",
-                    "/images/produtos/capacetes/capacete1/download.jpg",
+                    "/images/produtos/capacetes/capacete1/falntantelj.png",
                     "/images/produtos/capacetes/capacete1/03172199(2).png"
                   )
                 }

@@ -88,6 +88,12 @@
   background-repeat: no-repeat;
   height: 600px;
 }
+.itemCarousel3 {
+  background-image: url("/images/main3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
 
 
 .carouselDiv {

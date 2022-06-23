@@ -21,7 +21,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  width: 35vw;
+  width: 30vw;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 25px;
@@ -98,12 +98,11 @@
 .feedbackDiv {
   display: flex;
   background-color: #f0f0f0;
-  width: 50vw;
   margin-bottom: 60px;
 }
 
 .formDivFeedback {
-  width: 35vw;
+  width: 25vw;
   padding-bottom: 15px;
   font-size: 1.2em;
   text-align: left;
