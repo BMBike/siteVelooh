@@ -5,15 +5,11 @@ import { useState } from "react";
 
 export default function ContentFita() {
   const [cor, setCor] = useState("130MM PTO");
-  const [foto, setFoto] = useState(
-    "/images/produtos/pecas/0218.jpeg"
-  );
-
+  const [foto, setFoto] = useState("/images/produtos/pecas/0218.jpeg");
 
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-
   }
   return (
     <div className={styles.prods}>
@@ -29,18 +25,13 @@ export default function ContentFita() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              MANOPLA BORRACHA {cor}
-              </p>
+              <p>MANOPLA BORRACHA {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.preto}
                 onClick={() =>
-                  mudarCor(
-                    "130MM PTO",
-                    "/images/produtos/pecas/0218.jpeg"
-                  )
+                  mudarCor("130MM PTO", "/images/produtos/pecas/0218.jpeg")
                 }
               ></div>
               <div
@@ -48,17 +39,14 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/AZUL",
-                    "/images/produtos/pecas/02260499.png",
+                    "/images/produtos/pecas/02260499.png"
                   )
                 }
               ></div>
               <div
                 className={styles.preto}
                 onClick={() =>
-                  mudarCor(
-                    "JET PRETO",
-                    "/images/produtos/pecas/02260199.png",
-                  )
+                  mudarCor("JET PRETO", "/images/produtos/pecas/02260199.png")
                 }
               ></div>
               <div
@@ -66,7 +54,7 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/LARANJA",
-                    "/images/produtos/pecas/02263899.png",
+                    "/images/produtos/pecas/02263899.png"
                   )
                 }
               ></div>
@@ -75,7 +63,7 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/ROSA",
-                    "/images/produtos/pecas/02264799.png",
+                    "/images/produtos/pecas/02264799.png"
                   )
                 }
               ></div>
@@ -84,7 +72,7 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/VERDE",
-                    "/images/produtos/pecas/02260699.png",
+                    "/images/produtos/pecas/02260699.png"
                   )
                 }
               ></div>
@@ -93,7 +81,7 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/VERMELHO",
-                    "/images/produtos/pecas/02263799.png",
+                    "/images/produtos/pecas/02263799.png"
                   )
                 }
               ></div>
@@ -102,7 +90,7 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/ACQUA",
-                    "/images/produtos/pecas/022619824.png",
+                    "/images/produtos/pecas/022619824.png"
                   )
                 }
               ></div>
@@ -111,7 +99,7 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/AMARELO",
-                    "/images/produtos/pecas/02260324.png",
+                    "/images/produtos/pecas/02260324.png"
                   )
                 }
               ></div>
@@ -120,11 +108,10 @@ export default function ContentFita() {
                 onClick={() =>
                   mudarCor(
                     "JET PRETO/CINZA",
-                    "/images/produtos/pecas/02260224.png",
+                    "/images/produtos/pecas/02260224.png"
                   )
                 }
               ></div>
-             
             </div>
           </div>
         </div>

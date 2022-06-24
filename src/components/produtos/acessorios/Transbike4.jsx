@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function Transbike4() {;
+export default function Transbike4() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/trans2.jpg");
   const [subfoto, setsubFoto] = useState(
     "/images/produtos/acessorios/0234.png"

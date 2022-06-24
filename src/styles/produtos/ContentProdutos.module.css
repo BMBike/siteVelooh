@@ -502,7 +502,7 @@
   border: 1px solid #000;
 }
 
-.lilas{
+.lilas {
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -510,7 +510,6 @@
   background-color: #a37faf;
   cursor: pointer;
   border: 1px solid #000;
- 
 }
 .verderosrox {
   border-radius: 5px;
@@ -816,6 +815,6 @@
   }
   .prods h1 {
     margin-left: 15px !important;
-    font-size: 2.5rem!important;
+    font-size: 2.5rem !important;
   }
 }

@@ -14,12 +14,15 @@ export default function Header() {
 
       <nav>
         <ul>
-            <li>
-              <a
-               href={"https://www.bmbike.com.br/"}
-               target="_blank"
-               rel="noopener noreferrer">EMPRESA</a>
-            </li>
+          <li>
+            <a
+              href={"https://www.bmbike.com.br/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              EMPRESA
+            </a>
+          </li>
           <Link href="/contato">
             <li>
               <a>CONTATO</a>
@@ -61,16 +64,14 @@ export default function Header() {
               <Link href="/produtos/vestuario/">
                 <p>Vestuário</p>
               </Link>
-             {/* <hr />*/}
-             
-             
+              {/* <hr />*/}
             </div>
           </div>
           <Link href="/velooh">
-                <li>
-                <a>SOBRE</a>
-                </li>
-              </Link>
+            <li>
+              <a>SOBRE</a>
+            </li>
+          </Link>
         </ul>
       </nav>
     </header>

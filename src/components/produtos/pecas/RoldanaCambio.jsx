@@ -5,15 +5,11 @@ import { useState } from "react";
 
 export default function RoldanaCambio() {
   const [cor, setCor] = useState("AZUL");
-  const [foto, setFoto] = useState(
-    "/images/produtos/pecas/01009912.png"
-  );
-
+  const [foto, setFoto] = useState("/images/produtos/pecas/01009912.png");
 
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-
   }
   return (
     <div className={styles.prods}>
@@ -29,64 +25,44 @@ export default function RoldanaCambio() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              ROLDANA CÂMBIO ALUM C/ROL P/SHIMANO/SRAM {cor} 11D
-              </p>
+              <p>ROLDANA CÂMBIO ALUM C/ROL P/SHIMANO/SRAM {cor} 11D</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azulescuro}
-                style={{marginLeft:"0"}}
+                style={{ marginLeft: "0" }}
                 onClick={() =>
-                  mudarCor(
-                    "AZUL",
-                    "/images/produtos/pecas/01009912.png"
-                  )
+                  mudarCor("AZUL", "/images/produtos/pecas/01009912.png")
                 }
               ></div>
               <div
                 className={styles.amarelo}
                 onClick={() =>
-                  mudarCor(
-                    "DOURADO",
-                    "/images/produtos/pecas/01009932.png",
-                  )
+                  mudarCor("DOURADO", "/images/produtos/pecas/01009932.png")
                 }
               ></div>
               <div
                 className={styles.polido}
                 onClick={() =>
-                  mudarCor(
-                    "PRATA",
-                    "/images/produtos/pecas/01009931.png",
-                  )
+                  mudarCor("PRATA", "/images/produtos/pecas/01009931.png")
                 }
               ></div>
               <div
                 className={styles.preto}
                 onClick={() =>
-                  mudarCor(
-                    "PRETO",
-                    "/images/produtos/pecas/01009901.png",
-                  )
+                  mudarCor("PRETO", "/images/produtos/pecas/01009901.png")
                 }
               ></div>
               <div
                 className={styles.vermelho}
                 onClick={() =>
-                  mudarCor(
-                    "VERMELHO",
-                    "/images/produtos/pecas/01009908.png",
-                  )
+                  mudarCor("VERMELHO", "/images/produtos/pecas/01009908.png")
                 }
               ></div>
               <div
                 className={styles.polido}
                 onClick={() =>
-                  mudarCor(
-                    "POLIDO",
-                    "/images/produtos/pecas/1563.png",
-                  )
+                  mudarCor("POLIDO", "/images/produtos/pecas/1563.png")
                 }
               ></div>
             </div>

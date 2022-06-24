@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function Chave7() {;
+export default function Chave7() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/0243.png");
   return (
     <div className={styles.prods}>

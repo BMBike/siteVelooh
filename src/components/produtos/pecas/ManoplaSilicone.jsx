@@ -5,15 +5,11 @@ import { useState } from "react";
 
 export default function ManoplaSilicone() {
   const [cor, setCor] = useState("135MM AZUL");
-  const [foto, setFoto] = useState(
-    "/images/produtos/pecas/02211299.png"
-  );
-
+  const [foto, setFoto] = useState("/images/produtos/pecas/02211299.png");
 
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-
   }
   return (
     <div className={styles.prods}>
@@ -29,18 +25,13 @@ export default function ManoplaSilicone() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              MANOPLA SILICONE {cor}
-              </p>
+              <p>MANOPLA SILICONE {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azul}
                 onClick={() =>
-                  mudarCor(
-                    "135MM AZUL",
-                    "/images/produtos/pecas/02211299.png"
-                  )
+                  mudarCor("135MM AZUL", "/images/produtos/pecas/02211299.png")
                 }
               ></div>
               <div
@@ -48,7 +39,7 @@ export default function ManoplaSilicone() {
                 onClick={() =>
                   mudarCor(
                     "135MM LARANJA",
-                    "/images/produtos/pecas/02212199.png",
+                    "/images/produtos/pecas/02212199.png"
                   )
                 }
               ></div>
@@ -57,7 +48,7 @@ export default function ManoplaSilicone() {
                 onClick={() =>
                   mudarCor(
                     "135MM PRETO",
-                    "/images/produtos/pecas/02210199(1).png",
+                    "/images/produtos/pecas/02210199(1).png"
                   )
                 }
               ></div>
@@ -66,7 +57,7 @@ export default function ManoplaSilicone() {
                 onClick={() =>
                   mudarCor(
                     "135MM VERMELHO",
-                    "/images/produtos/pecas/02210899.jfif",
+                    "/images/produtos/pecas/02210899.jfif"
                   )
                 }
               ></div>

@@ -3,8 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function BolsaQuadro() {;
-
+export default function BolsaQuadro() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/1043.png");
 
   return (

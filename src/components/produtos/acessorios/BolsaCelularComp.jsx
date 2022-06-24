@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function BolsaCelularComp() {;
+export default function BolsaCelularComp() {
   const [tam, setTam] = useState("MÉDIO E GRANDE");
   const [foto, setFoto] = useState("/images/produtos/acessorios/03279908.png");
   const [subfoto, setsubFoto] = useState(
@@ -32,7 +32,7 @@ export default function BolsaCelularComp() {;
             <div className={styles.texto}>
               <p>BOLSA DE QUADRO PARA CELULAR</p>
             </div>
-            
+
             <div className={styles.subfotos}>
               <div
                 onClick={() => setFoto(subfoto)}

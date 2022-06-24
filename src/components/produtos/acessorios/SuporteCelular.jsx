@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function SuporteCelular() {;
+export default function SuporteCelular() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/0103.jpeg");
   return (
     <div className={styles.prods}>

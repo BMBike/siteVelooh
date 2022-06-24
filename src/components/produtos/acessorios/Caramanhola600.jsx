@@ -12,7 +12,6 @@ export default function Caramanhola600() {
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-  
   }
   return (
     <div className={styles.prods}>
@@ -28,30 +27,23 @@ export default function Caramanhola600() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              CARAMANHOLA ISOTÉRMICA 600ML {cor}
-              </p>
+              <p>CARAMANHOLA ISOTÉRMICA 600ML {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azul}
-                style={{marginLeft:"0px"}}
+                style={{ marginLeft: "0px" }}
                 onClick={() =>
                   mudarCor(
                     "AZUL",
                     "/images/produtos/acessorios/01971299(1).png"
-                    
                   )
                 }
               ></div>
               <div
                 className={styles.rosa}
                 onClick={() =>
-                  mudarCor(
-                    "PINK",
-                    "/images/produtos/acessorios/01974499.png"
-                    
-                  )
+                  mudarCor("PINK", "/images/produtos/acessorios/01974499.png")
                 }
               ></div>
               <div
@@ -60,7 +52,6 @@ export default function Caramanhola600() {
                   mudarCor(
                     "PRETO",
                     "/images/produtos/acessorios/01970199(1).png"
-                    
                   )
                 }
               ></div>
@@ -70,7 +61,6 @@ export default function Caramanhola600() {
                   mudarCor(
                     "VERDE",
                     "/images/produtos/acessorios/01972799(1).png"
-                   
                   )
                 }
               ></div>
@@ -80,12 +70,9 @@ export default function Caramanhola600() {
                   mudarCor(
                     "VERMELHO",
                     "/images/produtos/acessorios/01970899.png"
-                    
                   )
                 }
               ></div>
-              
-              
             </div>
           </div>
         </div>

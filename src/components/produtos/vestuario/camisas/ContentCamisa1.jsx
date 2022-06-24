@@ -9,7 +9,7 @@ export default function ContentCamisa1() {
   const [foto, setFoto] = useState(
     "/images/produtos/vestuario/camisa/corrida.png"
   );
-  
+
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>

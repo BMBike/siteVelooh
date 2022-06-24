@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function BolsaSelimMtb() {;
+export default function BolsaSelimMtb() {
   const [tam, setTam] = useState("NORMAL E TAM G EXPANSÍVEL");
   const [foto, setFoto] = useState("/images/produtos/acessorios/0328(1).png");
   const [subfoto, setsubFoto] = useState(
@@ -32,7 +32,7 @@ export default function BolsaSelimMtb() {;
             <div className={styles.texto}>
               <p>BOLSA DE SELIM MTB</p>
             </div>
-            
+
             <div className={styles.subfotos}>
               <div
                 onClick={() => setFoto(subfoto)}

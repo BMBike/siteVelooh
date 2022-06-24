@@ -14,49 +14,9 @@
   text-align: center;
 }
 
-/*
-.parallax {
-  background-image: url("/images/2.jpg");
-  height: 600px;
-  width: 80vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
-
-/*.parallax2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-  background-image: url("/images/parallax2.jpg");
-  height: 600px;
-  width: 80vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-shadow: 2px 2px 4px black;
-  font-size: 1.5rem;
-  color: #fff;
-}*/
-
 .content > h1 {
   font-size: 3rem;
 }
-
-/*
-.hist {
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  height: 40vh;
-  font-size: 1.2rem;
-}*/
 
 .productsContent {
   background-color: #2d2d2d;
@@ -98,7 +58,6 @@
   background-size: 100%;
 }
 
-
 .carouselDiv {
   margin-top: 40px;
   width: 100vw;
@@ -135,7 +94,7 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.5s;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .visitar:hover {
@@ -224,8 +183,7 @@
   }
   .itemCarousel1,
   .itemCarousel2,
-  .itemCarousel3
-  {
+  .itemCarousel3 {
     height: 250px;
     background-size: 100%;
   }

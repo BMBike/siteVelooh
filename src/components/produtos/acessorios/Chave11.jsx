@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function Chave11() {;
+export default function Chave11() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/0033.jfif");
   const [subfoto, setsubFoto] = useState(
     "/images/produtos/acessorios/0033(1).jfif"
@@ -29,9 +29,12 @@ export default function Chave11() {;
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p> CHAVE CANIVETE ALLEN 11 FUNÇÕES EXTRATOR PINO CORRENTE VELOOH </p>
+              <p>
+                {" "}
+                CHAVE CANIVETE ALLEN 11 FUNÇÕES EXTRATOR PINO CORRENTE VELOOH{" "}
+              </p>
             </div>
-            
+
             <div className={styles.subfotos}>
               <div
                 onClick={() => setFoto(subfoto)}

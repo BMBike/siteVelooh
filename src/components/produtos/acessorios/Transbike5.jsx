@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function Transbike5() {;
+export default function Transbike5() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/0232.jpg");
   return (
     <div className={styles.prods}>
@@ -21,7 +21,6 @@ export default function Transbike5() {;
             <div className={styles.texto}>
               <p>TRANSBIKE STEP TRANSBORDO 2 BIKE C/ ABRAC.</p>
             </div>
-            
           </div>
         </div>
       </div>

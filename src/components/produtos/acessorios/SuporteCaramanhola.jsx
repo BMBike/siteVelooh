@@ -5,14 +5,11 @@ import { useState } from "react";
 
 export default function SuporteCaramanahola() {
   const [cor, setCor] = useState("NYLON AZUL");
-  const [foto, setFoto] = useState(
-    "/images/produtos/acessorios/02031299.png"
-  );
+  const [foto, setFoto] = useState("/images/produtos/acessorios/02031299.png");
 
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-  
   }
   return (
     <div className={styles.prods}>
@@ -28,19 +25,16 @@ export default function SuporteCaramanahola() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              SUPORTE CARAMANHOLA {cor}
-              </p>
+              <p>SUPORTE CARAMANHOLA {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azul}
-                style={{marginLeft:"0px"}}
+                style={{ marginLeft: "0px" }}
                 onClick={() =>
                   mudarCor(
                     "NYLON AZUL",
                     "/images/produtos/acessorios/02031299.png"
-                    
                   )
                 }
               ></div>
@@ -50,7 +44,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON BRANCO",
                     "/images/produtos/acessorios/02032999.png"
-                    
                   )
                 }
               ></div>
@@ -60,7 +53,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON GRAFITE",
                     "/images/produtos/acessorios/02033999(1).png"
-                    
                   )
                 }
               ></div>
@@ -70,7 +62,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON LARANJA",
                     "/images/produtos/acessorios/02032199(1).png"
-                   
                   )
                 }
               ></div>
@@ -80,7 +71,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON LÍLAS",
                     "/images/produtos/acessorios/02034099(1).png"
-                    
                   )
                 }
               ></div>
@@ -90,7 +80,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON PRETO",
                     "/images/produtos/acessorios/02030199.png"
-                    
                   )
                 }
               ></div>
@@ -100,7 +89,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON ROSA",
                     "/images/produtos/acessorios/02032499.png"
-                    
                   )
                 }
               ></div>
@@ -110,7 +98,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON VERDE",
                     "/images/produtos/acessorios/02032799.png"
-                    
                   )
                 }
               ></div>
@@ -120,7 +107,6 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "NYLON VERMELHO",
                     "/images/produtos/acessorios/02030899(1).png"
-                    
                   )
                 }
               ></div>
@@ -130,12 +116,9 @@ export default function SuporteCaramanahola() {
                   mudarCor(
                     "ALUMÍNIO PRETO",
                     "/images/produtos/acessorios/0540(1).jpg"
-                    
                   )
                 }
               ></div>
-              
-              
             </div>
           </div>
         </div>

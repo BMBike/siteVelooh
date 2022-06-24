@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ExpositorCaramanhola() {;
+export default function ExpositorCaramanhola() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/0814.png");
 
   return (

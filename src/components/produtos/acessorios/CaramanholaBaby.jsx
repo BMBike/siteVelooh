@@ -12,7 +12,6 @@ export default function CaramanholaBaby() {
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-  
   }
   return (
     <div className={styles.prods}>
@@ -28,19 +27,16 @@ export default function CaramanholaBaby() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              CARAMANHOLA 300ML BABY {cor}
-              </p>
+              <p>CARAMANHOLA 300ML BABY {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azulescuro}
-                style={{marginLeft:"0px"}}
+                style={{ marginLeft: "0px" }}
                 onClick={() =>
                   mudarCor(
                     "AZUL",
                     "/images/produtos/acessorios/12451224(1).png"
-                    
                   )
                 }
               ></div>
@@ -50,7 +46,6 @@ export default function CaramanholaBaby() {
                   mudarCor(
                     "PRETO",
                     "/images/produtos/acessorios/12450124(1).png"
-                    
                   )
                 }
               ></div>
@@ -60,7 +55,6 @@ export default function CaramanholaBaby() {
                   mudarCor(
                     "ROSA",
                     "/images/produtos/acessorios/12452424(1).png"
-                    
                   )
                 }
               ></div>
@@ -70,7 +64,6 @@ export default function CaramanholaBaby() {
                   mudarCor(
                     "VERDE BANDEIRA",
                     "/images/produtos/acessorios/124519624.png"
-                   
                   )
                 }
               ></div>
@@ -80,11 +73,9 @@ export default function CaramanholaBaby() {
                   mudarCor(
                     "VERMELHO",
                     "/images/produtos/acessorios/12450824(1).png"
-                    
                   )
                 }
               ></div>
-              
             </div>
           </div>
         </div>

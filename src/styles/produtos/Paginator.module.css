@@ -1,22 +1,15 @@
-
-
-.nav{
-    color:#fff;
-    font-size: 1.6rem;
-    cursor:pointer;
-    
-   
+.nav {
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
 
-
-.navdiv{
-    display: flex;
-    column-gap: 70px;
-    margin-bottom: 20px;
+.navdiv {
+  display: flex;
+  column-gap: 70px;
+  margin-bottom: 20px;
 }
 
-.nav:hover{
-   color: rgb(0, 129, 172)!important;
+.nav:hover {
+  color: rgb(0, 129, 172) !important;
 }
-
-

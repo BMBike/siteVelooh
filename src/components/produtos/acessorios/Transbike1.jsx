@@ -3,7 +3,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function Transbike1() {;
+export default function Transbike1() {
   const [foto, setFoto] = useState("/images/produtos/acessorios/0233.png");
   const [subfoto, setsubFoto] = useState(
     "/images/produtos/acessorios/0233(4).png"
@@ -31,7 +31,7 @@ export default function Transbike1() {;
             <div className={styles.texto}>
               <p>TRANSBIKE ENGATE BOLA 3 BIKES C/ ABRACADEIRA</p>
             </div>
-            
+
             <div className={styles.subfotos}>
               <div
                 onClick={() => setFoto(subfoto)}

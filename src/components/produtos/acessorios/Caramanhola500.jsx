@@ -5,14 +5,11 @@ import { useState } from "react";
 
 export default function Caramanhola500() {
   const [cor, setCor] = useState("PTO/TAMPA AZUL");
-  const [foto, setFoto] = useState(
-    "/images/produtos/acessorios/124619724.png"
-  );
+  const [foto, setFoto] = useState("/images/produtos/acessorios/124619724.png");
 
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-  
   }
   return (
     <div className={styles.prods}>
@@ -28,19 +25,16 @@ export default function Caramanhola500() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              CARAMANHOLA 500ML PRO {cor}
-              </p>
+              <p>CARAMANHOLA 500ML PRO {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.ptazul}
-                style={{marginLeft:"0px"}}
+                style={{ marginLeft: "0px" }}
                 onClick={() =>
                   mudarCor(
                     "PTO/TAMPA AZUL",
                     "/images/produtos/acessorios/124619724.png"
-                    
                   )
                 }
               ></div>
@@ -50,7 +44,6 @@ export default function Caramanhola500() {
                   mudarCor(
                     "PTO/TAMPA CINZA",
                     "/images/produtos/acessorios/12463124.png"
-                    
                   )
                 }
               ></div>
@@ -60,7 +53,6 @@ export default function Caramanhola500() {
                   mudarCor(
                     "PTO/TAMPA ROSA",
                     "/images/produtos/acessorios/12462424.png"
-                    
                   )
                 }
               ></div>
@@ -70,7 +62,6 @@ export default function Caramanhola500() {
                   mudarCor(
                     "PTO/TAMPA VERDE",
                     "/images/produtos/acessorios/124619624.png"
-                   
                   )
                 }
               ></div>
@@ -80,7 +71,6 @@ export default function Caramanhola500() {
                   mudarCor(
                     "PTO/TAMPA VERMELHO",
                     "/images/produtos/acessorios/12460824.png"
-                    
                   )
                 }
               ></div>
@@ -90,11 +80,9 @@ export default function Caramanhola500() {
                   mudarCor(
                     "TRANSPARENTE/TAMPA PTA",
                     "/images/produtos/acessorios/12460124.png"
-                    
                   )
                 }
               ></div>
-              
             </div>
           </div>
         </div>

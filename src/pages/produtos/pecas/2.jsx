@@ -200,8 +200,6 @@ export default function Pecas2() {
             titulo="PASTILHA DE FREIO DISCO GTS/ ZOOM/LTX (PAR) "
             img="/images/produtos/pecas/0873.png"
           />
-  
-          
         </ProdutosPg>
         <div>
           <div className={styles.navdiv}>

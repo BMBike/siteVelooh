@@ -5,15 +5,11 @@ import { useState } from "react";
 
 export default function ProtetorQuadro() {
   const [cor, setCor] = useState("AZUL");
-  const [foto, setFoto] = useState(
-    "/images/produtos/pecas/03261299.png"
-  );
-
+  const [foto, setFoto] = useState("/images/produtos/pecas/03261299.png");
 
   function mudarCor(cor, foto) {
     setCor(cor);
     setFoto(foto);
-
   }
   return (
     <div className={styles.prods}>
@@ -29,36 +25,25 @@ export default function ProtetorQuadro() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>
-              PROTETOR DE QUADRO DETALHE {cor} 
-              </p>
+              <p>PROTETOR DE QUADRO DETALHE {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
                 className={styles.azul}
                 onClick={() =>
-                  mudarCor(
-                    "AZUL",
-                    "/images/produtos/pecas/03261299.png"
-                  )
+                  mudarCor("AZUL", "/images/produtos/pecas/03261299.png")
                 }
               ></div>
               <div
                 className={styles.rosa}
                 onClick={() =>
-                  mudarCor(
-                    "ROSA",
-                    "/images/produtos/pecas/03262499.png",
-                  )
+                  mudarCor("ROSA", "/images/produtos/pecas/03262499.png")
                 }
               ></div>
               <div
                 className={styles.polido}
                 onClick={() =>
-                  mudarCor(
-                    "REFLETIVO",
-                    "/images/produtos/pecas/03265399.png",
-                  )
+                  mudarCor("REFLETIVO", "/images/produtos/pecas/03265399.png")
                 }
               ></div>
             </div>
