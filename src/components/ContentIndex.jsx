@@ -111,7 +111,7 @@ export default function ContentIndex() {
             />
           </svg>
           <h3>Horário de funcionamento</h3>
-          <p>Segunda - Sexta : 7:00 - 18:00</p>
+          <p>Segunda - Sexta : 8:00 - 18:00</p>
         </div>
         <div className={styles.endereco}>
           <h1>
