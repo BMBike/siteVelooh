@@ -81,18 +81,21 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
+  background-size: 100%;
 }
 .itemCarousel2 {
   background-image: url("/images/main2.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
+  background-size: 100%;
 }
 .itemCarousel3 {
   background-image: url("/images/main3.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
+  background-size: 100%;
 }
 
 
