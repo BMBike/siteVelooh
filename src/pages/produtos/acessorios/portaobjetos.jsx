@@ -15,8 +15,8 @@ export default function portaObjetos() {
       </Head>
       <Header />
       <PortaObjetos />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

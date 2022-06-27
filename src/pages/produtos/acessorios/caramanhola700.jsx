@@ -15,8 +15,8 @@ export default function caramanhola700() {
       </Head>
       <Header />
       <Caramanhola700 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

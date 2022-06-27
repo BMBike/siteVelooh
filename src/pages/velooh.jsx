@@ -15,8 +15,8 @@ export default function velooh() {
       </Head>
       <Header />
       <ContentVelooh />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

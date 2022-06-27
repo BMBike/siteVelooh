@@ -149,9 +149,8 @@ export default function indexAcessorios() {
           img="/images/produtos/acessorios/0232.jpg"
         />
       </ProdutosPg>
-
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

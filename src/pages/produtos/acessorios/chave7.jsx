@@ -15,8 +15,8 @@ export default function chave7() {
       </Head>
       <Header />
       <Chave7 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

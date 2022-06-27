@@ -15,8 +15,8 @@ export default function suporteCaramanhola() {
       </Head>
       <Header />
       <SuporteCaramanhola />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

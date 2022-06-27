@@ -14,8 +14,8 @@ export default function femgel() {
       </Head>
       <Header />
       <ContentBermuda2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

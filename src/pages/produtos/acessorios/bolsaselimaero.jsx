@@ -15,8 +15,8 @@ export default function bolsaselimaero() {
       </Head>
       <Header />
       <BolsaSelimAero />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

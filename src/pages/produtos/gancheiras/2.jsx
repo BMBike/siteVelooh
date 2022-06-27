@@ -153,8 +153,8 @@ export default function Gancheiras2() {
           </div>
         </div>
       </div>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

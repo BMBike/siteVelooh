@@ -47,8 +47,8 @@ export default function bermudas() {
           img="/images/produtos/vestuario/bermuda/mascinfantil.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

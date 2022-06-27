@@ -14,8 +14,8 @@ export default function manguitoPreto() {
       </Head>
       <Header />
       <ContentManguito1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

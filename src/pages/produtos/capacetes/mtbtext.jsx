@@ -15,8 +15,8 @@ export default function mtbtext() {
       </Head>
       <Header />
       <ContentCaps3 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

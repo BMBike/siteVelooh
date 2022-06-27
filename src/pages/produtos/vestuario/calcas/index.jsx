@@ -27,8 +27,8 @@ export default function calcas() {
           img="/images/produtos/vestuario/calca/mascgel.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

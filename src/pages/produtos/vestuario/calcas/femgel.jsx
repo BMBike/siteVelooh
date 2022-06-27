@@ -14,8 +14,8 @@ export default function femgelcalca() {
       </Head>
       <Header />
       <ContentCalca1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

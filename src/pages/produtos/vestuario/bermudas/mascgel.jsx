@@ -14,8 +14,8 @@ export default function mascgel() {
       </Head>
       <Header />
       <ContentBermuda5 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -14,8 +14,8 @@ export default function luvadedovazado() {
       </Head>
       <Header />
       <ContentLuva1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

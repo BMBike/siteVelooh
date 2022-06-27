@@ -15,8 +15,8 @@ export default function manoplamtb() {
       </Head>
       <Header />
       <ManoplaMtb />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

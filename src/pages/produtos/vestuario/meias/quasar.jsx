@@ -14,8 +14,8 @@ export default function meiaquasar() {
       </Head>
       <Header />
       <ContentMeia2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

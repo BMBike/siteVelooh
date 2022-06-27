@@ -14,8 +14,8 @@ export default function mascgelcalca() {
       </Head>
       <Header />
       <ContentCalca2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

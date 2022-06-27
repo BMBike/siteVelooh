@@ -15,8 +15,8 @@ export default function bolsaquadrocel() {
       </Head>
       <Header />
       <BolsaCeularComp />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -35,8 +35,8 @@ export default function manguitos() {
           img="/images/produtos/vestuario/manguito/quasarazul.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

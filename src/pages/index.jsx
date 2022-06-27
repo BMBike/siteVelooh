@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <Header />
       <ContentIndex />
-      <Footer />
       <Zap />
+      <Footer />
     </div>
   );
 }

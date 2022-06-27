@@ -14,8 +14,8 @@ export default function femforro() {
       </Head>
       <Header />
       <ContentBermuda1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

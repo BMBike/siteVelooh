@@ -28,8 +28,8 @@ export default function luvas() {
           img="/images/produtos/vestuario/luva/azul.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

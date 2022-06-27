@@ -15,8 +15,8 @@ export default function bolsaquadro() {
       </Head>
       <Header />
       <BolsaQuadro />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

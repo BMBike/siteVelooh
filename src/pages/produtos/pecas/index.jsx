@@ -153,9 +153,8 @@ export default function Pecas1() {
           </div>
         </div>
       </div>
-
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

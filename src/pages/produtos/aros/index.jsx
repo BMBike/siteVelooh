@@ -68,8 +68,8 @@ export default function indexAros() {
           img="/images/produtos/aros/aerocubo/laranja.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

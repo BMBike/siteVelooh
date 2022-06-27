@@ -14,8 +14,8 @@ export default function meiawind() {
       </Head>
       <Header />
       <ContentMeia3 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

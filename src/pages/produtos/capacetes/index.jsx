@@ -66,8 +66,8 @@ export default function indexCap() {
           img="/images/produtos/capacetes/mtbtext/azulpt.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

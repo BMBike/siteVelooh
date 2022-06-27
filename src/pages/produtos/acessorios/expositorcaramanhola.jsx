@@ -15,8 +15,8 @@ export default function expositorCaramanhola() {
       </Head>
       <Header />
       <ExpositorCaramanhola />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

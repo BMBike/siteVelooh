@@ -14,8 +14,8 @@ export default function manguitoQuasar() {
       </Head>
       <Header />
       <ContentManguito2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

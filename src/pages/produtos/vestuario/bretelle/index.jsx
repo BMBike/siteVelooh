@@ -14,8 +14,8 @@ export default function bretelle() {
       </Head>
       <Header />
       <ContentBretelle />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

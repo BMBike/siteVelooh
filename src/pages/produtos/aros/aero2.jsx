@@ -15,8 +15,8 @@ export default function aero2() {
       </Head>
       <Header />
       <ContentAro2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

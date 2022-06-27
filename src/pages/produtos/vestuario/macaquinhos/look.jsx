@@ -14,8 +14,8 @@ export default function look() {
       </Head>
       <Header />
       <ContentMacaquinho1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

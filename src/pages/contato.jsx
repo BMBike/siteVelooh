@@ -15,8 +15,8 @@ export default function contato() {
       </Head>
       <Header />
       <Contato />
-      <Footer />
       <Zap />
+      <Footer />
     </div>
   );
 }

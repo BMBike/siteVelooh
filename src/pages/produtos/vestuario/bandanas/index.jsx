@@ -37,8 +37,8 @@ export default function bandanas() {
           img="/images/produtos/vestuario/bandana/quasarazulrosa1.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

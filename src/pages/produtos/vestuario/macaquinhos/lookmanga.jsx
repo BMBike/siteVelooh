@@ -14,8 +14,8 @@ export default function lookmanga() {
       </Head>
       <Header />
       <ContentMacaquinho2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

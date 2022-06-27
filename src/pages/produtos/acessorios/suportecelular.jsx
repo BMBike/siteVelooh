@@ -15,8 +15,8 @@ export default function suporteCelular() {
       </Head>
       <Header />
       <SuporteCelular />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

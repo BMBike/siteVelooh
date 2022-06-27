@@ -15,8 +15,8 @@ export default function vision() {
       </Head>
       <Header />
       <ContentAro3 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

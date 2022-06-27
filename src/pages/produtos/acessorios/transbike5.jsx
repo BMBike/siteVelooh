@@ -15,8 +15,8 @@ export default function transbike5() {
       </Head>
       <Header />
       <Transbike5 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -38,8 +38,8 @@ export default function macaquinhos() {
           img="/images/produtos/vestuario/macaquinhos/azulptlonga.png"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

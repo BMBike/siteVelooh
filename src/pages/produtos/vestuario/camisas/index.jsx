@@ -115,8 +115,8 @@ export default function camisas() {
           cor2="azulverdepiscina"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

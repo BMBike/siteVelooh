@@ -15,8 +15,8 @@ export default function capamtb() {
       </Head>
       <Header />
       <ContentCaps2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

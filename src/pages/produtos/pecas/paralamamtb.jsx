@@ -15,8 +15,8 @@ export default function paralamaMtb() {
       </Head>
       <Header />
       <ParalamaMtb />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

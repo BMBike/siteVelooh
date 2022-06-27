@@ -15,8 +15,8 @@ export default function protetorQuadro() {
       </Head>
       <Header />
       <ProtetorQuadro />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -14,8 +14,8 @@ export default function cortavento() {
       </Head>
       <Header />
       <ContentCortaVento />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

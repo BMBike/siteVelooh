@@ -14,8 +14,8 @@ export default function feminfantil() {
       </Head>
       <Header />
       <ContentBermuda3 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

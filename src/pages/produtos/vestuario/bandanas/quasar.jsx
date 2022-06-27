@@ -15,8 +15,8 @@ export default function quasarbandana() {
       </Head>
       <Header />
       <ContentBandana2 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

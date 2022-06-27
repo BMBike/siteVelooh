@@ -124,8 +124,8 @@ export default function Gancheiras4() {
           </div>
         </div>
       </div>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -14,8 +14,8 @@ export default function mascinfantil() {
       </Head>
       <Header />
       <ContentBermuda6 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

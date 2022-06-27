@@ -14,8 +14,8 @@ export default function Camisa6() {
       </Head>
       <Header />
       <ContentCamisa6 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -47,8 +47,8 @@ export default function meias() {
           img="/images/produtos/vestuario/meia/windazulvd.jpeg"
         />
       </ProdutosPg>
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

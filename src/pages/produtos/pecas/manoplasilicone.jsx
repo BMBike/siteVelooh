@@ -15,8 +15,8 @@ export default function manopla() {
       </Head>
       <Header />
       <ManoplaSilicone />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

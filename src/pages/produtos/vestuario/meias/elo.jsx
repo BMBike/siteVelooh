@@ -14,8 +14,8 @@ export default function meiaelo() {
       </Head>
       <Header />
       <ContentMeia1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -215,9 +215,8 @@ export default function Pecas2() {
           </div>
         </div>
       </div>
-
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

@@ -15,8 +15,8 @@ export default function ellobandana() {
       </Head>
       <Header />
       <ContentBandana1 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

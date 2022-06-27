@@ -15,8 +15,8 @@ export default function manoplaBorracha() {
       </Head>
       <Header />
       <ManoplaBorracha />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

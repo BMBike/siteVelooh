@@ -15,8 +15,8 @@ export default function bolsaselimtb() {
       </Head>
       <Header />
       <BolsaSelimMtb />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

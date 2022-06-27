@@ -15,8 +15,8 @@ export default function fita() {
       </Head>
       <Header />
       <ContentFita />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

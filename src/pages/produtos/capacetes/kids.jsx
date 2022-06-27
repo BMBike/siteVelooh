@@ -15,8 +15,8 @@ export default function capacete4() {
       </Head>
       <Header />
       <ContentCaps4 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

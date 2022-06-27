@@ -14,8 +14,8 @@ export default function mascforro() {
       </Head>
       <Header />
       <ContentBermuda4 />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }

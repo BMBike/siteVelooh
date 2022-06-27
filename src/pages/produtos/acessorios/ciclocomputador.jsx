@@ -15,8 +15,8 @@ export default function cicloComputador() {
       </Head>
       <Header />
       <CicloComputador />
-      <Footer />
       <Zap2 />
+      <Footer />
     </div>
   );
 }
