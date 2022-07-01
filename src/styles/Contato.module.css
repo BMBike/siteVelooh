@@ -84,7 +84,7 @@
 .formDiv input {
   margin-top: 2px;
   height: 30px;
-  width: 250px;
+  width: 14vw;
   background: transparent;
   border: 1px solid black;
   border-radius: 24px;
@@ -123,7 +123,7 @@
 }
 .feedbackDiv input {
   height: 30px;
-  width: 250px;
+  width: 14vw;
   background: transparent;
   border: 1px solid black;
   border-radius: 24px;
