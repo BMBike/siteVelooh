@@ -24,6 +24,8 @@ export default function indexAros() {
           cor3="polido"
           cor4="preto"
           cor5="rosaclaro"
+          cor6="bege"
+          cor7="marrom"
           img="/images/produtos/aros/aero/azul.png"
         />
         <Produto
@@ -42,12 +44,13 @@ export default function indexAros() {
         />
         <Produto
           href="/produtos/aros/vision"
-          titulo="ARO VISION RETRO"
-          cor1="azulClaro"
-          cor2="bege"
-          cor3="marrom"
-          cor4="verdepiscina"
-          img="/images/produtos/aros/vision/azul.png"
+          titulo="ARO VISION"
+          cor1="verdepiscina"
+          cor2="laranja"
+          cor3="rosa"
+          cor4="verdeclaro"
+          cor5="amarelo"
+          img="/images/produtos/aros/vision/vde2.jpg"
         />
         <Produto
           href="/produtos/aros/aeroneon"
@@ -66,6 +69,15 @@ export default function indexAros() {
           cor3="verde"
           cor4="amarelo"
           img="/images/produtos/aros/aerocubo/laranja.png"
+        />
+        <Produto
+          href="/produtos/aros/dh"
+          titulo="ARO DH"
+          cor1="preto"
+          cor2="branco"
+          cor3="preto"
+          cor4="branco"
+          img="/images/produtos/aros/dh/pto.jpg"
         />
       </ProdutosPg>
       <Zap2 />

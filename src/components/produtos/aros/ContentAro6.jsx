@@ -3,11 +3,10 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function ContentAro3() {
-  const [cor, setCor] = useState("VDE RETRO");
-  const [tam, setTam] = useState("26 x 1.1/2");
-  const [foto, setFoto] = useState("/images/produtos/aros/vision/vde2.jpg");
-
+export default function ContentAro6() {
+  const [cor, setCor] = useState("DISCO S/ILHOS PRETO");
+  const [tam, setTam] = useState("26");
+  const [foto, setFoto] = useState("/images/produtos/aros/dh/pto.jpg");
   function mudarCor(cor, foto, tam) {
     setCor(cor);
     setFoto(foto);
@@ -27,62 +26,53 @@ export default function ContentAro3() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p>ARO VISION {cor}</p>
+              <p>ARO 20 DH {cor} </p>
             </div>
             <div className={styles.cores}>
               <div
-                style={{marginLeft:'0'}}
-                className={styles.verdepiscina}
+              style={{marginLeft:'0'}}
+                className={styles.preto}
                 onClick={() =>
                   mudarCor(
-                    "VDE RETRO",
-                    "/images/produtos/aros/vision/vde2.jpg",
-                    "26 x 1.1/2"
+                    "DISCO S/ILHOS PRETO",
+                    "/images/produtos/aros/dh/pto.jpg",
+                    "26"
                   )
                 }
               ></div>
               <div
-                className={styles.amarelo}
+                className={styles.branco}
                 onClick={() =>
                   mudarCor(
-                    "AMR NEON",
-                    "/images/produtos/aros/vision/amr.jpg",
-                    "26 x 1.1/2"
+                    "DISCO S/ILHOS BRANCO",
+                    "/images/produtos/aros/dh/bco.jpg",
+                    "26"
                   )
                 }
               ></div>
               <div
-                className={styles.laranja}
+                className={styles.preto}
                 onClick={() =>
                   mudarCor(
-                    "LRJ NEON",
-                    "/images/produtos/aros/vision/lrj.jpg",
-                    "26 x 1.1/2"
+                    "V-BRACKE S/ILHOS PRETO",
+                    "/images/produtos/aros/dh/pto2.jpg",
+                    "26 e 26 x 1.1/2"
                   )
                 }
               ></div>
               <div
-                className={styles.rosa}
+                className={styles.branco}
                 onClick={() =>
                   mudarCor(
-                    "RSA NEON",
-                    "/images/produtos/aros/vision/rosa.jpg",
-                    "26 x 1.1/2"
+                    "V-BRACKE S/ILHOS BRANCO",
+                    "/images/produtos/aros/dh/bco2.jpg",
+                    "26"
                   )
                 }
               ></div>
-              <div
-                className={styles.verdeclaro}
-                onClick={() =>
-                  mudarCor(
-                    "VDE NEON",
-                    "/images/produtos/aros/vision/vde.jpg",
-                    "26 x 1.1/2"
-                  )
-                }
-              ></div>
+             
             </div>
-            <div className={styles.texto2}>
+            <div className={styles.texto}>
               <p> TAMANHOS: {tam}</p>
             </div>
           </div>

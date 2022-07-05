@@ -79,6 +79,27 @@ export default function ContentAro1() {
                   )
                 }
               ></div>
+              <div
+                className={styles.bege}
+                onClick={() =>
+                  mudarCor(
+                    "BEGE",
+                    "/images/produtos/aros/vision/bege.png",
+                    "26"
+                  )
+                }
+              ></div>
+
+              <div
+                className={styles.marrom}
+                onClick={() =>
+                  mudarCor(
+                    "CAFÉ",
+                    "/images/produtos/aros/vision/marrom.png",
+                    "26"
+                  )
+                }
+              ></div>
             </div>
             <div className={styles.texto}>
               <p> TAMANHOS: {tam}</p>
