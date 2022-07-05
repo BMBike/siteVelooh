@@ -26,50 +26,104 @@ export default function Gancheiras2() {
         }}
       >
         <ProdutosPg title="GANCHEIRAS">
+        
+        <Produto2
+            titulo="VENZO X BLAZE/VICINITECH/TRUST N°27"
+            img="/images/produtos/gancheiras/0195.jpg"
+          />
+        
           <Produto2
-            titulo="CORRATEC CCT TEAM/CALOI SPEED CARDON/OGGI CADENZA N°56"
-            img="/images/produtos/gancheiras/0146.jpg"
+            titulo="KHS/CUBE/TSW JUMP/HIGH ONE REVOLUTINO N°28"
+            img="/images/produtos/gancheiras/0161.jpg"
           />
           <Produto2
-            titulo="GANCHEIRA DE EMERGENCIA PTO"
-            img="/images/produtos/gancheiras/1437.png"
+            titulo="GTS M1 INVERTIDA N°29"
+            img="/images/produtos/gancheiras/0155.jpg"
+          />
+
+          <Produto2
+            titulo="LAPIERRE/FIRST ATHYMUS/GONEW N°30"
+            img="/images/produtos/gancheiras/0163.jpg"
+          />
+
+          <Produto2
+            titulo="SOUL/TANDEM/KHS/CALOI/AUDAX N°31"
+            img="/images/produtos/gancheiras/0190.jpg"
+          />
+
+          <Produto2
+            titulo="SCOTT SCALE/SAPECT N°32"
+            img="/images/produtos/gancheiras/0183.jpg"
           />
           <Produto2
-            titulo="DECATHLON ROCK RIDER 8.1 Nº96"
-            img="/images/produtos/gancheiras/1844.png"
+            titulo="MOSSO 980XC/RAMPAGE N°33"
+            img="/images/produtos/gancheiras/0168.jpg"
+          />
+
+          <Produto2
+            titulo="GTS M6/FIRST COMP/TSW/SOUL/KAPA/V2 20/21 N°34"
+            img="/images/produtos/gancheiras/0157.jpg"
+          />
+
+          <Produto2
+            titulo="WNY XLT N°35"
+            img="/images/produtos/gancheiras/0196.png"
           />
           <Produto2
-            titulo="ECOS/SOUTH LEGEND 29 N°02"
-            img="/images/produtos/gancheiras/0147.jpg"
+            titulo="TSW FLY CARBON/AUDAX AUGE 20 CARDON  N°36"
+            img="/images/produtos/gancheiras/0193.png"
           />
           <Produto2
-            titulo="FIRST SMITT N°66"
-            img="/images/produtos/gancheiras/0644.jpg"
+            titulo="TREK/ROCKRIDER FR6 N°37"
+            img="/images/produtos/gancheiras/0192.jpg"
           />
           <Produto2
-            titulo="FIRST WILLIX 800/900/910/KODE N°26"
-            img="/images/produtos/gancheiras/0148.jpg"
+            titulo="BH DOWNHILL/AUDAX AUGE 30/40 N°38"
+            img="/images/produtos/gancheiras/0137.jpg"
+          />
+
+          <Produto2
+            titulo="SOUL SL900/ GROOVE RIFF/KAPA M6 N°39"
+            img="/images/produtos/gancheiras/0189.jpg"
           />
           <Produto2
-            titulo="FOCUS WHISTLER N°76"
-            img="/images/produtos/gancheiras/0654.jpg"
+            titulo="MERIDA/WHEELER N°40"
+            img="/images/produtos/gancheiras/0164.jpg"
           />
+
           <Produto2
             titulo="FUJI/VENZO/VIPERHEIRA/VENZO VIPER N°41"
             img="/images/produtos/gancheiras/0149.jpg"
           />
           <Produto2
-            titulo="GALLO/AZONIC/THREE HEADS N°10"
-            img="/images/produtos/gancheiras/0150.jpg"
+            titulo="MOB STAMINA 2014 WILIER/PINARELLO/3R2 SOUL/CORRATEC N°42"
+            img="/images/produtos/gancheiras/0165.jpg"
           />
           <Produto2
-            titulo="GALLO/GTS M6/TRUST/CANNON N°06"
-            img="/images/produtos/gancheiras/0151.jpg"
+            titulo="CALOI/FUJI/FOCUS/KHS/SOUL N°43"
+            img="/images/produtos/gancheiras/0143.jpg"
           />
           <Produto2
-            titulo="GALOO PRO G/CALYPSO/FIB - N°68"
-            img="/images/produtos/gancheiras/0646.png"
+            titulo="MONACO N°44"
+            img="/images/produtos/gancheiras/0166.jpg"
           />
+          <Produto2
+            titulo="MONACO N°45"
+            img="/images/produtos/gancheiras/0167.jpg"
+          />
+          <Produto2
+            titulo="GTS M7/VICINE/NINER/ROCKRIDER BIG8 N°46"
+            img="/images/produtos/gancheiras/0159.jpg"
+          />
+          <Produto2
+            titulo="MOSSO SPRINT/PREMIUM/FUTURIS/AURORA N°47"
+            img="/images/produtos/gancheiras/0169.jpg"
+          />
+          <Produto2
+            titulo="ASTRO DEFENSE/GTS R3/CALOI SPRINT N°48"
+            img="/images/produtos/gancheiras/0136.jpg"
+          />
+
           <Produto2
             titulo="GIANT ATX/TOTEM/ENVOY/TSW NEW HUNTER N°49"
             img="/images/produtos/gancheiras/0152.jpg"
@@ -79,62 +133,18 @@ export default function Gancheiras2() {
             img="/images/produtos/gancheiras/0153.jpg"
           />
           <Produto2
-            titulo="GT ZASKAR/KARAKORAM AVALANCHE SPORT N°73"
-            img="/images/produtos/gancheiras/0651.jpg"
+            titulo="SENSE IMPULSE E-TRAIL 12MM N°51"
+            img="/images/produtos/gancheiras/0187.jpg"
           />
           <Produto2
-            titulo="GTI/KHS/PROSHOCK/TRUST N°16"
-            img="/images/produtos/gancheiras/0154.jpg"
+            titulo="OGGI 7.5 EIXO DE 12X180MM N°52"
+            img="/images/produtos/gancheiras/0171.jpg"
           />
           <Produto2
-            titulo="GTS IVTEC Nº98"
-            img="/images/produtos/gancheiras/1847.png"
+            titulo="OGGI 7.5 EIXO DE 12X186MM 2019 N°53"
+            img="/images/produtos/gancheiras/0172.jpg"
           />
-          <Produto2
-            titulo="GTS M1 INVERTIDA N°29"
-            img="/images/produtos/gancheiras/0155.jpg"
-          />
-          <Produto2
-            titulo="GTS M1 N°14"
-            img="/images/produtos/gancheiras/0156.jpg"
-          />
-          <Produto2
-            titulo="GTS M6/FIRST COMP/TSW/SOUL/KAPA/V2 20/21 N°34"
-            img="/images/produtos/gancheiras/0157.jpg"
-          />
-          <Produto2
-            titulo="GTS M7/GIOS/HIGH ONE/DABOMB/HUPI/VIKING/TSW N°08"
-            img="/images/produtos/gancheiras/0158.jpg"
-          />
-          <Produto2
-            titulo="GTS M7/VICINE/NINER/ROCKRIDER BIG8 N°46"
-            img="/images/produtos/gancheiras/0159.jpg"
-          />
-          <Produto2
-            titulo="GTS RIDE 29-2020 Nº99"
-            img="/images/produtos/gancheiras/1846.png"
-          />
-          <Produto2
-            titulo="HUPI/SOUL/FUJI/TSW N°11"
-            img="/images/produtos/gancheiras/0160.jpg"
-          />
-          <Produto2
-            titulo="KALF S3 FUSION Nº97"
-            img="/images/produtos/gancheiras/1845.png"
-          />
-          <Produto2
-            titulo="KHS/CUBE/TSW JUMP/HIGH ONE REVOLUTINO N°28"
-            img="/images/produtos/gancheiras/0161.jpg"
-          />
-
-          <Produto2
-            titulo="KSW/SOUTH/LOTUS EVER N°03"
-            img="/images/produtos/gancheiras/0162.jpg"
-          />
-          <Produto2
-            titulo="LAPIERRE/FIRST ATHYMUS/GONEW N°30"
-            img="/images/produtos/gancheiras/0163.jpg"
-          />
+          
         </ProdutosPg>
         <div>
           <div className={styles.navdiv}>

@@ -28,113 +28,127 @@ export default function Gancheiras3() {
       >
         <ProdutosPg title="GANCHEIRAS">
           <Produto2
-            titulo="MERIDA/WHEELER N°40"
-            img="/images/produtos/gancheiras/0164.jpg"
+            titulo="OGGI VELLOCE N°54"
+            img="/images/produtos/gancheiras/0182.jpg"
+          />
+
+          <Produto2
+            titulo="OGGI BIG WHEEL 7.2/7.3/7.4 SOUL 929 N°55"
+            img="/images/produtos/gancheiras/0178.jpg"
           />
           <Produto2
-            titulo="MOB STAMINA 2014 WILIER/PINARELLO/3R2 SOUL/CORRATEC N°42"
-            img="/images/produtos/gancheiras/0165.jpg"
+            titulo="CORRATEC CCT TEAM/CALOI SPEED CARDON/OGGI CADENZA N°56"
+            img="/images/produtos/gancheiras/0146.jpg"
           />
+
           <Produto2
-            titulo="MONACO N°44"
-            img="/images/produtos/gancheiras/0166.jpg"
+            titulo="CALOI EL CARB/RIDLEY/OGGI AGILE CARBON N°57"
+            img="/images/produtos/gancheiras/0140.jpg"
           />
-          <Produto2
-            titulo="MONACO N°45"
-            img="/images/produtos/gancheiras/0167.jpg"
-          />
-          <Produto2
-            titulo="MONACO ZEUS S29 N°90"
-            img="/images/produtos/gancheiras/1675.png"
-          />
-          <Produto2
-            titulo="MOSSO 980XC/RAMPAGE N°33"
-            img="/images/produtos/gancheiras/0168.jpg"
-          />
-          <Produto2
-            titulo="MOSSO SPRINT/PREMIUM/FUTURIS/AURORA N°47"
-            img="/images/produtos/gancheiras/0169.jpg"
-          />
-          <Produto2
-            titulo="MOSSO/DA BOMB FIRST LUNIX N°13"
-            img="/images/produtos/gancheiras/0170.jpg"
-          />
-          <Produto2
-            titulo="MTS M1/MONACO N°91"
-            img="/images/produtos/gancheiras/1676.png"
-          />
-          <Produto2
-            titulo="OGGI 7.4/7.5/7.6BOOST Nº88"
-            img="/images/produtos/gancheiras/1383.png"
-          />
-          <Produto2
-            titulo="OGGI 7.5 EIXO DE 12X180MM N°52"
-            img="/images/produtos/gancheiras/0171.jpg"
-          />
-          <Produto2
-            titulo="GANCHEIRA OGGI 7.5 EIXO DE 12X186MM 2019 N°53"
-            img="/images/produtos/gancheiras/0172.jpg"
-          />
+
           <Produto2
             titulo="OGGI AGILE CARBON/CALOI CARDON RACING EIXO 12 MM N°58"
             img="/images/produtos/gancheiras/0173.jpg"
           />
+
+          <Produto2
+            titulo="CALOI VITUS 29 GROOV SKA/CALOI EL N°59"
+            img="/images/produtos/gancheiras/0142.jpg"
+          />
+
           <Produto2
             titulo="OGGI AGILE CARBON/CALOI CARDON RACING EIXO 9 MM  N°60"
             img="/images/produtos/gancheiras/0175.jpg"
           />
-          <Produto2
-            titulo="OGGI AGILE CARBON/CALOI RACING EIXO 12 MM  N°64"
-            img="/images/produtos/gancheiras/0174.jpg"
-          />
+
           <Produto2
             titulo="OGGI AGILE PRO/AUDAX AUGE 20 N°61"
             img="/images/produtos/gancheiras/0176.jpg"
+          />
+
+          <Produto2
+            titulo="OGGI CATTURA N°62"
+            img="/images/produtos/gancheiras/0179.jpg"
           />
           <Produto2
             titulo="OGGI AGILE SQUADA N°63"
             img="/images/produtos/gancheiras/0177.jpg"
           />
           <Produto2
-            titulo="OGGI BIG WHEEL 7.2/7.3/7.4 SOUL 929 N°55"
-            img="/images/produtos/gancheiras/0178.jpg"
+            titulo="OGGI AGILE CARBON/CALOI RACING EIXO 12 MM  N°64"
+            img="/images/produtos/gancheiras/0174.jpg"
+          />
+
+          <Produto2
+            titulo="CALOI EL CARBON OGGI AGILE CARBON N°65"
+            img="/images/produtos/gancheiras/0141.jpg"
           />
           <Produto2
-            titulo="OGGI CATTURA N°62"
-            img="/images/produtos/gancheiras/0179.jpg"
+            titulo="FIRST SMITT N°66"
+            img="/images/produtos/gancheiras/0644.jpg"
           />
           <Produto2
-            titulo="OGGI FLOAT/EVER GTI N°19"
-            img="/images/produtos/gancheiras/0180.jpg"
+            titulo="TREK N°67"
+            img="/images/produtos/gancheiras/0645.jpg"
           />
           <Produto2
-            titulo="OGGI HACKER N°20"
-            img="/images/produtos/gancheiras/0181.jpg"
-          />
-          <Produto2
-            titulo="OGGI VELLOCE N°54"
-            img="/images/produtos/gancheiras/0182.jpg"
-          />
-          <Produto2
-            titulo="ORBEA ALMA CARBON 20 2014 Nº95"
-            img="/images/produtos/gancheiras/1673.png"
-          />
-          <Produto2
-            titulo="PINARELLO 22MM N°72"
-            img="/images/produtos/gancheiras/0650.jpg"
+            titulo="GALOO PRO G/CALYPSO/FIB - N°68"
+            img="/images/produtos/gancheiras/0646.png"
           />
           <Produto2
             titulo="PINARELLO/FUJI/RC/ JAMIS/TRUST - 18MM N°69"
             img="/images/produtos/gancheiras/0647.jpg"
           />
           <Produto2
-            titulo="SCOTT CR1 N°83"
-            img="/images/produtos/gancheiras/0661.png"
+            titulo="CALOI STRADA RACING N°70 "
+            img="/images/produtos/gancheiras/0648.jpg"
           />
+
+          <Produto2
+            titulo="CALOI ELITE FS N°71"
+            img="/images/produtos/gancheiras/0649.jpg"
+          />
+          <Produto2
+            titulo="PINARELLO 22MM N°72"
+            img="/images/produtos/gancheiras/0650.jpg"
+          />
+
+          <Produto2
+            titulo="GT ZASKAR/KARAKORAM AVALANCHE SPORT N°73"
+            img="/images/produtos/gancheiras/0651.jpg"
+          />
+          <Produto2
+            titulo="SPECIALIZED EPIC N°74"
+            img="/images/produtos/gancheiras/0652.jpg"
+          />
+          <Produto2
+            titulo="SCOTT SPARK N°75"
+            img="/images/produtos/gancheiras/0653.jpg"
+          />
+          <Produto2
+            titulo="FOCUS WHISTLER N°76"
+            img="/images/produtos/gancheiras/0654.jpg"
+          />
+
           <Produto2
             titulo="SCOTT N°77"
             img="/images/produtos/gancheiras/0655.jpg"
           />
+          <Produto2
+            titulo="CANNONDALE SCALPEL SI 142 KP432 N°78"
+            img="/images/produtos/gancheiras/0656.jpg"
+          />
+          <Produto2
+            titulo="CANNONDALE FLASH/FSI N°79"
+            img="/images/produtos/gancheiras/0657.jpg"
+          />
+
+          <Produto2
+            titulo="CALOI STRADA N°80"
+            img="/images/produtos/gancheiras/0658.jpg"
+          />
+
+         
         </ProdutosPg>
         <div>
           <div className={styles.navdiv}>

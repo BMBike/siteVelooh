@@ -27,81 +27,92 @@ export default function Gancheiras4() {
       >
         <ProdutosPg title="GANCHEIRAS">
           <Produto2
-            titulo="SCOTT SCALE/SAPECT N°32"
-            img="/images/produtos/gancheiras/0183.jpg"
-          />
-          <Produto2
-            titulo="SCOTT SPARK N°75"
-            img="/images/produtos/gancheiras/0653.jpg"
-          />
-          <Produto2
             titulo="SCOTT SPARK N°81"
             img="/images/produtos/gancheiras/0659.jpg"
           />
           <Produto2
-            titulo="SENSE 8V EXTENDIDA N°25"
-            img="/images/produtos/gancheiras/0184.jpg"
+            titulo="BMC TIME MACHINE N°82"
+            img="/images/produtos/gancheiras/0660.jpg"
           />
           <Produto2
-            titulo="SENSE 8V N°21"
-            img="/images/produtos/gancheiras/0185.jpg"
-          />
-          <Produto2
-            titulo="SENSE IMPACT SL/RACE N°23"
-            img="/images/produtos/gancheiras/0186.jpg"
-          />
-          <Produto2
-            titulo="SENSE IMPULSE E-TRAIL 12MM N°51"
-            img="/images/produtos/gancheiras/0187.jpg"
-          />
-          <Produto2
-            titulo="SENSE P/ UP GRADE LONGA Nº24"
-            img="/images/produtos/gancheiras/0188.jpg"
-          />
-          <Produto2
-            titulo="SOUL SL900/ GROOVE RIFF/KAPA M6 N°39"
-            img="/images/produtos/gancheiras/0189.jpg"
-          />
-          <Produto2
-            titulo="GANCHEIRA SOUL/TANDEM/KHS/CALOI/AUDAX N°31"
-            img="/images/produtos/gancheiras/0190.jpg"
+            titulo="SCOTT CR1 N°83"
+            img="/images/produtos/gancheiras/0661.png"
           />
           <Produto2
             titulo="SPECIALIZED ALLEZ TARMAC S-WORKS N°84"
             img="/images/produtos/gancheiras/0662.jpg"
           />
           <Produto2
-            titulo="SPECIALIZED EPIC N°74"
-            img="/images/produtos/gancheiras/0652.jpg"
+            titulo="ASTRO/GROOVE N°85"
+            img="/images/produtos/gancheiras/0663.jpg"
           />
           <Produto2
-            titulo="SPECIALIZED HARDROCK/ROCKOPPE/CARVE/MYRA Nº22"
-            img="/images/produtos/gancheiras/0191.jpg"
+            titulo="CANNONDALE ROAD N°86"
+            img="/images/produtos/gancheiras/0664.jpg"
           />
           <Produto2
-            titulo="TREK N°67"
-            img="/images/produtos/gancheiras/0645.jpg"
+            titulo="BOMB/KONA/VZAN/BLUE/SUNDOW/
+            RS2/EVEREST/CANOND/FIRSTEECH Nº87"
+            img="/images/produtos/gancheiras/1382.jpg"
           />
           <Produto2
-            titulo="TREK/ROCKRIDER FR6 N°37"
-            img="/images/produtos/gancheiras/0192.jpg"
+            titulo="OGGI 7.4/7.5/7.6BOOST Nº88"
+            img="/images/produtos/gancheiras/1383.png"
           />
           <Produto2
-            titulo="TSW FLY CARBON/AUDAX AUGE 20 CARDON  N°36"
-            img="/images/produtos/gancheiras/0193.png"
+            titulo="AUDAX100/101/200/300 2021 AUGE 600/700 2018 N°89"
+            img="/images/produtos/gancheiras/1674.png"
           />
           <Produto2
-            titulo="VENZO RAPTO E VALENCIA/GIOS FRX/SENSE IMPACT N°05"
-            img="/images/produtos/gancheiras/0194.jpg"
+            titulo="MONACO ZEUS S29 N°90"
+            img="/images/produtos/gancheiras/1675.png"
           />
           <Produto2
-            titulo="VENZO X BLAZE/VICINITECH/TRUST N°27"
-            img="/images/produtos/gancheiras/0195.jpg"
+            titulo="MTS M1/MONACO	N°91"
+            img="/images/produtos/gancheiras/1676.png"
           />
           <Produto2
-            titulo="WNY XLT N°35"
-            img="/images/produtos/gancheiras/0196.png"
+            titulo="AUDAX AUGE 555/600/	700 N°92"
+            img="/images/produtos/gancheiras/1677.png"
           />
+          <Produto2
+            titulo="CALOI ELITE/EXPLORER/COMP N°93"
+            img="/images/produtos/gancheiras/1436.png"
+          />
+          <Produto2
+            titulo="ALFAMEC/CILT/TIRRENO ATX/ZT3 N°94"
+            img="/images/produtos/gancheiras/1672.png"
+          />
+          <Produto2
+            titulo="ORBEA ALMA CARBON 20 2014 Nº95"
+            img="/images/produtos/gancheiras/1673.png"
+          />
+          <Produto2
+            titulo="DECATHLON ROCK RIDER 8.1 Nº96"
+            img="/images/produtos/gancheiras/1844.png"
+          />
+
+          <Produto2
+            titulo="KALF S3 FUSION Nº97"
+            img="/images/produtos/gancheiras/1845.png"
+          />
+          <Produto2
+            titulo="GTS IVTEC Nº98"
+            img="/images/produtos/gancheiras/1847.png"
+          />
+          <Produto2
+            titulo="GTS RIDE 29-2020 Nº99"
+            img="/images/produtos/gancheiras/1846.png"
+          />
+          <Produto2
+            titulo="QUADRO SHELBY 2021 Nº100"
+            img="/images/produtos/gancheiras/1971.jpg"
+          />
+          <Produto2
+            titulo="GANCHEIRA DE EMERGENCIA PTO"
+            img="/images/produtos/gancheiras/1437.png"
+          />
+
           <Produto2
             titulo="KIT EXPOSITOR + GANCHEIRA "
             img="/images/produtos/gancheiras/0610.jpg"
