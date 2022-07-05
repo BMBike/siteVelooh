@@ -12,7 +12,7 @@ export default function Produto(props) {
       }}
     >
       <center>
-        <h3 style={{ fontSize: "1.2rem" }}>{props.titulo}</h3>
+        <h3 className={styles.titulo}>{props.titulo}</h3>
       </center>
       <div className={styles.prodMold}>
         <Zoom>
