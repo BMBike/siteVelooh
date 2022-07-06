@@ -647,3 +647,10 @@
   margin-bottom: 10px;
   align-self: flex-start;
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .titulo{
+    font-size: 1rem!important;
+  }
+}
+
