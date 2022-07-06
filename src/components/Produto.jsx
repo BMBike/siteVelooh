@@ -11,7 +11,7 @@ export default function Produto(props) {
       }}
     >
       <center>
-        <h3 style={{ fontSize: "1.5rem" }}>{props.titulo}</h3>
+        <h3 className={styles.titulo}>{props.titulo}</h3>
       </center>
       <Link href={props.href}>
         <div className={styles.prodMold}>

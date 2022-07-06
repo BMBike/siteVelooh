@@ -642,6 +642,11 @@
   );
 }
 
+.titulo{
+  font-size: 1.5rem!important;
+}
+
+
 .cores {
   display: flex;
   margin-bottom: 10px;
