@@ -13,3 +13,11 @@
 .nav:hover {
   color: rgb(0, 129, 172) !important;
 }
+
+
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+  .gancheiraDiv h3{
+    font-size: 1.1rem!important;
+  }
+}

@@ -9,7 +9,7 @@ import styles from "../../../styles/produtos/Paginator.module.css";
 
 export default function Gancheiras1() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#2d2d2d" }} className={styles.gancheiraDiv}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -124,7 +124,7 @@ export default function Gancheiras1() {
             titulo="SENSE IMPACT SL/RACE N°23"
             img="/images/produtos/gancheiras/0186.jpg"
           />
-              <Produto2
+          <Produto2
             titulo="SENSE P/ UP GRADE LONGA Nº24"
             img="/images/produtos/gancheiras/0188.jpg"
           />

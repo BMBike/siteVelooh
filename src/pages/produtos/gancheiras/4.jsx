@@ -9,7 +9,7 @@ import styles from "../../../styles/produtos/Paginator.module.css";
 
 export default function Gancheiras4() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#2d2d2d" }} className={styles.gancheiraDiv}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />

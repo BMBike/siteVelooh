@@ -17,7 +17,7 @@ export default function ContentManguito1() {
   return (
     <div className={styles.prods}>
       <h1 style={{ fontSize: "3rem", marginTop: "60px", marginLeft: "60px" }}>
-        Manguitos:
+        MANGUITOS:
       </h1>
       <div className={styles.produtos}>
         <div className={styles.produto}>
