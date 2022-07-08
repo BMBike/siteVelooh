@@ -31,7 +31,7 @@
 
 .imgProd {
   height: 300px;
-  width: 80%;
+  width: 70%;
 }
 
 .azulClaro {
@@ -310,7 +310,12 @@
 
 @media (min-width: 1000px) and (max-width: 1500px) {
   .titulo {
-    font-size: 0.9rem!important;
+    font-size: 0.9rem !important;
+  }
+
+  .imgProd {
+    width: 70%;
+    height: 250px;
   }
 
   .prodMold {

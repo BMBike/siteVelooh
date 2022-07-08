@@ -26,7 +26,7 @@
 
 .imgProd {
   height: 300px;
-  width: 80%;
+  width: 70%;
 }
 
 .azulClaro {
@@ -662,6 +662,11 @@
   .titulo {
     font-size: 0.9rem !important;
   }
+
+  .imgProd{
+    width: 70%;
+    height: 250px;
+    }
 
   .prodMold {
     height: 62vh;
