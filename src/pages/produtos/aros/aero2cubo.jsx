@@ -6,7 +6,7 @@ import Zap from "../../../components/Zap";
 
 export default function aero2() {
   return (
-    <div style={{ bbackgroundColor: "#f0f0f0" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />

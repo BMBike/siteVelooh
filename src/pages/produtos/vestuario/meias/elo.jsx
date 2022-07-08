@@ -5,7 +5,7 @@ import ContentMeia1 from "../../../../components/produtos/vestuario/meia/Content
 import Zap from "../../../../components/Zap";
 export default function meiaelo() {
   return (
-    <div style={{ bbackgroundColor: "#f0f0f0" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
