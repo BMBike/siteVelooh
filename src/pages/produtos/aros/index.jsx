@@ -18,7 +18,7 @@ export default function indexAros() {
       <ProdutosPg title="AROS">
         <Produto
           href="/produtos/aros/aroaero"
-          titulo="ARO 20 AERO"
+          titulo="ARO AERO"
           cor1="azulescuro"
           cor2="branco"
           cor3="polido"
