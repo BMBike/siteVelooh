@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 import ProdutosPg from "../../../components/ProdutosPg";
 import Produto from "../../../components/Produto";
 
@@ -104,7 +104,7 @@ export default function indexVestuario() {
       </ProdutosPg>
 
       <Footer />
-      <Zap2 />
+      <Zap />
     </div>
   );
 }

@@ -31,6 +31,7 @@ export default function ContentAro1() {
             <div className={styles.cores}>
               <div
                 className={styles.azulescuro}
+                style={{marginLeft: '0'}}
                 onClick={() =>
                   mudarCor(
                     "AZUL",

@@ -39,6 +39,7 @@ export default function ContentCaps3() {
             </div>
             <div className={styles.cores}>
               <div
+                style={{marginLeft: '0'}}
                 className={styles.azulpt}
                 onClick={() =>
                   mudarCor(

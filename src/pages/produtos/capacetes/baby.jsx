@@ -2,11 +2,11 @@ import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import ContentCaps1 from "../../../components/produtos/capacetes/ContentCaps1";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 
 export default function capacete1() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -15,7 +15,7 @@ export default function capacete1() {
       </Head>
       <Header />
       <ContentCaps1 />
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

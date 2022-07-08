@@ -2,11 +2,11 @@ import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Chave11 from "../../../components/produtos/acessorios/Chave11";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 
 export default function chave11() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -15,7 +15,7 @@ export default function chave11() {
       </Head>
       <Header />
       <Chave11 />
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

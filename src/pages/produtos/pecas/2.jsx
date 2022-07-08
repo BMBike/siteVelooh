@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 import ProdutosPg from "../../../components/ProdutosPg";
 import Produto from "../../../components/Produto";
 import Produto2 from "../../../components/Produto2";
@@ -10,7 +10,7 @@ import styles from "../../../styles/produtos/Paginator.module.css";
 
 export default function Pecas2() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -215,7 +215,7 @@ export default function Pecas2() {
           </div>
         </div>
       </div>
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

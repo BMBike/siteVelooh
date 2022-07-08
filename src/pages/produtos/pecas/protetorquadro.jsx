@@ -2,11 +2,11 @@ import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import ProtetorQuadro from "../../../components/produtos/pecas/ProtetorQuadro.jsx";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 
 export default function protetorQuadro() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{backgroundColor: "#f0f0f0"}}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -15,7 +15,7 @@ export default function protetorQuadro() {
       </Head>
       <Header />
       <ProtetorQuadro />
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

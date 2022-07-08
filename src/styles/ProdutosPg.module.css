@@ -3,7 +3,8 @@
   -moz-animation: fadeIn 1.5s ease-in-out;
   -o-animation: fadeIn 1.5s ease-in-out;
   animation: fadeIn 1.5s ease-in-out;
-  color: #fff;
+  color: #000;
+  background-color: #f0f0f0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,10 +13,10 @@
 }
 .produtos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
   row-gap: 40px;
-  column-gap: 80px;
   margin-bottom: 60px;
+  column-gap: 80px;
 }
 
 .titulo {

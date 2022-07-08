@@ -2,10 +2,10 @@ import Head from "next/head";
 import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import ContentManguito2 from "../../../../components/produtos/vestuario/manguitos/ContentManguito2";
-import Zap2 from "../../../../components/Zap2";
+import Zap from "../../../../components/Zap";
 export default function manguitoQuasar() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -14,7 +14,7 @@ export default function manguitoQuasar() {
       </Head>
       <Header />
       <ContentManguito2 />
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

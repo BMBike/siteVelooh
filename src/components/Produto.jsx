@@ -10,12 +10,11 @@ export default function Produto(props) {
         flexDirection: "column",
       }}
     >
-      <center>
-        <h3 className={styles.titulo}>{props.titulo}</h3>
-      </center>
+  
       <Link href={props.href}>
         <div className={styles.prodMold}>
           <img src={props.img} alt="Produto" className={styles.imgProd} />
+          <div className={styles.contentMold}>
           <div className={styles.cores}>
             <div className={styles[props.cor1]}></div>
             <div className={styles[props.cor2]}></div>
@@ -28,6 +27,8 @@ export default function Produto(props) {
             <div className={styles[props.cor9]}></div>
             <div className={styles[props.cor10]}></div>
           </div>
+          <h3 className={styles.titulo}>{props.titulo}</h3>
+        </div>
         </div>
       </Link>
     </div>

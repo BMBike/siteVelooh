@@ -2,10 +2,10 @@ import Head from "next/head";
 import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import ContentLuva1 from "../../../../components/produtos/vestuario/luva/ContentLuva1";
-import Zap2 from "../../../../components/Zap2";
+import Zap from "../../../../components/Zap";
 export default function luvadedovazado() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ backgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -14,7 +14,7 @@ export default function luvadedovazado() {
       </Head>
       <Header />
       <ContentLuva1 />
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

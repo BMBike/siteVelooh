@@ -2,11 +2,11 @@ import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import CicloComputador from "../../../components/produtos/acessorios/CicloComputador";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 
 export default function cicloComputador() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }}>
+    <div style={{ bbackgroundColor: "#f0f0f0" }}>
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -15,7 +15,7 @@ export default function cicloComputador() {
       </Head>
       <Header />
       <CicloComputador />
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

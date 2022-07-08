@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import Zap2 from "../../../components/Zap2";
+import Zap from "../../../components/Zap";
 import ProdutosPg from "../../../components/ProdutosPg";
 import Produto2 from "../../../components/Produto2";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import styles from "../../../styles/produtos/Paginator.module.css";
 
 export default function Gancheiras2() {
   return (
-    <div style={{ backgroundColor: "#2d2d2d" }} className={styles.gancheiraDiv} >
+    <div style={{ backgroundColor: "#f0f0f0" }} className={styles.gancheiraDiv} >
       <Head>
         <title>Velooh</title>
         <meta name="description" content="Velooh" />
@@ -163,7 +163,7 @@ export default function Gancheiras2() {
           </div>
         </div>
       </div>
-      <Zap2 />
+      <Zap />
       <Footer />
     </div>
   );

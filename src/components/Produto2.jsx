@@ -11,24 +11,25 @@ export default function Produto(props) {
         flexDirection: "column",
       }}
     >
-      <center>
-        <h3 className={styles.titulo}>{props.titulo}</h3>
-      </center>
       <div className={styles.prodMold}>
         <Zoom>
-          <img src={props.img} alt="Produto" className={styles.imgProd} />
+          <center>
+            <img src={props.img} alt="Produto" className={styles.imgProd} />
+          </center>
         </Zoom>
-
-        <div className={styles.cores}>
-          <div className={styles[props.cor1]}></div>
-          <div className={styles[props.cor2]}></div>
-          <div className={styles[props.cor3]}></div>
-          <div className={styles[props.cor4]}></div>
-          <div className={styles[props.cor5]}></div>
-          <div className={styles[props.cor6]}></div>
-          <div className={styles[props.cor7]}></div>
-          <div className={styles[props.cor8]}></div>
-          <div className={styles[props.cor9]}></div>
+        <div className={styles.contentMold}>
+          <div className={styles.cores}>
+            <div className={styles[props.cor1]}></div>
+            <div className={styles[props.cor2]}></div>
+            <div className={styles[props.cor3]}></div>
+            <div className={styles[props.cor4]}></div>
+            <div className={styles[props.cor5]}></div>
+            <div className={styles[props.cor6]}></div>
+            <div className={styles[props.cor7]}></div>
+            <div className={styles[props.cor8]}></div>
+            <div className={styles[props.cor9]}></div>
+          </div>
+          <h3 className={styles.titulo}>{props.titulo}</h3>
         </div>
       </div>
     </div>
