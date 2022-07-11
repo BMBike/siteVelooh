@@ -28,7 +28,7 @@ export default function ContentCortaVento() {
           </div>
           <div className={styles.lateral}>
             <div className={styles.texto}>
-              <p></p>
+              <p>JAQUETA CORTA VENTO C/BOLSO {cor}</p>
             </div>
             <div className={styles.cores}>
               <div
