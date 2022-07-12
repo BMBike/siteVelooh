@@ -640,7 +640,7 @@
     rgba(0, 0, 0, 1) 69%
   );
 }
-/*
+
 .azul:hover,
 .preto:hover,
 .vermelho:hover,
@@ -692,9 +692,9 @@
 .azullaranja:hover,
 .ptbrancovermelho:hover,
 .lilas:hover {
-  border: 2px solid #fff;
+  border: 2px solid #0081ac;
 }
-*/
+
 
 .cores {
   display: flex;
