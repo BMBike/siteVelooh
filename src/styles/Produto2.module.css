@@ -11,7 +11,7 @@
   height: 50vh;
   width: 25vw;
   border-radius: 10px;
-  cursor: pointer;
+  cursor: zoom-in;
   margin-top: 20px;
   overflow: hidden;
 }
