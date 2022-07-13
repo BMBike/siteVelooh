@@ -794,7 +794,7 @@
 @media (min-width: 320px) and (max-width: 800px) {
   .prods {
     padding: 10px;
-    height: 95vh;
+    padding-bottom: 150px;
   }
   .produto {
     flex-direction: column;
