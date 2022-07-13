@@ -7,6 +7,9 @@
   justify-content: center;
   color: #fff;
   row-gap: 10px;
+  position: absolute;
+  bottom: 1;
+  width: 100%;
 }
 
 .icons {
