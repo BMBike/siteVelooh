@@ -4,9 +4,10 @@
   -o-animation: fadeIn 1.5s ease-in-out;
   animation: fadeIn 1.5s ease-in-out;
   color: #000;
-  padding-bottom: 150px;
-  
-  
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column
 }
 
 .produtos {
@@ -793,11 +794,19 @@
 
 @media (min-width: 320px) and (max-width: 800px) {
   .prods {
-    padding: 10px;
-    padding-bottom: 150px;
+    padding: 15px;
+    padding-top:  100px;
+    padding-bottom:  150px;
+
+    height: 110vh;
   }
   .produto {
     flex-direction: column;
+  }
+
+  .cores div{
+    width: 20px;
+    height: 20px;
   }
 
   .texto,
