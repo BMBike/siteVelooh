@@ -338,9 +338,9 @@
     width: 35vw;
   }
 }
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 819px) {
   .prodMold {
-    height: 40vh;
+    height: 46vh;
     width: 75vw;
   }
 
