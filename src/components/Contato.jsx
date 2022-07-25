@@ -95,6 +95,9 @@ export default function Contato() {
     }
     toast.success("Enviado!");
     setSubmitted2(true);
+    e.target.nomeFeedback.value = "";
+    e.target.emailFeedback.value = "";
+    e.target.mensagem.value = "";
     console.log(nomeFeedback, emailFeedback, mensagem);
   };
 
