@@ -245,7 +245,7 @@ export default function Contato() {
                 <br />
               </div>
             </div>
-            <input className={styles.send} type="submit" />
+            <input className={styles.send} type="submit" value='Enviar' />
           </form>
         </div>
       </div>
@@ -289,7 +289,7 @@ export default function Contato() {
               required
             ></textarea>
             <center>
-              <input className={styles.send2} type="submit" />
+              <input className={styles.send2} type="submit" value='Enviar' />
             </center>
           </form>
         </div>
