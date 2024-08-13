@@ -134,7 +134,7 @@ export default function ContentVelooh() {
         <h1>
           Entre em<span style={{ color: "#0081ac" }}> contato</span>
         </h1>
-        <p>Rua Elizabeth Koller, 303, Portal Santa Fé, Itupeva-SP</p>
+        <p>Rodovia Vice Prefeito Hermenegildo Tonoli, 2995, São Roque Da Chave, Itupeva-SP</p>
         <p>atendimento@bmbike.com.br</p>
         <p>Tel:(11) 4591-4101</p>
       </div>
