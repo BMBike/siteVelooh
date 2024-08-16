@@ -7,11 +7,11 @@ import Link from "next/link";
 export default function ContentIndex() {
   const responsive = {
     superLargeDesktop: {
-      breakpoint: { max: 4000, min: 1024 },
+      breakpoint: { max: 4000, min: 3000 },
       items: 3,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 768 },
+      breakpoint: { max: 3000, min: 1024 },
       items: 2,
     },
     tablet: {
