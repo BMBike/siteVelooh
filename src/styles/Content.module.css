@@ -4,13 +4,6 @@
   -o-animation: fadeIn 1.5s ease-in-out;
   animation: fadeIn 1.5s ease-in-out;
 }
-
-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
 .content {
   margin-top: 80px;
   display: flex;
