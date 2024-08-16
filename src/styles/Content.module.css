@@ -189,7 +189,8 @@
   }
   .itemCarousel1,
   .itemCarousel2,
-  .itemCarousel3 {
+  .itemCarousel3,
+  .itemCarousel4 {
     height: 250px;
     background-size: 100%;
   }
