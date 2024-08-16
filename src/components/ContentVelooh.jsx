@@ -29,7 +29,7 @@ export default function ContentVelooh() {
           <h1>Velooh</h1>
           <h3>A qualidade que você merece</h3>
           <p>
-            Estes itens não são apenas da mais alta qualidade mas também vêm em
+            Estes itens não são apenas da mais alta qualidade, mas também vêm em
             uma variedade de opções para atender as suas necessidades. Para mais
             detalhes, entre em contato conosco!
           </p>
