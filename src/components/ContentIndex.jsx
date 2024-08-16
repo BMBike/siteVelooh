@@ -47,6 +47,9 @@ export default function ContentIndex() {
             <a>
               <div className={styles.itemCarousel3}></div>
             </a>
+             <a>
+              <div className={styles.itemCarousel4}></div>
+            </a>
           </Carousel>
         </div>
 
