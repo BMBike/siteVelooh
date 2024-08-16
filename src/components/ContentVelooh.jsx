@@ -27,7 +27,6 @@ export default function ContentVelooh() {
         <div className={styles.veloohImg}></div>
         <div className={styles.veloohText}>
           <h1>Velooh</h1>
-  <font color="#2D36E9">oo</font>
           <h3>"A qualidade que você merece!"</h3>
           <p>
             Estes itens não são apenas da mais alta qualidade, mas também vêm em
