@@ -26,7 +26,7 @@ export default function ContentVelooh() {
       <div className={styles.veloohSobre}>
         <div className={styles.veloohImg}></div>
         <div className={styles.veloohText}>
-          <h1>Vel<span style="coolor: blue">00</span>h</h1>
+          <h1>Vel<span style="color: blue">00</span>h</h1>
           <h3>&quot;A qualidade que você merece!&quot;</h3>
           <p>
             Estes itens não são apenas da mais alta qualidade, mas também vêm em
