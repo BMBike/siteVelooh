@@ -101,6 +101,7 @@ export default function ContentIndex() {
                 <Link href="/produtos/bicicletas">
                   <a className={styles.visitar}>Visitar</a>
               </Link>
+             </div> 
             </div>
           </div>
         </div>
