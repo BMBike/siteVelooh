@@ -94,6 +94,11 @@ export default function ContentIndex() {
               <p>Qualidade sem igual</p>
               <Link href="/produtos/vestuario">
                 <a className={styles.visitar}>Visitar</a>
+              <div className={styles.productsContent}>
+                <h2>Bicicletas</h2>
+                <p>Pedale com estilo e conforto!</p>
+                <Link href="/produtos/bicicletas">
+                  <a className={styles.visitar}>Visitar</a>
               </Link>
             </div>
           </div>
