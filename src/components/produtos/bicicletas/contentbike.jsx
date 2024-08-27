@@ -4,8 +4,8 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
 export default function contentbike() {
-  const [cor, setCor] = useState("PRETO");
-  const [foto, setFoto] = useState("/imagens/produtos/bike/bike29pto.amrl.jpeg");
+  {/*const [cor, setCor] = useState("PRETO");
+  const [foto, setFoto] = useState("/imagens/produtos/bike/29/bike29pto.amrl.jpeg");*/}
 
   function mudarCor(cor, foto) {
     setCor(cor);
