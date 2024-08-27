@@ -131,7 +131,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.productImg4 {
+  background-image: url("/images/produtos/bike/29/bike29pto.amrl.jpeg");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .endereco {
   background-color: #f0f0f0;
   width: 100vw;
