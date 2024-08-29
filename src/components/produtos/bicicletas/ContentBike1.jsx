@@ -1,11 +1,11 @@
-import styles from "../../../styles/produtos/ContentProdutos.module.css";
+{/*import styles from "../../../styles/produtos/ContentProdutos.module.css";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import { useState } from "react";
 
-export default function contentbike() {
-  {/*const [cor, setCor] = useState("PRETO");
-  const [foto, setFoto] = useState("/imagens/produtos/bike/29/bike29pto.amrl.jpeg");*/}
+export default function ContentBike1() {
+  const [cor, setCor] = useState("PRETO");
+  const [foto, setFoto] = useState("/imagens/produtos/bike/29/bike29pto.amrl.jpeg");
 
   function mudarCor(cor, foto) {
     setCor(cor);
@@ -40,4 +40,4 @@ export default function contentbike() {
       </div>
     </div>
   );
-}
+}*/}
