@@ -75,7 +75,7 @@ export default function ContentIndex() {
             <div className={styles.productImg1}></div>
             <div className={styles.productImg2}></div>
             <div className={styles.productImg3}></div>
-            {/*<div className={styles.productImg4}></div>*/}
+          {/*<div className={styles.productImg4}></div>*/}
             <div className={styles.productsContent}>
               <h2>Velooh</h2>
               <p>A qualidade que você merece</p>
@@ -103,6 +103,7 @@ export default function ContentIndex() {
               <Link href="/produtos/bicicletas">
                 <a className={styles.visitar}>Visitar</a>
               </Link>*/}
+              </div>
             </div>
           </div>
         </div>
